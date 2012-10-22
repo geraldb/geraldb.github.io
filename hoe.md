@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to build, package and publish gems with Hoe Rake tasks - From zero to RubyForge in 10 minutes
-tags:  gem hoe rake rdoc rubyforge rubygems
+tags: [gem hoe rake rdoc rubyforge rubygems]
 ---
 
 ## {{page.title}}

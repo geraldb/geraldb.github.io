@@ -1,3 +1,8 @@
+---
+layout: default
+title: Enterprise Ruby - Ruby in the Java World - JRuby and Friends
+---
+
 enterprise ruby - ruby in the java world
 
 

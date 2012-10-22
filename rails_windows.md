@@ -1,6 +1,7 @@
-
-
-Getting Started with Ruby on Rails on Windows
+---
+layout: default
+title: Getting Started with Ruby on Rails on Windows
+---
 
 Installation
 

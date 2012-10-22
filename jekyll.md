@@ -1,3 +1,7 @@
+---
+layout: default
+title: Jekyll Notes
+---
 
 jekyll / github pages notes
 
