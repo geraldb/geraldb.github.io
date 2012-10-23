@@ -1,0 +1,7 @@
+
+## NB:  jekyll 0.11.0 does NOT support redcarpet2 (or even redcarpet?)
+##
+##  switch from default maruku to kramdown if that is working? w/ GitHub pages??
+
+markdown: kramdown
+

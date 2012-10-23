@@ -40,8 +40,16 @@ Using the markdown setting in _config.yml lets you select your markdown engine. 
    markdown: redcarpet
 
 
+## Troubleshooting Jekyll for GitHub Pages
+
+GitHub's Pages servers currently use Jekyll 0.11.0 with Liquid 2.2.2,
+and run it using this command:
+
+    $ jekyll --pygments --no-lsi --safe
+
 Note: The Jekyll version installed on Github, that is, 0.11.0, does NOT yet support
    Redcarpet2.
+
 
 ### Configure Fenced Code Blocks 
 
