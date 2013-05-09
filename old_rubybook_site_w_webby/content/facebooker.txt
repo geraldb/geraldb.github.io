@@ -1,0 +1,142 @@
+---
+title: 10-Minute Quick Start Guide for Facebooker - Create a Facebook App Using Rails in 7 Easy Steps
+tags:  rails facebooker facebook
+filter:
+  - erb
+  - textileplus
+---
+
+h2. <%= @page.title %>	
+
+Welcome to the 10-Minute Quick Start Guide for Facebooker showing you how to create a Facebook application from scratch using Ruby on Rails in 7 easy steps:
+
+* Create a Rails application
+* Install the Facebooker Rails plugin
+* Log on to Facebook and set up a new application
+* Add your API key and secret to the @facebooker.yml@ configuration file
+* Create Rails controller (and view skeletons)
+* Configure default route and remove @public/index.html@ page
+* Use Facebooker to get your name, profile pic and status 
+
+That's it. Let's get started.
+
+<%= more %>
+
+h3. Step 1: Create a Rails application
+
+Note: Facebook applications require unique names. This Quick Start Guide uses @quickstart@. Replace @quickstart@ everywhere with your own unique name. 
+   
+Use Rails to create your web application. Type on the command line:
+
+{{{
+$ rails quickstart
+}}}
+
+h3. Step 2: Install the Facebooker Rails plugin
+
+To turn your Rails application into a Facebook application add the Facebooker Rails plugin. Change into your Rails folder and type on the command line:
+
+{{{
+$ cd quickstart
+$ script/plugin install git://github.com/mmangino/facebooker.git
+}}}
+ 
+
+h3. Step 3: Log on to Facebook and set up a new application
+
+Now that you have the Facebooker plugin installed you need to log on to Facebook and set up your new application. Browse to the "Facebook Developers":http://facebook.com/developers page (@facebook.com/developers@) and click "Set Up New Application".
+
+Fill in the new application form:
+
+!/i/facebook-app-setup.png!
+
+Use "Quick Start Example" for your Application Name. Check that you have read and agree to the terms of service. 
+
+Set your Callback URL to @http://localhost:3000/@ (note: do not forget the trailing slash @/@) and the Canvas Page URL to @http://apps.facebook.com/quickstart/@
+
+We build a web application using inline frames (iframe). Check (X) Use iframe and (X) Website for Application Type.
+
+That's it. Hit submit to get your API key and secret created. Write down your API key and secret for the next step.
+
+{{{
+API Key: 47013ae80a97cc151707961fc03bc9bf
+Secret: 7f296d598f9c79a5f439289e1240dc69
+}}}  
+  
+h3. Step 4:  Add your API key and secret to the @facebooker.yml@ configuration file
+
+Note, the Facebooker plugin creates the @facebooker.yml@ configuration file during installation in the @config@ folder. Need proof?  Open the @config/facebooker.yml@ file and add your own API key, secret
+and canvas page name:
+
+{{{
+development:
+  api_key: 47013ae80a97cc151707961fc03bc9bf
+  secret_key: 7f296d598f9c79a5f439289e1240dc69
+  canvas_page_name: quickstart
+}}}
+
+h3. Step 5: Create Rails controller and (view skeletons)
+
+Let's create a Rails controller with an @index@ action/view. Type on the command line:
+
+{{{
+$ script/generate controller workshop index
+}}}
+
+h3. Step 6: Configure default route and remove @public/index.html@ page
+
+Next set up the default route using the @workshop@ controller. Open @config/routes.rb@ and add the new default route (telling Rails to map @http://localhost:3000/@ requests to @http://localhost:3000/workshop/@):
+
+{{{
+map.root :controller => "workshop"
+}}}
+
+And delete the @public/index.html@ page that otherwise gets displayed instead of your Ruby-generated page. Almost done.
+
+h3. Step 7: Use Facebooker to get your name, profile pic and status
+
+Now lets add some code to our @workshop@ controller and views. Add  @ensure_authenticated_to_facebook@  to the top of your @workshop@ controller to ask Facebookers using your application to login.
+
+{{{
+class WorkshopController < ApplicationController
+
+  ensure_authenticated_to_facebook
+
+  def index
+  end
+
+end
+}}}
+  
+Now we're all set up and ready to tap into Facebook using the API. Facebooker hides all the Facebook API requests. To get your name, profile pic and status using the Facebook API just store a reference to the Facebooker user from the Facebook session in @@user@ in your controller and use @@user.name@, @@user.pic_square@ and @@user.status.message@ in your view.  
+
+{{{
+def index
+  @user = session[:facebook_session].user
+end
+}}}
+
+And finally lets use the Facebooker user data to display a Twitter-like "What are you doing?" status message. Change the @app/views/workshop/index.html.erb@ view template:
+
+{{{
+<h1>What are you doing?</h1>
+
+<%%= image_tag @user.pic_square, :align => 'left' %>
+
+<b><%%= @user.name %></b> 
+<%%= @user.status.message %>
+}}}
+
+h3. That's it!
+
+Start up your web server (@script/server@) and surf with your browser to @http://localhost:3000/@. If all works you will get redirected to Facebook asking you to login to your Facebook application.
+
+!/i/facebook-access.png!
+
+Click on "Allow" and see your new Facebook application in action. 
+
+!/i/facebook-status.png!
+
+To have your inline frame Facebook application hosted inside Facebook surf to @http://apps.facebook.com/quickstart@  Voila! 
+
+<%= facebook_comments %>

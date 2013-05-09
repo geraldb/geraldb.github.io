@@ -1,0 +1,32 @@
+---
+title:     Gerald Bauer's Ruby Notebook
+site:      ruby.geraldbauer.ca
+author:    Gerald Bauer
+email:     gerald.bauer -at- gmail.com
+extension: atom
+layout:    nil
+dirty:     true
+filter:    erb
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><%= h(@page.title) %></title>
+  <link href="http://<%= @page.site %>/" rel="alternate" type="text/html" />
+  <link href="http://<%= @page.site %><%= @page.url %>" rel="self" type="application/atom+xml"/>
+  <updated><%= Time.now.xmlschema %></updated>
+  <author>
+    <name><%= h(@page.author) %></name>
+    <email><%= h(@page.email) %></email>
+  </author>
+  <id>http://<%= @page.site %>/</id>
+<% articles = find_articles( :sort_by => 'mtime', :reverse => true ).first(3) %>
+<% articles.each do |article| %>
+  <entry>
+    <title type="html"><%=h article.title %></title>
+    <link href="http://<%= @page.site %><%= article.url %>" type="text/html" />
+    <id>tag:<%= @page.site %>,<%= @page.mtime.strftime('%Y')%>:<%= article.name %></id>
+    <updated><%= article.mtime.xmlschema %></updated>
+    <content type="html"><%= h(article.render) %></content>
+  </entry>
+<% end %>
+</feed>

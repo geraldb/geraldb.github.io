@@ -1,0 +1,198 @@
+---
+title: How to use Webby and S6 to generate KeyNote or Powerpoint-like presentations with gradient themes in plain text using a wiki-style markup language
+tags:  redcloth s5 s6 textile webby gem
+filter:
+  - erb
+  - textileplus
+---
+
+h2. <%= @page.title %>
+
+What's Webby? Webby is a free, open source tool (in Ruby) that lets you build websites in plain text using the wiki-style markup language of your choice
+(such as Textile or Markdown.) Webby also lets you build KeyNote or PowerPoint-like presentations.
+("More Webby Project Site &raquo;":http://webby.rubyforge.org)
+
+Unfortunately, out-of-the-box Webby's built-in presentation template (that is, @webby-gen presentation <yourfolderhere>@)
+uses the S5 package. Let's roll our own Webby template to use the S6 package instead.
+
+<%= more %>
+
+h3. What's S5? What's S6?
+
+Simple Standards-based Slide Show System (S5) is Eric Meyer's (of CSS fame) public domain (free, open source)
+slide show package inspired by Opera Show and others that works in all modern browsers
+without any plugin required because it includes its own slide show machinery in JavaScript.
+(More "S5 Project Site &raquo;":http://meyerweb.com/eric/tools/s5)
+
+S6 started as a rewrite of Eric Meyer's S5 using the jQuery JavaScript library – offering easier to understand
+and easier to extend code.
+(More "S6 Project Site &raquo;":http://github.com/geraldb/s6)
+
+h3. Webby and S6 Together - Sample Template Structure
+
+To use Webby and S6 together use the following structure. You can grab all files from this article
+from the "Vancouver.rb repository":http://vanrb.rubyforge.org/svn/webby-s6.
+
+{{{
+Sitefile
+/content
+ + index.txt      - Your slides in plain text
+ + blank.css      - Your slides design (adjust to your needs)
+ + blank.svg      - Your slides background gradient theme (adjust to your needs)
+ + /shared        - Folder holding the shared S6  machinery
+    + outline.css
+    + print.css
+    + slides.css
+    + jquery.js
+    + slides.js
+    + slides.core.js
+/layouts
+ + blank.txt      - Web page template for slides
+}}}
+
+That's all. Now you can author your slides in plain text. Example:
+
+{{{
+h1. Web Services REST-Style: Universal Identifiers, Formats & Protocols
+
+Agenda
+
+* What's REST?
+* Universal Identifiers, Formats & Protocols 
+* The Holy REST Trinity - Noun, Verbs, Types
+* REST Design Principles 
+* Architecture Astronaut REST Speak
+}}}
+
+Use @h1.@ to start a new slide. For more formatting options see the Textile reference.
+To generate or update your presentation issue the command @webby@.
+
+{{{
+$ webby 
+
+=>  create  output
+=>  create  output/blank.css
+=>  create  output/blank.svg
+=>  create  output/index.html
+=>  create  output/shared/jquery.js
+=>  create  output/shared/outline.css
+=>  create  output/shared/print.css
+=>  create  output/shared/slides.core.js
+=>  create  output/shared/slides.css
+=>  create  output/shared/slides.js
+}}}
+
+Showtime! Open up your presentation (web page, that is, @output/index.html@)
+in your browser and hit the space bar to flip through your slides.
+
+Try some slide show samples powered by S6:
+
+* "Ruby 1.9: What to Expect":http://slideshow.rubyforge.org/ruby19.html
+* "Prototype vs jQuery: To and from JavaScript Libraries":http://slideshow.rubyforge.org/jquery.html
+* "Adding Semantics to Your Web Site / RDF, RDFa, Microformats / Web 3.0 in Action":http://slideshow.rubyforge.org/friends.html
+* "Slide Show (S9) 10-Minute Tutorial":http://slideshow.rubyforge.org/tutorial.html
+
+Keyboard controls:
+
+|_. Action             |_. Key |
+| Go to next slide     | Space Bar, Right Arrow Down Arrow, Page Down  |
+| Go to previous slide | Left Arrow, Up Arrow, Page Up |
+| Go to first slide    | Home |
+| Go to last slide     | End |
+| Toggle between slideshow and outline view (&#216;) | T |
+| Show/hide slide controls (&#216; &laquo; &raquo;)  | C, Move mouse to bottom right corner |
+
+
+
+h3. Appendix: Interna - Step-by-Step Guide to Generate the Webby S6 Template from the S6 Blank Package
+
+If you want to create your own Webby S6 template from scratch grab the S6 blank download package (tar or zip package)
+and follow these four steps:
+
+* Step 1: Create a @Sitefile@ plus a @content@ and @layouts@ folder.
+* Step 2: Copy S6 files to Webby folders
+* Step 3: Edit the @layouts/blank.txt@ template
+* Step 4: Create your slides
+
+
+h4. Step 1: Create a @Sitefile@ plus a @content@ and @layouts@ folder.
+
+Webby requires a @Sitefile@. Use the minimum (or adjust to your needs):
+
+{{{
+task :default => :build
+}}}
+
+h4. Step 2: Copy S6 files to Webby folders
+
+Next copy the S6 files from the download package to the Webby folders 
+
+| S6 Source | -> Webby      | Comments |
+| @blank.html@             | @layouts/blank.txt@             | Edit (See below) |
+| @blank.css@              | @content/blank.css@             | No change needed; change only to adjust style to your needs       |
+| @blank.svg@              | @content/blank.svg@             | No change needed; change only to adjust background gradient theme |
+| @shared/outline.css@     | @content/shared/outline.css@    | Copy 1:1 |
+| @shared/print.css@       | @content/shared/print.css@      | 1:1 |
+| @shared/slides.css@      | @content/shared/slides.css@     | 1:1 |
+| @shared/jquery.js@       | @content/shared/jquery.js@      | 1:1 |
+| @shared/slides.js@       | @content/shared/slides.js@      | 1:1 |
+| @shared/slides.core.js@  | @content/shared/slides.core.js@ | 1:1 |
+
+h4. Step 3: Edit the @layouts/blank.txt@ template
+
+First, add a meta data header:
+
+{{{
+--&#045;
+extension: html
+filter:
+  - erb
+--&#045;
+}}}
+
+Next, replace placeholders such as @[your_title_here]@ with Webby's syntax e.g. @<%%=h @page.title %>@:
+
+| Original Place Holder   | Webby Syntax |
+| @[your_title_here]@     | @<%%=h @page.title %>@  |
+| @[your_footer_here]@    | @<%%=h @page.footer %>@  |
+| @[your_subfooter_here]@ | @<%%=h @page.subfooter %>@  |
+
+Finally, remove all sample slides and replace the comment
+@<!-- add slides here -->@ with Webby's syntax e.g. @<%%= @content %>@. That's it.
+
+h4. Step 4: Create your slides
+
+Create a new file e.g. @content/index.txt@ and add a meta data header:
+
+{{{
+--&#045;
+title:      Webby S6
+author:     Your Name
+footer:     Your Footer Here
+subfooter:  Your Subfooter Here
+filter:
+  - erb
+  - textile
+  - slides
+layout: blank
+--&#045;
+}}}
+
+* Set the variables used for place holders, that is, @title@, @author@, @footer@, @subfooter@
+* Tell Webby to use the template @blank.txt@ in the @layouts@ folder (@layout: blank@)
+* Tell Webby to process this document using the @erb@, @textile@ and @slides@ text filter
+
+And start authoring your slides in plain text using Textile e.g.:
+
+{{{
+h1. Your Slide Title Here
+    
+* Item One Here
+* Item Two Here
+}}}
+
+Questions? Comments? Send them along to the
+"Free Web Slide Show Alternatives (S5, S6, S9, Slidy And Friends) Forum/Mailing List":http://groups.google.com/group/webslideshow.
+Thanks!
+
+ 

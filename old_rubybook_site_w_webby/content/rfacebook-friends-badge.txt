@@ -1,0 +1,61 @@
+---
+title: How to create a Friends Badge using the Facebook API
+tags:  rails rfacebook facebook
+filter:
+  - erb
+  - textileplus
+---
+
+h2. <%= @page.title %>
+
+You can create a friends badge in two easy steps. First, get your friends' ids (calling the  @friends.get@ Facebook API using rfacebook) and than get all your friends' square profile pic links (calling @users.getInfo@ asking for the @pic_square@ field). That's all. Let's get coding.
+
+<%= more %>
+
+Create a @badge@ action in your controller:
+
+{{{
+def badge
+   
+  # get your friends' ids
+  friendsIds = fbsession.friends_get.uid_list
+
+  # use your friends' ids to get square profile pic links
+  friendsInfo = fbsession.users_getInfo( 
+                   :uids => friendsIds, 
+                   :fields => ["pic_square"] )
+
+  # store all your friends profile pic links 
+  @friendsPics = []
+  friendsInfo.user_list.each do |user|
+    @friendsPics << user.pic_square  unless user.pic_square.blank?
+  end  
+
+end
+}}}
+
+And add a matching view:
+
+{{{
+<h3>rfacebook questions & answers Friends Badge Sample</h3>
+
+<style type="text/css">
+div.badge  { border: 4px solid #3b5998; }
+img.badge  { border-bottom: thin solid black;
+             border-right: thin solid black; }
+</style>
+
+<div class="badge">
+
+<%% @friendsPics.each do |pic| -%>
+<%%= image_tag pic, :class => 'badge'-%>
+<%% end %>
+
+</div>
+}}}
+
+That's it. Voila!
+
+!/i/rfacebook-friendsbadge.png!
+
+<%= facebook_comments %>

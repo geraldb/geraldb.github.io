@@ -1,0 +1,18 @@
+---
+title:  #{tag}
+filter:
+  - erb
+---
+
+<% articles = @pages.find(:all){|page| #{pages.map{|p| p.url}.inspect}.include?(page.url)} %>
+  
+<% articles.sort_by{|p| p.mtime }.reverse.each do |page| %>
+  
+  <h2><a href='<%= page.url %>'><%= textilize( page.title ) %></a></h2>
+  
+  <%= excerpt(page) %>
+  
+  <%= article_meta(page) %>
+
+<% end %>
+ 

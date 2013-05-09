@@ -1,0 +1,25 @@
+---
+title: Tags Index
+dirty: true
+filter:
+  - erb
+---
+
+<% tags = find_tags %>
+
+<!-- todo: use link_to helper? -->
+
+<p>
+<% tags.sort_by {|k, v| k }.each do |tag, pages| %>
+  <a href='#<%= tag %>'><%= tag %>&nbsp;(<%= pages.length %>)</a>
+<% end %>
+</p>
+
+<% tags.sort_by {|k, v| k }.each do |tag, pages| %>
+  <h2 id='<%= tag %>'><a href='/tag/<%= tag %>.html'><%= tag %> (<%= pages.length %>)</a></h2> 
+  <ul>
+  <% pages.sort_by { |p| p.mtime }.reverse.each do |page| %>     
+    <li><a href='<%= page.url %>'><%= textilize( page.title ) %></a> (<%= page.mtime %>)</li>
+  <% end %>      
+  </ul>
+<% end %>
