@@ -1,0 +1,10 @@
+---
+title: Email Me
+filter:
+  - erb
+  - textileplus
+---
+
+h2. <%= @page.title %> 
+
+Contact me today at gerald.bauer ==-at-== gmail.com Cheers.

@@ -1,0 +1,21 @@
+---
+title: Speaking
+filter:
+  - erb
+  - textileplus
+---
+
+h2. <%= @page.title %> 
+
+I enjoy sharing my knowledge and speaking in public.
+<!-- Upcoming talks include: -->
+Selected older talks include:
+
+* "RDF, RDFa, Microformats - Adding Semantics to Your Web Site":http://slideshow.rubyforge.org/friends.html, December 2008 @ Vancouver Semantic Web User Group
+* "Microformats - Adding Semantics to Your Web Site - Web 3.0 in Action":http://slideshow.rubyforge.org/microformats.html, September 2008 @ BarCampVancouver
+* "Create Mobile Web Apps with the iUI JavaScript Library":http://slideshow.rubyforge.org/mobile.html, September 2008 @ MobileCampVancouver
+* "Developing Social Web Apps w/ Ruby on Rails":http://slideshow.rubyforge.org/facebooker.html, April 2008 @ Open Web Vancouver 2008 
+* "Slide Show (S9) - A Free Web Alternative to PowerPoint and KeyNote in Ruby":http://slideshow.rubyforge.org/tutorial.html, March 2008 @ Vancouver Flex, Rails, Joomla! Get Together 
+* "Groovy - Java for the 21st Century - Do More With Less (Code)":http://slideshow.rubyforge.org/groovy.html, February 2008 @ Vancouver Groovy/Grails User Group
+* "Facebook!?! I-Don't-Get-It - What's the Social Web and Why Facebook Matters":http://slideshow.rubyforge.org/facebook.html, November 2007 @ Vancouver's Software Developers Network (VanDev)
+* "Tagging & Tag Clouds Made Easy w/ Ruby on Rails":http://slideshow.rubyforge.org/tagging.html, August 2007 @ Vancouver.rb

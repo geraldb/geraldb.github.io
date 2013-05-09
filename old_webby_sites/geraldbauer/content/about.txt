@@ -1,0 +1,16 @@
+---
+title: About
+filter:
+  - erb
+  - textileplus
+---
+
+h2. <%= @page.title %> 
+
+I have more than ten years of professional experience in the information industry
+as developer, team lead, and trainer and have worked for Google, Apple, Siemens, the French Embassy and others
+in Canada, the United States and Austria.
+
+I hold a Master's Degree in social and economic sciences
+from the Vienna University of Economics and Business Administration, Austria
+and was chosen for the International Management Program at New York University's Stern Business School.
