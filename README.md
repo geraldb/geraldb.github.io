@@ -1,4 +1,5 @@
-geraldb.github.com
-==================
+# geraldb.github.io
 
 Gerald Bauer's GitHub Site
+
+
