@@ -29,6 +29,7 @@ feed.items.each do |item|
 end
 ```
 
+
 Prints:
 
 ```
@@ -83,17 +84,17 @@ Ready to roll.
 
 Let's pull a "modern" web feed in the Atom Publishing format from the Vancouver.rb site and print out the latest headlines.
 
-```
-feed = RSS::Parser.parse( 'http://vanrb.wordpress.com/feed/atom' )
 
-puts "== #{feed.title.content} =="
+    feed = RSS::Parser.parse( 'http://vanrb.wordpress.com/feed/atom' )
+    
+    puts "== #{feed.title.content} =="
+    
+    feed.items.each do |item|
+      puts "- #{item.title.content}"
+      puts "  (#{item.link.href})"
+      puts
+    end
 
-feed.items.each do |item|
-  puts "- #{item.title.content}"
-  puts "  (#{item.link.href})"
-  puts
-end
-```
 
 And use @item.content.content@ to get a post's full-text. That's it.
 

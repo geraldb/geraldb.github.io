@@ -1,13 +1,18 @@
 
+safe: true
+
+exclude: [old_webby_sites, articles, README.md]
+
+
+
 ## NB:  jekyll 0.11.0 does NOT support redcarpet2 (or even redcarpet?)
 ##
 ##  switch from default maruku to kramdown if that is working? w/ GitHub pages??
 
 # markdown: redcarpet
 
-safe: true
-
-exclude: [old_webby_sites, articles, README.md, .git]
-
-
+# markdown: redcarpet
+#
+#redcarpet:
+#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
