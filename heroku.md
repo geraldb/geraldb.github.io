@@ -1,5 +1,7 @@
-# Heroku Notes
-
+---
+layout: default
+title: Heroku Notes
+---
 
 ## Database Tips
 

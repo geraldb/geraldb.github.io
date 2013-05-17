@@ -59,9 +59,9 @@ What is ExecJS?
 
 
 
-===========
 
-Books
+
+## Books
 
 - JRuby, Prag Programmers
 
@@ -88,9 +88,8 @@ rack
 Running Ruby Scripts with Maven
 
 
-====
-what is TorqueBox?
+
+## what is TorqueBox?
+
 - torquebox.org 
-
-
 

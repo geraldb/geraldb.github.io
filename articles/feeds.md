@@ -10,7 +10,7 @@ Really Simple Syndication (RSS) flavors (0.9x/1.0/2.0) and in the "modern" Atom 
 
 <!-- more -->
 
-h3. Task I: Reading Really Simple Syndication (RSS) Feeds
+### Task I: Reading Really Simple Syndication (RSS) Feeds
 
 Let's read in a "classic" web feed in the Really Simple Syndication (RSS) format pulled from the Vancouver.rb site and print out the latest headlines.
 

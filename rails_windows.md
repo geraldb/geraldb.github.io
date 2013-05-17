@@ -10,8 +10,8 @@ Installation
 
 Text Editor
 
-* [Komodo Edit]  ActiveState, Free 
-* [RubyMine] IntelliJ
+* [Komodo Edit]()  ActiveState, Free 
+* [RubyMine]() IntelliJ
 
 Docu
 

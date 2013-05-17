@@ -3,13 +3,11 @@
 ##
 ##  switch from default maruku to kramdown if that is working? w/ GitHub pages??
 
-markdown: redcarpet
+# markdown: redcarpet
 
 safe: true
 
-exclude:
-- old_webby_sites
-
+exclude: [old_webby_sites, articles, README.md, .git]
 
 
 

@@ -1,3 +1,7 @@
+---
+layout: default
+title: HTML5 Notes
+---
 
 ## HTML5 Articles
 

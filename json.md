@@ -1,5 +1,7 @@
-
-# JSON Notes
+---
+layout: default
+title: JSON Notes
+---
 
 
 ## JSON Tools
