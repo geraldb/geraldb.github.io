@@ -10,7 +10,7 @@ each week. Let's kick off the series with the @annotate-models@ gem.
 
 <!-- more -->
 
-h3. What's @annotate-models@?
+### What's @annotate-models@?
 
 
 The @annotate-models@ gem lets you annotate your @ActiveRecord@ models with a comment block  
@@ -19,14 +19,14 @@ listing all the records' fields and data types pulled from the database table sc
 
 Before (@feed_item.rb@):
 
-{{{
+~~~
 class FeedItem < ActiveRecord::Base
 end
-}}}
+~~~
 
 After (@feed_item.rb@):
 
-{{{
+~~~
 # == Schema Information
 # Schema version: 20080722054422
 #
@@ -45,37 +45,36 @@ After (@feed_item.rb@):
 class FeedItem < ActiveRecord::Base
 
 end
-}}}
+~~~
 
 That's all there is to it.  
 
 
-h3. Installation and Usage
+### Installation and Usage
 
 To get started install the @annotate-models@ gem:
 
-{{{
+~~~
 sudo gem install annotate-models
-}}}
+~~~
 
 To annotate your models change into your Rails app folder and run @annotate@. That's it. @annotate-models@ loops 
 over all your models in the @app/models@ folder and pulls the table schema from the database and adds a comment block at the top of your Ruby sources. Example:
 
-{{{
+~~~
 cd planet
 annotate
-}}}
+~~~
 
 To update your @ActiveRecord@ annotations after changing the table structure (using Rails database schema migrations) rerun @annotate@. Note, that @annotate-models@ will wipe out the comment block from the last run including all comments you add to the block. You have been warned.
   
-h3. History 
+### History 
 
 Dave Thomas (of Pragmatic Programmers fame) hacked up the first @annotate_models@ plugin in a plane in 2006. Cuong Tran gem-ified the plugin and added patches from various contributors.
 
-h3. References
+### References
 
 * "Cuong Tran's @annotate_models@ Project Site @ GitHub":http://github.com/ctran/annotate_models
 * "Dave Thomas' @annotate_models@ Announcement":http://pragdave.pragprog.com/pragdave/2006/02/annotate_models.html  
 
 <!-- comments -->
-

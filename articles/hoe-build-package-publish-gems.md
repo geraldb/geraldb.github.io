@@ -1,6 +1,6 @@
 ---
 title: How to build, package and publish gems with Hoe Rake tasks - From zero to RubyGems in 10 minutes
-tags:  ruby gem hoe rake rdoc rubygems
+## tags:  ruby gem hoe rake rdoc rubygems
 ---
 
 # {{ page.title }}
@@ -16,7 +16,7 @@ To use Hoe together with your own code use the following structure.
 
 You can grab all files from this article from the [`hellohoe` GitHub repository](https://github.com/geraldb/hellohoe).
 
-```
+~~~
 /hellohoe
   + README.txt        - Description in plain text 
   + History.txt       - Version change log in plain text
@@ -24,22 +24,22 @@ You can grab all files from this article from the [`hellohoe` GitHub repository]
   + Rakefile          - Build script (requires your name and email)  
   + /lib
      + hellohoe.rb    - Ruby code to bundle up into gem here
-```
+~~~
 
 Let's look at `hellohoe.rb`:
 
-```
+~~~
 class HelloHoe
   VERSION = '0.1'
    
   # your code here
 end
-```
+~~~
 
 Hoe requires a `VERSION` string/constant in your Ruby code that you can reference in your build script.
 Let's look at the build script (`Rakefile`) next:
 
-```
+~~~
 require 'hoe'
 require './lib/hellohoe.rb'
 
@@ -52,14 +52,14 @@ Hoe.spec 'hellohoe' do
   # or use shortcut
   # self.developer( '[Your Name Here]', '[Your Email Here]' )
 end
-```
+~~~
 
 As a minimum Hoe requires you to set the author and email fields in the gem spec.
 As a shortcut you can use the `developer` method to set it all at once. 
 
 Next Hoe requires a readme in plain text stored in `README.txt`:
 
-```
+~~~
 = hellohoe
 
 * https://github.com/geraldb/hellohoe
@@ -71,7 +71,7 @@ Sample on how to use Hoe Rake tasks to build, package and publish gems.
 == LICENSE:
 
 The hellohoe sources are dedicated to the public domain. 
-```
+~~~
 
 Hoe will use the link from the first section, that is, `github.com/geraldb/hellohoe`
 to auto-fill the homepage field in the gem spec and will use the description to
@@ -79,29 +79,29 @@ auto-fill the summary field and the description in the gem spec.
 
 Next Hoe requires a version change log in plain text stored in `History.txt`:
 
-```
+~~~
 === 0.1 / 2013-11-19
 
 * Everything is new. First release.
-```
+~~~
 
 Hoe will you use the change log to auto-fill the changes field in the gem spec
 and use the change log for emails and announcements.
 
 Finally, Hoe requires a manifest - a list of all files to include in plain text stored in `Manifest.txt`:
 
-```
+~~~
 History.txt
 Manifest.txt
 README.txt
 Rakefile
 lib/hellohoe.rb
-```
+~~~
 
 Now you're all set to use Hoe's Rake tasks to build, package and publish gems and more.
 You can list all tasks issuing `rake -T`. Resulting in:
 
-```
+~~~
 rake announce              # publish   # Announce your release.
 rake audit                 # test      # Run ZenTest against the package.
 rake check_extra_deps      # deps      # Install missing dependencies.
@@ -131,7 +131,7 @@ rake release_sanity        # package   # Sanity checks for release
 rake release_to_gemcutter  # gemcutter # Push gem to gemcutter.
 rake repackage             # package   # Force a rebuild of the package files
 rake ridocs                # publish   # Generate ri locally for testing.
-```
+~~~
 
 ## Using `debug_gem`, `gem`, `package`, `install_gem` tasks
 
@@ -139,14 +139,14 @@ Let's try some Hoe tasks. Issue `rake debug_gem` to show the gem spec Hoe genera
 from your build script settings, readme, change log and manifest.
 Next, let's build the gem. Issue `rake gem`. Resulting in:
 
-```
+~~~
 mkdir -p pkg
   Successfully built RubyGem
   Name: hellohoe
   Version: 0.1
   File: hellohoe-0.1.gem
 mv hellohoe-0.1.gem pkg/hellohoe-0.1.gem
-```
+~~~
 
 Hoe will place your gem in the `pkg` folder. If you issue `rake package` Hoe
 will bundle up all your sources in a tar'ed and gzipped package
@@ -155,13 +155,13 @@ will bundle up all your sources in a tar'ed and gzipped package
 Next, let's test drive the gem. Issue `rake install_gem` to install
 the gem and try it in the Ruby console:
 
-```
+~~~
 $ irb
 >> require 'hellohoe'
 => true
 >> HelloHoe::VERSION
 => "0.1"
-```
+~~~
 
 ## Checking and updating your manifest with `check_manifest`
 
@@ -174,7 +174,7 @@ first that includes a regex (regular expression) pattern that excludes files
 from the manifest check. To create a new `~/.hoerc` file issue `rake config_hoe`.
 Resulting in a file such as:
 
-```
+~~~
 ---
 exclude: !ruby/regexp /tmp$|CVS|TAGS|\.(svn|git|DS_Store)/
 signing_key_file: ~/.gem/gem-private_key.pem
@@ -187,16 +187,16 @@ blogs:
   blog_id: blog_id
   extra_headers:
     mt_convert_breaks: markdown
-```
+~~~
 
 Now let's try `rake check_manifest`. If everything is in order (no files missing or waiting to get added).
 You will see:
 
-```
+~~~
 rm -r doc
 rm -r pkg
 rm Manifest.tmp
-```
+~~~
 
 
 %%% todo: add windows tip / configure with git end of line for manifest.txt
@@ -206,14 +206,14 @@ rm Manifest.tmp
 Let's create a new `Todo.txt` file and let's retry `rake check_manifest`.
 Now you will see a diff:
 
-```
+~~~
 @@ -2,4 +2,5 @@
  Manifest.txt
  README.txt
  Rakefile
 +Todo.txt
  lib/hellohoe.rb
-```
+~~~
 
 In the future if you don't want to add new files by hand to your manifest you can pipe
 the diff to update your manifest using `rake check_manifest | patch`.
@@ -226,10 +226,10 @@ Before you can upload to RubyGems.org you will need to setup an account and save
 key on your computer.
 Issue the command to store your RubyGems.org API key on your computer (only needed the first time):
 
-```
+~~~
 $ curl -u carlos https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials
 Enter host password for user 'carlos':
-```
+~~~
 
 %%% fix: add explanation on how to do it "manually" without curl (get API from site etc.)
 %%  check if there's any docu online
@@ -242,22 +242,22 @@ Now you're ready to use `hoe` to upload (push) your gem to RubyGems.org
 without requiring to enter a user and password.
 Issue the command `rake release` and pass along the required release version. Example:
 
-```
+~~~
 $ rake release VERSION=0.1
-```
+~~~
 
 Check your RubyGems.org project site if it all worked.
 Note, that it will take a minute or more untilyour uploaded gem gets added to the public RubyGems index.
 You can check if your gem is available using the `list` command with the `-r` (remote) switch.
 Example:
 
-```
+~~~
 $ gem list hellohoe -r
 
 *** REMOTE GEMS ***
 
 hellohoe (0.0.1)
-```
+~~~
 
 That's it.
 

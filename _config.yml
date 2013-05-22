@@ -1,9 +1,11 @@
 
 safe: true
 
-exclude: [old_webby_sites, articles, README.md]
+exclude: [old_webby_sites, README.md]
 
 
+## NB: use kramdown
+markdown: kramdown
 
 ## NB:  jekyll 0.11.0 does NOT support redcarpet2 (or even redcarpet?)
 ##
