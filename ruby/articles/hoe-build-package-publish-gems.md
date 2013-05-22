@@ -1,5 +1,5 @@
 ---
-title: How to build, package and publish gems with Hoe Rake tasks - From zero to RubyGems in 10 minutes
+title: How to build, package and publish gems with Hoe Rake tasks
 ## tags:  ruby gem hoe rake rdoc rubygems
 ---
 
