@@ -14,13 +14,11 @@ lets you author web pages in plain text. Example:
 A free and open public domain football database & schema
 for use in any (programming) language (e.g. uses plain datasets). Example:
 
-```
-### Teams
-
-barcelona, Barcelona|FC Barcelona|Fútbol Club Barcelona, BAR
-madrid,    Real Madrid|Real Madrid CF,                   RMD
-...
-```
+    ### Teams
+    
+    barcelona, Barcelona|FC Barcelona|Fútbol Club Barcelona, BAR
+    madrid,    Real Madrid|Real Madrid CF,                   RMD
+    ...
 ~~~
 
 becomes
@@ -117,13 +115,11 @@ That's it. Create a new markdown file. Example:
 A free and open public domain football database & schema
 for use in any (programming) language (e.g. uses plain datasets). Example:
 
-```
-### Teams
-
-barcelona, Barcelona|FC Barcelona|Fútbol Club Barcelona, BAR
-madrid,    Real Madrid|Real Madrid CF,                   RMD
-...
-```
+    ### Teams
+    
+    barcelona, Barcelona|FC Barcelona|Fútbol Club Barcelona, BAR
+    madrid,    Real Madrid|Real Madrid CF,                   RMD
+    ...
 ~~~
 
 Run the static site generation machinery e.g. type:
