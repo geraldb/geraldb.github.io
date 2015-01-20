@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "kramdown gem - turn easy-to-read and easy-to-write plain text wiki-style markdown into hypertext"
+title:  "kramdown gem - turn easy-to-read and easy-to-write wiki-style plain text in markdown into hypertext"
 ---
 
 ## What's Markdown?
@@ -14,13 +14,13 @@ lets you author web pages in plain text. Example:
 A free and open public domain football database & schema
 for use in any (programming) language (e.g. uses plain datasets). Example:
 
-\```
+```
 ### Teams
 
 barcelona, Barcelona|FC Barcelona|Fútbol Club Barcelona, BAR
 madrid,    Real Madrid|Real Madrid CF,                   RMD
 ...
-\```
+```
 ~~~
 
 becomes
@@ -43,7 +43,7 @@ madrid,    Real Madrid|Real Madrid CF,                   RMD
 
 ## What's `kramdown`?
 
-[`kramdown` ()](https://github.com/seattlerb/hoe) is a gem that
+[`kramdown`](https://github.com/gettalong/kramdown) is a gem that
 that lets you convert Markdown (`.md, .mkdwn, .markdown`) to Hypertext (`.html`).
 Thanks to [Thomas Leitner](https://github.com/gettalong) from Vienna, Austria
 for polishing the gem - more than 30+ releases - leading to today's version 1.5.0.
@@ -56,9 +56,9 @@ to hypertext using kramdown is as easy as:
 ~~~
 require 'kramdown'
 
-Kramdown::Document.new( 'Hello Ruby' ).to_html
+Kramdown::Document.new( '¡Barça, Barça, Baaarça!' ).to_html
 
-# => "<p>Hello Ruby</p>\n"
+# => "<p>¡Barça, Barça, Baaarça!</p>\n"
 ~~~
 
 ## Let's create another static site generator in 5 minutes
@@ -117,19 +117,20 @@ That's it. Create a new markdown file. Example:
 A free and open public domain football database & schema
 for use in any (programming) language (e.g. uses plain datasets). Example:
 
-\```
+```
 ### Teams
 
 barcelona, Barcelona|FC Barcelona|Fútbol Club Barcelona, BAR
 madrid,    Real Madrid|Real Madrid CF,                   RMD
 ...
-\```
-
+```
 ~~~
 
 Run the static site generation machinery e.g. type:
 
+~~~
 $ ruby ./sitegen.rb
+~~~
 
 That's it. Open up the web page `./_site/index.html` in your browser. 
 
