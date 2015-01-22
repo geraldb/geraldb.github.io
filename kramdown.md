@@ -63,7 +63,7 @@ Kramdown::Document.new( '¡Barça, Barça, Baaarça!' ).to_html
 
 First lets create a new ruby script and
 let's add the `kramdown` gem
-plus the `find' standard Ruby library module to help us with finding files. Example:
+plus the `find` standard Ruby library module to help us with finding files. Example:
 
 
 `./sitegen.rb`:
