@@ -35,7 +35,7 @@ Example:
 ~~~
 
 Ruby ships with a standard library that lets you read web feeds in the "classic"
-Really Simple Syndication (RSS) flavors (1.0/2.0)
+Really Simple Syndication (RSS 1.0/2.0) flavors
 or in the "modern" Atom Publishing format.
 
 ### Task I: Reading Really Simple Syndication (RSS) Feeds
@@ -252,6 +252,62 @@ Prints:
 ~~~
 
 That's it.
+
+## Bonus: Planet Feed Reader in 20 Lines of Ruby
+
+`planet.rb`:
+
+~~~
+require 'open-uri'
+require 'feedparser'
+require 'erb'
+  
+# step 1) read a list of web feeds
+
+FEED_URLS = [
+  'http://vienna-rb.at/atom.xml',
+  'http://rubyflow.com/rss',
+  'http://openfootball.github.io/atom.xml',
+  'http://openbeer.github.io/atom.xml'
+]
+
+items = []
+
+FEED_URLS.each do |url|
+  feed = FeedParser::Parser.parse( open( url ).read )
+  items += feed.items
+end
+
+# step 2) mix up all postings in a new page
+
+FEED_ITEM_TEMPLATE = <<EOS
+<% items.each do |item| %>
+  <div class="item">
+    <h2><a href="<%= item.url %>"><%= item.title %></a></h2>
+    <div><%= item.content %></div>
+  </div>
+<% end %>
+EOS
+
+puts ERB.new( FEED_ITEM_TEMPLATE ).result
+~~~
+
+Run the script:
+
+~~~
+$ ruby planet.rb      
+~~~
+
+Prints:
+
+~~~
+<div class="item">
+  <h2><a href="http://vienna-rb.at/blog/2015/01/28/picks/">Picks / what the vienna.rb team thinks is worth sharing this week</a></h2>
+  <div>
+   <h3>01/28 Picks!</h3>
+   <p>In a series on this website we'll entertain YOU with our picks...
+ ...
+~~~
 
 ## Find Out More 
 
