@@ -1,30 +1,53 @@
 ---
-title: How to read web feeds (RSS, Atom) using the standard Ruby library
-# tags: atom rss
+title: feedparser gem - web feed parser and normalizers (for RSS 2.0, Atom, n friends)
 ---
 
-%%% todo: cleanup text
-%%%  see webfeed talk ??? for more examples
 
-##  {{page.title}}
+# {{page.title}}
+
+## What's a Web Feed?
+
+A web feed (or news feed) is a simple document/data format
+that 1) lets you publish a list of
+status updates, blog postings, articles, pictures, cartoons, recordings, etc
+and that 2) lets others subscribe to your updates.
+
+Example:
+
+~~~
+<feed>
+  <title>beer.db - Open Beer, Brewery n Brewpubs Data News and Updates</title>
+  <link href="http://openbeer.github.io/" />
+  <updated>2015-01-04T09:25:14+00:00</updated>
+  <entry>
+    <title>Beer-A-Day - Open Data Eternal Page-A-Day Calender</title>
+    <link href="http://openbeer.github.io/2014/12/12/beer-a-day.html" />
+    <updated>2014-12-12T00:00:00+00:00</updated>
+    <summary>As an example of using the beer.db...</summary>
+  </entry>
+  <entry>
+    <title>New beer.db Build System - Welcome ./Datafile e.g. $beerdb new at</title>
+    <link href="http://openbeer.github.io/2014/12/01/new-build-system-w-datafile.html" />
+    <updated>2014-12-01T00:00:00+00:00</updated>
+    <summary>The beerdb command line tool now includes a new build system...</summary>
+  ...
+</feed>
+~~~
 
 Ruby ships with a standard library that lets you read web feeds in the "classic"
-Really Simple Syndication (RSS) flavors (0.9x/1.0/2.0)
-and in the "modern" Atom Publishing format.
-Let's try it all out pulling web feeds from the Vienna.rb site.
-
-<!-- more -->
+Really Simple Syndication (RSS) flavors (1.0/2.0)
+or in the "modern" Atom Publishing format.
 
 ### Task I: Reading Really Simple Syndication (RSS) Feeds
 
 Let's read in a "classic" web feed in the Really Simple Syndication (RSS)
-format pulled from the Vienna.rb site and print out the latest headlines.
+format pulled from the RubyFlow site and print out the latest headlines:
 
 ~~~
 require 'rss'
 require 'open-uri'
 
-feed  = RSS::Parser.parse( 'http://vanrb.wordpress.com/feed' )
+feed  = RSS::Parser.parse( 'http://www.rubyflow.com/rss' )
 
 puts "==  #{feed.channel.title} =="
 
@@ -35,67 +58,38 @@ feed.items.each do |item|
 end
 ~~~
 
-
 Prints:
 
 ~~~
-==  Vancouver Ruby & Rails Central ==
+==  RubyFlow ==
 
-- Vancouver.rb Q&A with Adam Palmblad on Startup TeamPages.com, Ruby on Rails, and More
-  (http://vanrb.wordpress.com/2008/06/12/adampalmblad/)
+- The All New RubyFlow for 2015
+  (http://www.rubyflow.com/p/8hqxpd-the-all-new-rubyflow-for-2015)
 
-- Ruby/Rails Meetup - Inside DogOnRails - A Wifidog Auth Server w/ Joe Bowser
-  (http://vanrb.wordpress.com/2008/05/08/june-meetup/)
+- Jekyll Quick Reference (Cheat Sheet) for Static Site Generator
+  (http://www.rubyflow.com/p/k8l2im-jekyll-quick-reference-cheat-sheet-for-static-site-generator)
 
-- Vancouver.rb Q&A with Brock Whitten on Rails, Getting Off Rails (Merb), PmpknPi and More
-  (http://vanrb.wordpress.com/2008/03/10/brockwhitten/)
-
-- Vancouver.rb Project Spotlight: Slide Show (S9) - A Free Web Alternative to PowerPoint and KeyNote
-  (http://vanrb.wordpress.com/2008/02/29/s9/)
+- Timeago date filter for Liquid templates
+  (http://www.rubyflow.com/p/12092-timeago-date-filter-for-liquid-templates)
 ~~~
 
-To include a post's summary use @item.description@ or to include a post's full-text
-use @content_encoded@. Example:
+To include a post's summary use `item.description` or to include a post's full-text
+use `content_encoded`. Example:
 
 ~~~
 puts item.description
 puts item.content_encoded
 ~~~
 
-That's it. Next, let's try to read in a "modern" web feed in the Atom Publishing format
-pulled again from the Vancouver.rb site.
-
-### Detour: Upgrade your standard RSS library to get Atom Publishing support
-
-Note, that the standard RSS library supports the Atom Publishing format since
-version 0.1.8 (the latest version is 0.2.4). To check up what version ships with your Ruby
-installation use the @RSS::VERSION@ constant. Example:
-
-~~~
-puts "RSS::VERSION #{RSS::VERSION}"
-~~~
-
-Prints:
-
-~~~
-RSS::VERSION 0.1.6
-~~~
-
-Ooops. We need to upgrade! Let's grab the latest version
-from the "Ruby Application Archive (RAA)":http://raa.ruby-lang.org/project/rss and try again.
-
-~~~
-RSS:VERSION 0.2.4
-~~~
-
-Ready to roll. 
+That's it.
 
 ### Task II: Reading Atom Publishing Feeds
 
-Let's pull a "modern" web feed in the Atom Publishing format from the Vancouver.rb site and print out the latest headlines.
+Next let's pull a "modern" web feed in the Atom Publishing format
+from the beer.db - Open Beer Data site and print out the latest headlines:
 
 ~~~
-feed = RSS::Parser.parse( 'http://vanrb.wordpress.com/feed/atom' )
+feed = RSS::Parser.parse( 'http://openbeer.github.io/atom.xml' )
 
 puts "== #{feed.title.content} =="
 
@@ -106,20 +100,161 @@ feed.items.each do |item|
 end
 ~~~
 
-And use @item.content.content@ to get a post's full-text. That's it.
+And use `item.content.content` to get a post's full-text. That's it.
 
-Note, that the standard library maps the different web feed flavors 1:1 to Ruby fields reflecting
-the different formats e.g. the feed title stored in @feed.channel.title@ in RSS 0.9x/2.0
-becomes @feed.title.content@ in Atom 
-and the feed item's full-text stored in @feed.item.content_encoded@ in RSS 2.0
-becomes @feed.item.content.content@ in Atom (Yes, it's @content.content@).
+Note, that the standard library maps the different web feed flavors 1:1 to Ruby fields
+reflecting the different formats e.g. the feed title stored in `feed.channel.title` in RSS 2.0
+becomes `feed.title.content` in Atom 
+and the feed item's full-text stored in `feed.item.content_encoded` in RSS 2.0
+becomes `feed.item.content.content` in Atom (Yes, it's `content.content`).
 Welcome to the wonderful world of web feed formats. 
 
-### Appendix: Alternative libraries to read web feeds in Ruby
 
-* "Simple RSS":http://simple-rss.rubyforge.org
-* "FeedTools":http://sporkmonger.com/projects/feedtools
-* "rFeedParser":http://rfeedparser.rubyforge.org
-* "Feed Normalizer":http://feed-normalizer.rubyforge.org
+## What's the `feedparser` gem?
 
-Any libraries missing? <!-- comments -->
+The `feedparser` gem lets you read in web feeds in the RSS 2.0
+or Atom Publishing formats (using the built-in libraries)
+and normalizes the feed and item fields. 
+
+### `Feed` Struct
+
+#### Mappings
+
+Note: uses question mark (`?`) for optional elements (otherwise assume required elements)
+
+**Title 'n' Summary**
+
+Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom), 
+description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. `&amp;`
+becomes & and so on - always resulting in plain vanilla text.
+
+| Feed Struct        | RSS 2.0           | Notes               | Atom          | Notes               |
+| ------------------ | ----------------- | ------------------- | ------------- | ------------------- |
+| `feed.title`       | `title`           | plain vanilla text  | `title`       | plain vanilla text  |
+| `feed.summary`     | `description`     | plain vanilla text  | `subtitle`?   | plain vanilla text  |
+
+
+**Dates**
+
+| Feed Struct        | RSS 2.0             | Notes             | Atom       | Notes           |
+| ------------------ | ------------------- | ----------------- | ---------- | --------------- |
+| `feed.updated`     | `lastBuildDate`?    | RFC-822 format    | `updated`  | ISO 801 format  |
+| `feed.published`   | `pubDate`?          | RFC-822 format    |  -         |                 |
+
+
+RFC-822 date format e.g. Wed, 14 Jan 2015 19:48:57 +0100
+
+ISO-801 date format e.g. 2015-01-11T09:30:16Z
+
+
+~~~
+class Feed
+  attr_accessor :format   # e.g. atom|rss 2.0|etc.
+  attr_accessor :title    # note: always plain vanilla text
+  attr_accessor :url
+
+  attr_accessor :items
+
+  attr_accessor :summary   # note: is description in RSS 2.0 and subtitle in Atom; always plain vanilla text
+
+  attr_accessor :updated     # note: is lastBuildDate in RSS 2.0
+  attr_accessor :published   # note: is pubDate in RSS 2.0; not available in Atom
+
+  attr_accessor :generator
+  attr_accessor :generator_version  # e.g. @version (atom)
+  attr_accessor :generator_uri      # e.g. @uri     (atom)
+end
+~~~
+
+
+### `Item` Struct
+
+**Title 'n' Summary**
+
+Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom), 
+description (RSS 2.0) and summary (Atom) content
+and will unescape HTML entities e.g. `&amp;` becomes & and so on - always
+resulting in plain vanilla text.
+
+Note: In plain vanilla RSS 2.0 there's no difference between (full) content and summary - everything is wrapped
+in a description element; however, best practice is using the content "module" from RSS 1.0 inside RSS 2.0.
+If there's no content module present the feed parser will "clone" the description
+and use one version for `item.summary` and the clone for `item.content`.
+
+| Feed Struct        | RSS 2.0           | Notes               | Atom          | Notes               |
+| ------------------ | ----------------- | ------------------- | ------------- | ------------------- |
+| `item.title`       | `title`           | plain vanilla text  | `title`       | plain vanilla text  |
+| `item.summary`     | `description`     | plain vanilla text  | `summary`?    | plain vanilla text  |
+| `item.content`     | `content`?        | html                | `content`?    | html                |
+
+
+**Dates**
+
+| Item Struct        | RSS 2.0             | Notes             | Atom          | Notes           |
+| ------------------ | ------------------- | ----------------- | ------------- | --------------- |
+| `item.updated`     | `pubDate`?          | RFC-822 format    | `updated`     | ISO 801 format  |
+| `item.published`   | -                   | RFC-822 format    | `published`?  | ISO 801 format  |
+
+Note: In plain vanilla RSS 2.0 there's only one `pubDate` for items,
+thus, it's not possible to differeniate between published and updated dates for items;
+note - the `item.pubDate` will get mapped to `item.updated`. To set the published date in RSS 2.0
+use the dublin core module e.g `dc:created`, for example.
+
+~~~
+class Item
+  attr_accessor :title   # note: always plain vanilla text
+  attr_accessor :url
+
+  attr_accessor :content
+  attr_accessor :content_type  # optional for now (text|html|html-escaped|binary-base64)
+
+  attr_accessor :summary
+
+  attr_accessor :updated    # note: is pubDate in RSS 2.0 and updated in Atom
+  attr_accessor :published  # note: is published in Atom; not available in RSS 2.0 (use dc:created)
+
+  attr_accessor :guid     # todo: rename to id (use alias) ??
+end
+~~~
+
+
+### Read Feed Example
+
+~~~
+require 'open-uri'
+require 'feedparser'
+
+xml = open( 'http://openbeer.github.io/atom.xml' ).read
+
+feed = FeedParser::Parser.parse( xml )
+puts "== #{feed.title} =="
+
+feed.items.each do |item|
+  puts "- #{item.content}"
+  puts "  (#{item.url})"
+  puts
+end
+~~~
+
+Prints:
+
+~~~
+==  beer.db - Open Beer, Brewery n Brewpubs Data News and Updates ==
+
+- Beer-A-Day - Open Data Eternal Page-A-Day Calender
+  (http://openbeer.github.io/2014/12/12/beer-a-day.html)
+
+- New beer.db Build System - Welcome ./Datafile e.g. $beerdb new be
+  (http://openbeer.github.io/2014/12/01/new-build-system-w-datafile.html)
+ 
+- New Repo /maps - Free Full-Screen Interactive Beer Maps w/ Brewery Listings
+  (http://openbeer.github.io/2014/11/11/new-repo-maps.html)
+~~~
+
+That's it.
+
+## Find Out More 
+
+* home  :: [github.com/feedreader/feedparser](https://github.com/feedreader/feedparser)
+* gem   :: [rubygems.org/gems/feedparser](https://rubygems.org/gems/feedparser)
+* rdoc  :: [rubydoc.info/gems/feedparser](http://rubydoc.info/gems/feedparser)
