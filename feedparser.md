@@ -123,15 +123,14 @@ and normalizes the feed and item fields e.g. `item.content` gets mapped to
 
 **Title 'n' Summary**
 
-Note: The Feed parser will remove all HTML tags and attributes from the title (RSS 2.0+Atom), 
-description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. `&amp;`
-becomes & and so on - always resulting in plain vanilla text.
-
 | Feed Struct        | RSS 2.0           | Notes               | Atom          | Notes               |
 | ------------------ | ----------------- | ------------------- | ------------- | ------------------- |
 | `feed.title`       | `title`           | plain vanilla text  | `title`       | plain vanilla text  |
 | `feed.summary`     | `description`     | plain vanilla text  | `subtitle`?   | plain vanilla text  |
 
+Note: The Feed parser will remove all HTML tags and attributes from the title (RSS 2.0+Atom), 
+description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. `&amp;`
+becomes & and so on - always resulting in plain vanilla text.
 
 **Dates**
 
@@ -171,6 +170,12 @@ end
 
 **Title 'n' Summary**
 
+| Feed Struct        | RSS 2.0           | Notes               | Atom          | Notes               |
+| ------------------ | ----------------- | ------------------- | ------------- | ------------------- |
+| `item.title`       | `title`           | plain vanilla text  | `title`       | plain vanilla text  |
+| `item.summary`     | `description`     | plain vanilla text  | `summary`?    | plain vanilla text  |
+| `item.content`     | `content`?        | html                | `content`?    | html                |
+
 Note: The Feed parser will remove all HTML tags and attributes from the title (RSS 2.0+Atom), 
 description (RSS 2.0) and summary (Atom) content
 and will unescape HTML entities e.g. `&amp;` becomes & and so on - always
@@ -181,13 +186,6 @@ in a description element; however, best practice is using the content "module" f
 If there's no content module present the feed parser will "clone" the description
 and use one version for `item.summary` and the clone for `item.content`.
 
-| Feed Struct        | RSS 2.0           | Notes               | Atom          | Notes               |
-| ------------------ | ----------------- | ------------------- | ------------- | ------------------- |
-| `item.title`       | `title`           | plain vanilla text  | `title`       | plain vanilla text  |
-| `item.summary`     | `description`     | plain vanilla text  | `summary`?    | plain vanilla text  |
-| `item.content`     | `content`?        | html                | `content`?    | html                |
-
-
 **Dates**
 
 | Item Struct        | RSS 2.0             | Notes             | Atom          | Notes           |
@@ -196,7 +194,7 @@ and use one version for `item.summary` and the clone for `item.content`.
 | `item.published`   | -                   | RFC-822 format    | `published`?  | ISO 801 format  |
 
 Note: In plain vanilla RSS 2.0 there's only one `pubDate` for items,
-thus, it's not possible to differeniate between published and updated dates for items;
+thus, it's not possible to differentiate between published and updated dates for items;
 note - the `item.pubDate` will get mapped to `item.updated`. To set the published date in RSS 2.0
 use the dublin core module e.g `dc:created`, for example.
 
@@ -258,7 +256,7 @@ Now change the feed url to:
 url = 'http://www.rubyflow.com/rss'
 ~~~
 
-and the rest will work without changes for both formats (that is, RSS and Atom). That's it.
+and everything will work without changes for both formats (that is, RSS and Atom). That's it.
 
 ## Bonus: Planet Feed Reader in 20 Lines of Ruby
 
