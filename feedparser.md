@@ -316,6 +316,6 @@ Prints:
 
 ## Find Out More 
 
-* home  :: [github.com/feedreader/feedparser](https://github.com/feedreader/feedparser)
+* home  :: [github.com/feedreader/feed.parser](https://github.com/feedreader/feed.parser)
 * gem   :: [rubygems.org/gems/feedparser](https://rubygems.org/gems/feedparser)
 * rdoc  :: [rubydoc.info/gems/feedparser](http://rubydoc.info/gems/feedparser)
