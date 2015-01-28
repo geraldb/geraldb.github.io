@@ -9,8 +9,8 @@ title: feedparser gem - web feed parser and normalizers (for RSS 2.0, Atom, n fr
 
 A web feed (or news feed) is a simple document/data format
 that 1) lets you publish a list of
-status updates, blog postings, articles, pictures, cartoons, recordings, etc
-and that 2) lets others subscribe to your updates.
+status updates, blog postings, articles, pictures, cartoons, recordings, etc. and 
+that 2) lets others subscribe to your updates.
 
 Example:
 
@@ -38,10 +38,10 @@ Ruby ships with a standard library that lets you read web feeds in the "classic"
 Really Simple Syndication (RSS 1.0/2.0) flavors
 or in the "modern" Atom Publishing format.
 
-### Task I: Reading Really Simple Syndication (RSS) Feeds
+### Task I: Reading Web Feeds in the Really Simple Syndication (RSS) Format
 
 Let's read in a "classic" web feed in the Really Simple Syndication (RSS)
-format pulled from the RubyFlow site and print out the latest headlines:
+format from the RubyFlow site and print out the latest headlines:
 
 ~~~
 require 'rss'
@@ -83,9 +83,9 @@ puts item.content_encoded
 
 That's it.
 
-### Task II: Reading Atom Publishing Feeds
+### Task II: Reading Web Feeds in the Atom Publishing Format
 
-Next let's pull a "modern" web feed in the Atom Publishing format
+Next let's read a "modern" web feed in the Atom Publishing format
 from the beer.db - Open Beer Data site and print out the latest headlines:
 
 ~~~
@@ -114,17 +114,16 @@ Welcome to the wonderful world of web feed formats.
 
 The `feedparser` gem lets you read in web feeds in the RSS 2.0
 or Atom Publishing formats (using the built-in libraries)
-and normalizes the feed and item fields. 
+and normalizes the feed and item fields e.g. `item.content` gets mapped to
+`item.content_encoded` in RSS 2.0 and to `item.content.content` in Atom and so on.
 
 ### `Feed` Struct
 
 #### Mappings
 
-Note: uses question mark (`?`) for optional elements (otherwise assume required elements)
-
 **Title 'n' Summary**
 
-Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom), 
+Note: The Feed parser will remove all HTML tags and attributes from the title (RSS 2.0+Atom), 
 description (RSS 2.0) and subtitle (Atom) content and will unescape HTML entities e.g. `&amp;`
 becomes & and so on - always resulting in plain vanilla text.
 
@@ -146,6 +145,7 @@ RFC-822 date format e.g. Wed, 14 Jan 2015 19:48:57 +0100
 
 ISO-801 date format e.g. 2015-01-11T09:30:16Z
 
+Note: Mappings use question mark (`?`) for optional elements (otherwise assume required elements).
 
 ~~~
 class Feed
@@ -171,7 +171,7 @@ end
 
 **Title 'n' Summary**
 
-Note: The Feed parser will remove all html tags and attributes from the title (RSS 2.0+Atom), 
+Note: The Feed parser will remove all HTML tags and attributes from the title (RSS 2.0+Atom), 
 description (RSS 2.0) and summary (Atom) content
 and will unescape HTML entities e.g. `&amp;` becomes & and so on - always
 resulting in plain vanilla text.
@@ -206,25 +206,26 @@ class Item
   attr_accessor :url
 
   attr_accessor :content
-  attr_accessor :content_type  # optional for now (text|html|html-escaped|binary-base64)
+  attr_accessor :content_type  # optional for now (text|html|etc.)
 
   attr_accessor :summary
 
   attr_accessor :updated    # note: is pubDate in RSS 2.0 and updated in Atom
   attr_accessor :published  # note: is published in Atom; not available in RSS 2.0 (use dc:created)
 
-  attr_accessor :guid     # todo: rename to id (use alias) ??
+  attr_accessor :guid
 end
 ~~~
 
 
-### Read Feed Example
+### Reading Web Feeds in All Formats
 
 ~~~
 require 'open-uri'
 require 'feedparser'
 
-xml = open( 'http://openbeer.github.io/atom.xml' ).read
+url = 'http://openbeer.github.io/atom.xml'
+xml = open( url ).read
 
 feed = FeedParser::Parser.parse( xml )
 puts "== #{feed.title} =="
@@ -239,7 +240,7 @@ end
 Prints:
 
 ~~~
-==  beer.db - Open Beer, Brewery n Brewpubs Data News and Updates ==
+== beer.db - Open Beer, Brewery n Brewpubs Data News and Updates ==
 
 - Beer-A-Day - Open Data Eternal Page-A-Day Calender
   (http://openbeer.github.io/2014/12/12/beer-a-day.html)
@@ -251,7 +252,13 @@ Prints:
   (http://openbeer.github.io/2014/11/11/new-repo-maps.html)
 ~~~
 
-That's it.
+Now change the feed url to:
+
+~~~
+url = 'http://www.rubyflow.com/rss'
+~~~
+
+and the rest will work without changes for both formats (that is, RSS and Atom). That's it.
 
 ## Bonus: Planet Feed Reader in 20 Lines of Ruby
 
