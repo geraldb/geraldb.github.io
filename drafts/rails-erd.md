@@ -139,9 +139,9 @@ Let's try it using the beer.db ActiveRecord models and schema bundled-up for eas
 `beerdb-models` gem.
 
 ~~~
-require 'beerdb/models'
+require 'beerdb/models'            # use $ gem install beerdb
 
-## connect to in-memory SQLite database
+## create in-memory SQLite database
 
 DB_CONFIG = {
   adapter: 'sqlite3',
@@ -150,12 +150,9 @@ DB_CONFIG = {
 
 ActiveRecord::Base.establish_connection( DB_CONFIG )
 
+BeerDb.create_all   ## create tables (e.g. breweries, beers, etc.)
 
-## create schema / tables (e.g. breweries, brands, beers, etc.)
-BeerDb.create_all
-
-
-## that's it - now hand over to rails-erd
+## now hand over to rails-erd
 
 require 'rails_erd/diagram'
 
@@ -168,13 +165,10 @@ class YumlDiagram < RailsERD::Diagram
   each_relationship do |relationship|
     next if relationship.indirect?
 
-    arrow = case
-      when relationship.one_to_one?
-        "1-1>"
-      when relationship.one_to_many?
-        "1-*>"
-      when relationship.many_to_many?
-        "*-*>"
+    arrow = case 
+    when relationship.one_to_one?   then "1-1>"
+    when relationship.one_to_many?  then "1-*>"
+    when relationship.many_to_many? then "*-*>"
     end
 
     @edges << "[#{relationship.source}] #{arrow} [#{relationship.destination}]"
@@ -205,7 +199,7 @@ And turned into a diagram:
 
 
 
-Note: Instead of using the all-in-one convenience method `YumlDiagram.create` you can work-through step-by-step. Example:
+Note: Instead of using the all-in-one `YumlDiagram.create` convenience method you can work-through step-by-step. Example:
 
 ~~~
 ## get all meta-info
@@ -224,13 +218,13 @@ diagram.save       ## step 2 - save
 ~~~
 
 
-## What's `graphviz` and the DOT language?
+## What's Graphviz and the DOT language?
 
 Note, by default the `rails-erd` uses the `Graphviz` class
- to build your diagrams usingthe graphviz machinery (and its DOT language).
+ to build your diagrams using the graphviz machinery (and its DOT language).
 
-Graphviz (short for Graph Visualization Software) is a 
-package of free open source tools started by AT&T Labs Research before 2000
+Graphviz (short for Graph Visualization Software) is a free open source
+package of tools started by AT&T Labs Research before 2000
 for drawing graphs specified in DOT language scripts. Example:
 
 ~~~
@@ -249,6 +243,13 @@ graph graphname {
 
 Change `YumlDiagram.create` to `RailsERD::Diagram::Graphviz.create`
 and you will get a `GraphViz` generated diagram as a PDF document, PNG graphic
-or whatever filetype you desire.
+or whatever filetype you desire. That's it.
 
 
+## Find Out More 
+
+* home     :: [github.com/voormedia/rails-erd](https://github.com/voormedia/rails-erd)
+* gem      :: [rubygems.org/gems/rails-erd](https://rubygems.org/gems/rails-erd)
+* rdoc     :: [rubydoc.info/gems/rails-erd](http://rubydoc.info/gems/rails-erd)
+* yuml     :: [yuml.me](http://yuml.me)
+* graphviz :: [graphviz.org](http://graphviz.org)
