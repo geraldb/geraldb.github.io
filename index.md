@@ -37,7 +37,7 @@ New artbase.js samples include:
 
 and more
 
-Note: Yes, the readymade artbase.db for easy download are built with the new artbase build machinery (see above). 
+Note: Yes, the readymade artbase.db for easy download samples are built with the new artbase build machinery (see above). 
 
 
 **Questions? Comments?**
