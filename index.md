@@ -27,7 +27,7 @@ Note: For now the build command REQUIRES a build.rb configuration script that de
 See the build.rb samples in the [**artbase.sandbox**](https://github.com/pixelartexchange/artbase.sandbox) for real-world examples incl. pudgies, unemployable, goblintown, etc.
 
 
-**artbase.js*
+**artbase.js**
 
 New artbase.js samples include:
 
