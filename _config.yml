@@ -1,20 +1,6 @@
 
-safe: true
+title: "Welcome - Gerald Bauer's Code Monkey Diary / Updates - What's News?"
 
 exclude: [old_webby_sites, README.md]
 
-
-## NB: use kramdown
-markdown: kramdown
-
-## NB:  jekyll 0.11.0 does NOT support redcarpet2 (or even redcarpet?)
-##
-##  switch from default maruku to kramdown if that is working? w/ GitHub pages??
-
-# markdown: redcarpet
-
-# markdown: redcarpet
-#
-#redcarpet:
-#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
