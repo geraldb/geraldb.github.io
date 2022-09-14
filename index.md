@@ -5,7 +5,7 @@
 
 Wed., September 21st, 2022 - (FREE) Live Meetup 20 min. Talk  - [**Inside Punkbase - SQLite (SQL.js) In Action @ Stahlstadt.js (Linz, Austria) »**](https://old.reddit.com/r/DIYPunkArt/comments/x9z3tg/upcoming_free_live_meetup_20_mintalk_wed/)
 
-Wed., October 5, 2022  -  (FREE) Live Meetup 30 min.Talk - [**Inside the Billion Dollar $$$ (Crypto) Punk Pixel Heads @ Technologieplauscherl LXXVII (Linz, Austria) »**](https://old.reddit.com/r/DIYPunkArt/comments/xce70l/upcoming_free_live_meetup_30_mintalk_wed_october/)
+Wed., October 5th, 2022  -  (FREE) Live Meetup 30 min.Talk - [**Inside the Billion Dollar $$$ (Crypto) Punk Pixel Heads @ Technologieplauscherl LXXVII (Linz, Austria) »**](https://old.reddit.com/r/DIYPunkArt/comments/xce70l/upcoming_free_live_meetup_30_mintalk_wed_october/)
 
 
 
@@ -31,9 +31,9 @@ See the build.rb samples in the [**artbase.sandbox**](https://github.com/pixelar
 
 New artbase.js samples include:
 
-[**Pudgybase**](https://pixelartexchange.github.io/artbase.js/pudgybase/) (5000 max.) - query pudgy (penguin) metadata & images (28×28px) via sql & more - all-in-one single-file sqlite database
+[**Pudgybase**](https://pixelartexchange.github.io/artbase.js/pudgybase/) (5000 max.) - query pudgy (penguin) metadata & images (28×28px) via sql & more - download all-in-one single-file sqlite database
 
-[**Unemployablebase**](https://pixelartexchange.github.io/artbase.js/unemployablebase/) (5000 max.) - query unemployable metadata & images (24×24px) via sql & more - all-in-one single-file sqlite database
+[**Unemployablebase**](https://pixelartexchange.github.io/artbase.js/unemployablebase/) (5000 max.) - query unemployable metadata & images (24×24px) via sql & more - download all-in-one single-file sqlite database
 
 and more
 
