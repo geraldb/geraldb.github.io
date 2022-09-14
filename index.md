@@ -40,4 +40,7 @@ and more
 Note: Yes, the readymade artbase.db for easy download are built with the new artbase build machinery (see above). 
 
 
+**Questions? Comments?**
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
 
