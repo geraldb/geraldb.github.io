@@ -17,11 +17,10 @@ About a month ago I reported the breaking news story [**Breaking News: Proof's M
 this Monday the Proof Collective published all official 42x42px attributes for the moonbirds 
 (incl. all legendaries) on github.  To celebrate  I added a copy of the official attributes in the /attributes-official directory
 in the [**moonbirds.sandbox**](https://github.com/pixelartexchange/moonbirds.sandbox).
-
-As a bonus a added a new [**generate_legendary script**](https://github.com/pixelartexchange/moonbirds.sandbox/blob/master/moonbirds/generate_legendary.rb) to generate a small batch of  legendary moonbirds (e.g. 
-![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds/i/moonbird6949.png) no. 6949, 
-![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds/i/moonbird7473.png) no. 7473, 
-![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds/i/moonbird2941.png) no. 2941) from scratch (using the official attributes).
+As a bonus I added a new [**generate_legendary script**](https://github.com/pixelartexchange/moonbirds.sandbox/blob/master/moonbirds/generate_legendary.rb) to generate a first small sample batch of  legendary moonbirds (e.g. 
+no. 6949 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds/i/moonbird6949.png), 
+no. 7473 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds/i/moonbird7473.png), 
+no. 2941 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds/i/moonbird2941.png)) from scratch (using the official attributes).
 
 
 **artbase**
