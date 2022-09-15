@@ -9,11 +9,11 @@ Wed., October 5th, 2022  -  (FREE) Live Meetup 30 min.Talk - [**Inside the Billi
 
 
 
-##  Week of Monday, September 12th to Sunday, September 18th, 2022
+##  Week 37 - Monday, September 12th to Sunday, September 18th, 2022
 
 **moonbirds**
 
-About a month ago I reported the breaking news story [**Breaking News: Proof's Moonbirds Token Images Officialy Declared Public Domain (No Rights Reserved) under Creative Commons Zero (CC0) Dedication by Kevin Rose (Chief of Proof) - Thank You!**](https://old.reddit.com/r/DIYPunkArt/comments/who4wm/breaking_news_proofs_moonbirds_token_images/) and
+About a month ago I reported the breaking news story [**Proof's Moonbirds Token Images Officialy Declared Public Domain (No Rights Reserved) under Creative Commons Zero (CC0) Dedication by Kevin Rose (Chief of Proof) - Thank You!**](https://old.reddit.com/r/DIYPunkArt/comments/who4wm/breaking_news_proofs_moonbirds_token_images/) and
 this Monday the Proof Collective published all official 42x42px attributes for the moonbirds 
 (incl. all legendaries) on github.  To celebrate  I added a copy of the official attributes in the /attributes-official directory
 in the [**moonbirds.sandbox**](https://github.com/pixelartexchange/moonbirds.sandbox).
