@@ -11,6 +11,19 @@ Wed., October 5th, 2022  -  (FREE) Live Meetup 30 min.Talk - [**Inside the Billi
 
 ##  Week of Monday, September 12th to Sunday, September 18th, 2022
 
+**moonbirds**
+
+About a month ago I reported the breaking news story [**Breaking News: Proof's Moonbirds Token Images Officialy Declared Public Domain (No Rights Reserved) under Creative Commons Zero (CC0) Dedication by Kevin Rose (Chief of Proof) - Thank You!**](https://old.reddit.com/r/DIYPunkArt/comments/who4wm/breaking_news_proofs_moonbirds_token_images/) and
+this Monday the Proof Collective published all official 42x42px attributes for the moonbirds 
+(incl. all legendaries) on github.  To celebrate  I added a copy of the official attributes in the /attributes-official directory
+in the [**moonbirds.sandbox**](https://github.com/pixelartexchange/moonbirds.sandbox).
+
+As a bonus a added a new [**generate_legendary script**](https://github.com/pixelartexchange/moonbirds.sandbox/blob/master/moonbirds/generate_legendary.rb) to generate a small batch of  legendary moonbirds (e.g. 
+![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds/i/moonbird6949.png) no. 6949, 
+![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds/i/moonbird7473.png) no. 7473, 
+![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds/i/moonbird2941.png) no. 2941) from scratch (using the official attributes).
+
+
 **artbase**
 
 I added a new build command to the artbase comand-line tool / library
@@ -24,7 +37,7 @@ $ artbase goblintown build
 ```
 
 Note: For now the build command REQUIRES a build.rb configuration script that defines the (metadata) columns / schema.
-See the build.rb samples in the [**artbase.sandbox**](https://github.com/pixelartexchange/artbase.sandbox) for real-world examples incl. pudgies, unemployable, goblintown, etc.
+See the build.rb scripts in the [**artbase.sandbox**](https://github.com/pixelartexchange/artbase.sandbox) for real-world examples incl. pudgies, unemployable, goblintown, etc.
 
 
 **artbase.js**
