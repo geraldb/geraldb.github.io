@@ -22,6 +22,8 @@ no. 6949 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/mo
 no. 7473 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds/i/moonbird7473.png), 
 no. 2941 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds/i/moonbird2941.png)) from scratch (using the official attributes).
 
+**Update**  I added a new [**generate_official script**](https://github.com/pixelartexchange/moonbirds.sandbox/blob/master/moonbirds/generate_official.rb) to (re)generate all 10 000 moonbirds from scratch (using the official attributes and official "unofficial" metadata records that incl. beak color, eye color, and more NOT present in the "blockchain" token metadata). 
+
 
 **artbase**
 
