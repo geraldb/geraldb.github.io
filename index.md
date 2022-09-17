@@ -20,7 +20,7 @@ in the [**moonbirds.sandbox**](https://github.com/pixelartexchange/moonbirds.san
 As a bonus I added a new [**generate_legendary script**](https://github.com/pixelartexchange/moonbirds.sandbox/blob/master/moonbirds-official/generate_legendary.rb) to generate a first small sample batch of  legendary moonbirds (e.g. 
 no. 6949 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds-official/i/moonbird6949.png), 
 no. 7473 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds-official/i/moonbird7473.png), 
-no. 2941 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds-official/i/moonbird2941.png)) from scratch (using the official attributes)  plus I added a new [**generate_10000 script**](https://github.com/pixelartexchange/moonbirds.sandbox/blob/master/moonbirds-official/generate_10000.rb) to (re)generate all 10 000 moonbirds from scratch (using the official attributes and official "unofficial" metadata records that incl. beak color, eyes color, and more NOT present in the "blockchain" token metadata). 
+no. 2941 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds-official/i/moonbird2941.png)) from scratch (using the official attributes)  plus I added a new [**generate_10000 script**](https://github.com/pixelartexchange/moonbirds.sandbox/blob/master/moonbirds-official/generate_10000.rb) to (re)generate all 10 000 moonbirds from scratch (using the official attributes and official "unofficial" metadata records that incl. beak color, eyes color, and more NOT present in the official "on-blockchain" token metadata via the official moonbird HTTP API). 
 
 
 **artbase**
