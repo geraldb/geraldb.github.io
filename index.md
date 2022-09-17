@@ -32,20 +32,24 @@ that lets you build all-in-one single-file SQLite databases (e.g. artbase.db). E
 $ artbase pudgies build          # or
 $ artbase unemployable build   
 $ artbase goblintown build
+$ artbase moonbirds build
 # ...
 ```
 
 Note: For now the build command REQUIRES a build.rb configuration script that defines the (metadata) columns / schema.
-See the build.rb scripts in the [**artbase.sandbox**](https://github.com/pixelartexchange/artbase.sandbox) for real-world examples incl. pudgies, unemployable, goblintown, etc.
+See the build.rb scripts in the [**artbase.sandbox**](https://github.com/pixelartexchange/artbase.sandbox)
+or [**moonbirds.sandbox**](https://github.com/pixelartexchange/moonbirds.sandbox) for real-world examples incl. pudgies, unemployable, goblintown, etc.
 
 
 **artbase.js**
 
 New artbase.js samples include:
 
-[**Pudgybase**](https://pixelartexchange.github.io/artbase.js/pudgybase/) (5000 max.) - query pudgy (penguin) metadata & images (28×28px) via sql & more - download all-in-one single-file sqlite database
+[**Moonbirdbase**](https://pixelartexchange.github.io/artbase.js/moonbirdbase/) (10000 max.)  - query moonbird (pixel owl) metadata & images (42×42px) via sql & more - download  all-in-one single-file sqlite database (~9MB)
 
-[**Unemployablebase**](https://pixelartexchange.github.io/artbase.js/unemployablebase/) (5000 max.) - query unemployable metadata & images (24×24px) via sql & more - download all-in-one single-file sqlite database
+[**Pudgybase**](https://pixelartexchange.github.io/artbase.js/pudgybase/) (5000 max.) - query pudgy (penguin) metadata & images (28×28px) via sql & more - download all-in-one single-file sqlite database (~5MB)
+
+[**Unemployablebase**](https://pixelartexchange.github.io/artbase.js/unemployablebase/) (5000 max.) - query unemployable metadata & images (24×24px) via sql & more - download all-in-one single-file sqlite database (~2MB)
 
 and more
 
