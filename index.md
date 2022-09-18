@@ -8,6 +8,29 @@ Wed., September 21st, 2022 - (FREE) Live Meetup 20 min. Talk  - [**Inside Punkba
 Wed., October 5th, 2022  -  (FREE) Live Meetup 30 min.Talk - [**Inside the Billion Dollar $$$ (Crypto) Punk Pixel Heads @ Technologieplauscherl LXXVII (Linz, Austria) »**](https://old.reddit.com/r/DIYPunkArt/comments/xce70l/upcoming_free_live_meetup_30_mintalk_wed_october/)
 
 
+##  Week 38 - Monday, September 19th to Sunday, September 25th, 2022
+
+**moonbirds**
+
+To wrap-up work on the newly published all official 42x42px attributes for the moonbirds by Proof Collective (on github)
+I put together an all-in-one spritesheet, that is, spritesheet_v1-42x42.png:
+
+![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds-official/i/spritesheet_v1-42x42.png)
+
+See the spritesheet in action! I added a new Moonbird V1 image generator to the 
+[**moonbirds (image generator) library / gem**](https://github.com/pixelartexchange/pixelart/tree/master/moonbirds).
+
+Moonbirds V1 Trivia (Did You Know?) Aside -  Easter eggs - The official
+attributes include about a dozen super-rare never-before-seen (& used)
+legendary attributes (eyes, eyewear, headwear) for cosmic, enlightened, & jade moonbirds (incl. a unicorn horn!). 
+
+
+
+
+**Questions? Comments?**
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
+
 
 ##  Week 37 - Monday, September 12th to Sunday, September 18th, 2022
 
@@ -55,8 +78,4 @@ and more
 
 Note: Yes, the readymade artbase.db for easy download samples are built with the new artbase build machinery (see above). 
 
-
-**Questions? Comments?**
-
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
 
