@@ -33,7 +33,7 @@ and two weeks later the email confirmed that we don't want to ever see you again
 
 For the record - here's my little public blockchain research corner online - [**Blockchain! Blockchain! Blockchain!**](https://github.com/openblockchains) - among many others - 
 and here's the million dollar research center - [**Austrian Blockchain Center (ABC)**](https://www.abc-research.at) - with no public code or anything - the best to find is some public discussion / debate 
-panels. No warning that blockchain is (mostly) a narrative to scam and fill your own pocket or anything.
+panel recordings. No warning that blockchain is (mostly) a narrative to scam and fill your own pocket or anything.
 Guess what - the Austrian blockchain researcher are top quality (scammers) - and, yes, the pocket the "research" money from the state and
 from private companies. Bingo!
 
