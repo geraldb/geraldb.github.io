@@ -39,7 +39,7 @@ from private companies. Bingo!
 
 Note:  For fairness (I am always happy to be proven wrong) I sent an email to  Klaus Pirklbauer, the blockchain fraudster-in-chief,
 and  - Stefan Craß, the no-code blockchain researcher - and the ABC office asking "Where's the (Blockchain) Code?" and to help
-with setting the record straight.  Response?   I keep you posted ;-) stay tuned.            
+with setting the record straight.  Response?  I keep you posted - stay tuned ;-).
 
 
 **moonbirds**
