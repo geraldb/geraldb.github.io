@@ -10,6 +10,35 @@ Wed., October 5th, 2022  -  (FREE) Live Meetup 30 min.Talk - [**Inside the Billi
 
 ##  Week 38 - Monday, September 19th to Sunday, September 25th, 2022
 
+**blockchain research / corruption**
+
+Austria has an "official" Austrian Blockchain Center for Research and according to the website
+the researchers (or is it fraudsters?) that are always looking for "Blockchain Researcher (junior or senior)"
+and even posting:
+
+> If you haven't found the right job offer here,
+> but you are convinced that your skills are a perfect match for ABC Research, 
+> then you are welcome to apply for a job at ABC.
+
+Believe it or not - I applied already twice - the first time back in May I got back a (standard) response
+that sorry we plan to fill the open position with a women.   Now this crypto winter (or is it this summer?)
+I checked back and saw all this new or (fake?) open blockchain positions and applied again and
+after no response all August I got an invitation in September for an in-person interview from 9:30 to 11:00h.
+
+While the two all-female secretaries were friendly and welcome
+the interview with the two all-male "researchers" - Klaus Pirklbauer, the blockchain fraudster-in-chief,
+and  - Stefan Craß, the no-code blockchain researcher - 
+soon went downhill and I got practically thrown out after about half an hour (the official time slot was an hour and half)
+and two weeks later the email confirmed that we don't want to ever see you again!
+
+For the record - here's my little public blockchain reseach corner online - [**Blockchain! Blockchain! Blockchain!**](https://github.com/openblockchains) - among many others - 
+and here's the million dollar research center - [**Austrian Blockchain Center (ABC)**](https://www.abc-research.at) - with no public code or anything - the best to find is some public discussion / debate 
+panels. No warning that blockchain is (mostly) a narrative to scam and fill your own pocket or anything.
+Guess what - the Austrian blockchain researcher are top quality (scammers) - and, yes, the pocket the "research" money from the state and
+from private companies. Bingo!
+
+
+
 **moonbirds**
 
 To wrap-up work on the newly published all official 42x42px attributes for the moonbirds by Proof Collective (on github)
