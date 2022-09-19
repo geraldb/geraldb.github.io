@@ -13,7 +13,7 @@ Wed., October 5th, 2022  -  (FREE) Live Meetup 30 min.Talk - [**Inside the Billi
 **blockchain research / corruption**
 
 Austria has an "official" Austrian Blockchain Center for Research and according to the website
-the researchers (or is it fraudsters?) that are always looking for "Blockchain Researcher (junior or senior)"
+the researchers (or is it fraudsters?)  are always looking for "Blockchain Researcher (junior or senior)"
 and even posting:
 
 > If you haven't found the right job offer here,
@@ -31,7 +31,7 @@ and  - Stefan Craß, the no-code blockchain researcher -
 soon went downhill and I got practically thrown out after about half an hour (the official time slot was an hour and half)
 and two weeks later the email confirmed that we don't want to ever see you again!
 
-For the record - here's my little public blockchain reseach corner online - [**Blockchain! Blockchain! Blockchain!**](https://github.com/openblockchains) - among many others - 
+For the record - here's my little public blockchain research corner online - [**Blockchain! Blockchain! Blockchain!**](https://github.com/openblockchains) - among many others - 
 and here's the million dollar research center - [**Austrian Blockchain Center (ABC)**](https://www.abc-research.at) - with no public code or anything - the best to find is some public discussion / debate 
 panels. No warning that blockchain is (mostly) a narrative to scam and fill your own pocket or anything.
 Guess what - the Austrian blockchain researcher are top quality (scammers) - and, yes, the pocket the "research" money from the state and
