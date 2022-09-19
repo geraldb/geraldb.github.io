@@ -37,6 +37,9 @@ panel recordings. No warning that blockchain is (mostly) a narrative to scam and
 Guess what - the Austrian blockchain researcher are top quality (scammers) - and, yes, they pocket the "research" money from the state and
 from private companies. Bingo!
 
+Note:  For fairness (I am always happy to be proven wrong) I sent an email to  Klaus Pirklbauer, the blockchain fraudster-in-chief,
+and  - Stefan Craß, the no-code blockchain researcher - and the ABC office asking "Where's the (Blockchain) Code?" and to help
+with setting the record straight.  Response?   I keep you posted ;-) stay tuned.            
 
 
 **moonbirds**
