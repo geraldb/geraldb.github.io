@@ -40,7 +40,25 @@ from private companies. Bingo!
 Note:  For fairness (I am always happy to be proven wrong) I sent an email to  Klaus Pirklbauer, the blockchain fraudster-in-chief,
 and  - Stefan Craß, the no-code blockchain researcher - and the ABC office asking "Where's the (Blockchain) Code?" and to help
 with setting the record straight.  Response?  I keep you posted - stay tuned. (Update: Tue Sept/20th) The official response and confirmation is in  and - surprise, surprise - there's no public (blockchain) code online anywhere at best only top-secret private (in-house) code 
-and no reasearch on public blockchains only on private permissioned "blockchains" with proof-of-authority better known as "old-school" databases requiring login credentials for updates.   A simulacrum selling itself as Austria's one-stop top state-of-the-art blockchain research center that is in reality without any expertise on public blockchains whatsoever or any public warnings on the ongoing  private permissioned proof-of-authority blockchain scams (still working in 2022!). You have been warned.     
+and no research on public blockchains only on private permissioned "blockchains" with proof-of-authority better known as "old-school" databases requiring login credentials for updates.   A simulacrum selling itself as Austria's one-stop top state-of-the-art blockchain research center that is in reality without any expertise on public blockchains whatsoever or any public warnings on the ongoing  private permissioned proof-of-authority blockchain scams (still working in 2022!). You have been warned.     
+
+**artbase**
+
+I added a new serve command to the artbase comand-line tool / library
+that lets you query all-in-one single-file SQLite databases (e.g. artbase.db) using a "server-less" web page. Example:
+
+```
+$ artserve pudgies          # defaults / auto-completes to pudgies/artbase.db    -or-
+$ artserve unemployable     # defautts / auto-completes to unemployable/artbase.db 
+$ artserve goblintown       # " "
+$ artserve moonbirds        # " " 
+$ artserve                  # defaults to ./artbase.db
+# ...
+```
+
+Note: For now the (artbase) serve command is packaged up in its own "stand-alone" command line tool called `artserve`.
+For more see the [**artserve page  »**](https://github.com/pixelartexchange/artbase/tree/master/artserve)  
+
 
 
 
