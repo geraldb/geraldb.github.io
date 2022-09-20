@@ -44,8 +44,8 @@ and no research on public blockchains only on private permissioned "blockchains"
 
 **artbase**
 
-I added a new serve command to the artbase comand-line tool / library
-that lets you query all-in-one single-file SQLite databases (e.g. artbase.db) using a "server-less" web page. Example:
+I added a new serve command to the artbase command-line tool
+that lets you query art collections in all-in-one single-file SQLite databases (e.g. artbase.db) using a "server-less" web page. Example:
 
 ```
 $ artserve pudgies          # defaults / auto-completes to pudgies/artbase.db    -or-
