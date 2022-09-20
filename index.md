@@ -25,10 +25,10 @@ that sorry we plan to fill the open position with a women.   Now this crypto win
 I checked back and saw all this new or (fake?) open blockchain positions and applied again and
 after no response all August I got an invitation in September for an in-person interview from 9:30 to 11:00h.
 
-While the two all-female secretaries were friendly and welcome
+While the two all-female secretaries were friendly and welcoming
 the interview with the two all-male "researchers" - Klaus Pirklbauer, the blockchain fraudster-in-chief,
 and  - Stefan Craß, the no-code blockchain researcher - 
-soon went downhill and I got practically thrown out after about half an hour (the official time slot was an hour and half)
+soon went downhill  - I guess talking about open data & open finance and how open source is all about working together (and, yes, researching for the public good) and such didn't really connect and I got practically thrown out after about half an hour (the official time slot was an hour and half)
 and two weeks later the email confirmed that we don't want to ever see you again!
 
 For the record - here's my little public blockchain research corner online - [**Blockchain! Blockchain! Blockchain!**](https://github.com/openblockchains) - among many others - 
@@ -39,7 +39,9 @@ from private companies. Bingo!
 
 Note:  For fairness (I am always happy to be proven wrong) I sent an email to  Klaus Pirklbauer, the blockchain fraudster-in-chief,
 and  - Stefan Craß, the no-code blockchain researcher - and the ABC office asking "Where's the (Blockchain) Code?" and to help
-with setting the record straight.  Response?  I keep you posted - stay tuned ;-).
+with setting the record straight.  Response?  I keep you posted - stay tuned. (Update: Tue Sept/20th) The official respone and confirmation is in  and - surprise, surprise - there's no public (blockchain) code online anywhere at best only top-secret private (in-house) code 
+and no reasearch on public blockchains only on private permissioned "blockchchains" with proof-of-authority better known as "old-school" databases requiring login credentials for updates.   A simulacrum selling itself as Austria's one-stop top state-of-the-art blockchain research center that in reality is without any expertise on public blockchains whatsoever or any public warnings on the ongoing (still working in 2022!) private permissioned proof-of-authority blockchain scams.     
+
 
 
 **moonbirds**
