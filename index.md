@@ -3,12 +3,35 @@
 
 ## Upcoming (In-Person Live) Talks - Join Us
 
-Wed., September 21st, 2022 - (FREE) Live Meetup 20 min. Talk  - [**Inside Punkbase - SQLite (SQL.js) In Action @ Stahlstadt.js (Linz, Austria) »**](https://old.reddit.com/r/DIYPunkArt/comments/x9z3tg/upcoming_free_live_meetup_20_mintalk_wed/)
 
 Wed., October 5th, 2022  -  (FREE) Live Meetup 30 min.Talk - [**Inside the Billion Dollar $$$ (Crypto) Punk Pixel Heads @ Technologieplauscherl LXXVII (Linz, Austria) »**](https://old.reddit.com/r/DIYPunkArt/comments/xce70l/upcoming_free_live_meetup_30_mintalk_wed_october/)
 
 
+
+##  Week 39 - Monday, September 26th to Sunday, Octoboer 2nd, 2022
+
+**artbase**
+
+I started to add a new (global) artbase collection index / registry, that is, 
+[**collections.csv**](https://github.com/pixelartexchange/artbase/blob/master/collections.csv).  The idea is to share 
+known ("built-in") ready-to-use artbase collection configurations / setups  incl. Goblin Town,  Pudgy Penguins, Galactic Aliens, Unfudables, Bears, & many more.
+
+
+
+**Questions? Comments?**
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
+
+
 ##  Week 38 - Monday, September 19th to Sunday, September 25th, 2022
+
+**talks**
+
+Wed., September 21st, 2022 - (FREE) Live Meetup 20 min. Talk  - [**Inside Punkbase - SQLite (SQL.js) In Action @ Stahlstadt.js (Linz, Austria) »**](https://old.reddit.com/r/DIYPunkArt/comments/x9z3tg/upcoming_free_live_meetup_20_mintalk_wed/)
+
+Thank you. Welcoming atmosphere, great oktoberfest (augustiner) beer and questions, & more at the Stahlstadt.js meetup.  
+See [**Stahlstadt.js Talk Notes - Inside Punkbase - SQLite (SQL.js) In Action**](https://github.com/cryptopunksnotdead/punkbase/tree/master/insidepunkbase) to learn more about Punkbase.
+
 
 **blockchain research / corruption**
 
@@ -76,12 +99,6 @@ Moonbirds V1 Trivia (Did You Know?) Aside -  Easter eggs - The official
 attributes include about a dozen super-rare never-before-seen (& used)
 legendary attributes (eyes, eyewear, headwear) for cosmic, enlightened, & jade moonbirds (incl. a unicorn horn!). 
 
-
-
-
-**Questions? Comments?**
-
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
 
 
 ##  Week 37 - Monday, September 12th to Sunday, September 18th, 2022
