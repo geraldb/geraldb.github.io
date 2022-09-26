@@ -8,7 +8,7 @@ Wed., October 5th, 2022  -  (FREE) Live Meetup 30 min.Talk - [**Inside the Billi
 
 
 
-##  Week 39 - Monday, September 26th to Sunday, Octoboer 2nd, 2022
+##  Week 39 - Monday, September 26th to Sunday, October 2nd, 2022
 
 **artbase**
 
