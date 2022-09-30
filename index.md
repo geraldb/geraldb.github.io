@@ -16,6 +16,18 @@ I started to add a new (global) artbase collection index / registry, that is,
 [**collections.csv**](https://github.com/pixelartexchange/artbase/blob/master/collections.csv).  The idea is to share 
 known ("built-in") ready-to-use artbase collection configurations / setups  incl. Goblin Town,  Pudgy Penguins, Galactic Aliens, Unfudables, Bears, & many more.
 
+**opensea (market data)**
+
+I started to collect (market) data via the opensea api  (using the [**artbase opensea api wrapper**](https://github.com/pixelartexchange/artbase/tree/master/artbase-opensea)) on pixel art collections.
+See the new [**/opensea.cache**](https://github.com/pixelartexchange/opensea.cache) that holds the cached datasets, scripts
+and some reports such as [**Top (Ethereum) Pixel Art Collections By Sales**](https://github.com/pixelartexchange/opensea.cache/blob/master/ethereum/TOP.md)
+and [**Top (OpenSea OpenStore) Pixel Art Collections By Sales**](https://github.com/pixelartexchange/opensea.cache/blob/master/openstore/TOP.md) and some more.
+
+
+**ruby lang**
+
+I started an open public [**"great" debate / discussion on ruby enums**](https://github.com/joeldrapper/literal_enums/discussions/3).  Join us. 
+
 
 
 **Questions? Comments?**
