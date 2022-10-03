@@ -8,6 +8,30 @@ Wed., October 5th, 2022  -  (FREE) Live Meetup 30 min.Talk - [**Inside the Billi
 
 
 
+##  Week 40 - Monday, October 3rd to Sunday, October 9th, 2022
+
+
+**opensea (market data)**
+
+I continued to collect (market) data via the opensea api (using the [**artbase opensea api wrapper**](https://github.com/pixelartexchange/artbase/tree/master/artbase-opensea)) on pixel art collections.
+Find more reports that only include punk (pixel art) collections such as [**Top Punk (Pixel Art) Collections By Sales (in Ξ)**](https://github.com/pixelartexchange/opensea.cache/blob/master/ethereum/TOP.md)
+and [**Trending Punk (Pixel Art) Collections (in 30d/7d/1d Sales Volume)**](https://github.com/cryptopunksnotdead/punks.market/blob/master/TRENDING.md) and some more in the [**/punks.market**]() repo.   Want to see a punk (pixel art) collection added?   
+Yes, you can. Post a comment to the punk (pixel) art channel.
+
+**punk sandbox / experiments / how-tos**
+
+How to decode "on-blockchain" (pixel art) attributes?  For an example, see the 24px punk ape (yacht club) collection. 
+I started to add a [**punkapes/decode**](https://github.com/cryptopunksnotdead/punks.sandbox/blob/master/punkapes/decode.rb) script that saves cut-n-paste bytes / blobs (in the .png format)
+queried and returned via the traits_data "on-blockchain" contract function "by-hand" 
+to "off-blockchain" images for easy (re)use.  
+
+
+
+**Questions? Comments?**
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
+
+
 ##  Week 39 - Monday, September 26th to Sunday, October 2nd, 2022
 
 **artbase**
@@ -27,12 +51,6 @@ and [**Top (OpenSea OpenStore) Pixel Art Collections By Sales**](https://github.
 **ruby lang**
 
 I started an open public [**"great" debate / discussion on ruby enums**](https://github.com/joeldrapper/literal_enums/discussions/3).  Join us. 
-
-
-
-**Questions? Comments?**
-
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
 
 
 ##  Week 38 - Monday, September 19th to Sunday, September 25th, 2022
