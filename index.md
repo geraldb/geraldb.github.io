@@ -15,7 +15,7 @@ Wed., October 5th, 2022  -  (FREE) Live Meetup 30 min.Talk - [**Inside the Billi
 
 I continued to collect (market) data via the opensea api (using the [**artbase opensea api wrapper**](https://github.com/pixelartexchange/artbase/tree/master/artbase-opensea)) on pixel art collections.
 Find more reports that only include punk (pixel art) collections such as [**Top Punk (Pixel Art) Collections By Sales (in Ξ)**](https://github.com/pixelartexchange/opensea.cache/blob/master/ethereum/TOP.md)
-and [**Trending Punk (Pixel Art) Collections (in 30d/7d/1d Sales Volume)**](https://github.com/cryptopunksnotdead/punks.market/blob/master/TRENDING.md) and some more in the [**/punks.market**](https://github.com/cryptopunksnotdead/punks.market) repo.   Want to see a punk (pixel art) collection added?   
+and [**Trending Punk (Pixel Art) Collections (in 30d/7d/1d Sales Volume)**](https://github.com/cryptopunksnotdead/punks.market/blob/master/TRENDING.md) and some more in the [**/punks.market**](https://github.com/cryptopunksnotdead/punks.market) repo.   Want to see a punk (pixel art) collection added?
 Yes, you can. Post a comment to the punk (pixel) art channel.
 
 **punk sandbox / experiments / how-tos**
