@@ -22,7 +22,7 @@ No talks upcoming / scheduled.   Always happy to speak at your meetup / camp / c
 
 **talks**
 
-Wed., October 5th, 2022 - (FREE) Live Meetup 20 min. Talk  - [**Inside the Billion Dollar $$$ (Crypto) Punk Pixel Heads @ Technologieplauscherl LXXVII (Linz, Austria) »**](https://old.reddit.com/r/DIYPunkArt/comments/xce70l/upcoming_free_live_meetup_30_mintalk_wed_october/)
+Wed., October 5th, 2022 - (FREE) Live Meetup 20 min. Talk  - Inside the Billion Dollar $$$ (Crypto) Punk Pixel Heads @ [**Technologieplauscherl LXXVII (Linz, Austria) »**](https://technologieplauscherl.at/77/)
 
 Thank you. Welcoming atmosphere, great D.I.Y. (draft-it-yourself) linzer beer & more at the Technologieplauscherl meetup.  
 See the [**Inside the Billion Dollar $$$ (Crypto) Punk Pixel Heads**](https://github.com/cryptopunksnotdead/cryptopunks/tree/master/insidepunks) talk notes to learn more about the pixel punks.
@@ -94,7 +94,7 @@ I started an open public [**"great" debate / discussion on ruby enums**](https:/
 
 **talks**
 
-Wed., September 21st, 2022 - (FREE) Live Meetup 20 min. Talk  - [**Inside Punkbase - SQLite (SQL.js) In Action @ Stahlstadt.js (Linz, Austria) »**](https://old.reddit.com/r/DIYPunkArt/comments/x9z3tg/upcoming_free_live_meetup_20_mintalk_wed/)
+Wed., September 21st, 2022 - (FREE) Live Meetup 20 min. Talk  - Inside Punkbase - SQLite (SQL.js) In Action @ [**Stahlstadt.js (Linz, Austria) »**](https://www.meetup.com/stahlstadt-js/events/288247775/)
 
 Thank you. Welcoming atmosphere, great oktoberfest (augustiner) beer and questions, & more at the Stahlstadt.js meetup.  
 See the [**Inside Punkbase - SQLite (SQL.js) In Action**](https://github.com/cryptopunksnotdead/punkbase/tree/master/insidepunkbase)
