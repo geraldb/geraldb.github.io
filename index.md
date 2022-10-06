@@ -3,7 +3,7 @@
 
 ## Upcoming (In-Person Live) Talks - Join Us
 
-No talks upcoming / scheduled.   Always happy to speak at your meetup / camp / conference - send requests / invites to gerald.bauer @ gmail.com.
+No more talks upcoming / scheduled in October / November / December 2022.   Note: I am always happy to speak at your meetup / camp / conference - send requests / invites to gerald.bauer @ gmail.com.
 
 [**Vienna (Austria) Calling - Yes, You Can! Do-It-Yourself (DIY) Punk Meetup Upcoming in Vienna, Austria If Two People Sign-Up**](https://old.reddit.com/r/DIYPunkArt/comments/x9z7j7/vienna_austria_calling_yes_you_can_doityourself/)
 
