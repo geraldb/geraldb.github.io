@@ -3,12 +3,31 @@
 
 ## Upcoming (In-Person Live) Talks - Join Us
 
+No talks upcoming / scheduled.   Always happy to speak at your meetup - send requests / invites to gerald.bauer @ gmail.com.
 
-Wed., October 5th, 2022  -  (FREE) Live Meetup 30 min.Talk - [**Inside the Billion Dollar $$$ (Crypto) Punk Pixel Heads @ Technologieplauscherl LXXVII (Linz, Austria) »**](https://old.reddit.com/r/DIYPunkArt/comments/xce70l/upcoming_free_live_meetup_30_mintalk_wed_october/)
+[**Vienna (Austria) Calling - Yes, You Can! Do-It-Yourself (DIY) Punk Meetup Upcoming in Vienna, Austria If Two People Sign-Up**](https://old.reddit.com/r/DIYPunkArt/comments/x9z7j7/vienna_austria_calling_yes_you_can_doityourself/)
+
+> If there's any interest I am happy to meet up in a Viennesse Cafe / Coffee House in Vienna, Austria (Central Europe) 
+> this October.   
+>
+>  If anyone has a prefered date or location (coffee house, beer pub, etc.), please tell.
+>
+> If we can get two sign-ups, it's a go.   
+>
+> Yes, you can. Post your questions and comments here.
 
 
 
 ##  Week 40 - Monday, October 3rd to Sunday, October 9th, 2022
+
+**talks**
+
+Wed., October 5th, 2022 - (FREE) Live Meetup 20 min. Talk  - [**Inside the Billion Dollar $$$ (Crypto) Punk Pixel Heads @ Technologieplauscherl LXXVII (Linz, Austria) »**](https://old.reddit.com/r/DIYPunkArt/comments/xce70l/upcoming_free_live_meetup_30_mintalk_wed_october/)
+
+Thank you. Welcoming atmosphere, great D.I.Y. (draft-it-yourself) linzer beer & more at the Technologieplauscherl meetup.  
+See the [**Inside the Billion Dollar $$$ (Crypto) Punk Pixel Heads**](https://github.com/cryptopunksnotdead/cryptopunks/tree/master/insidepunks) talk notes to learn more about the pixel punks.
+
+
 
 **smileys**
 
@@ -78,7 +97,8 @@ I started an open public [**"great" debate / discussion on ruby enums**](https:/
 Wed., September 21st, 2022 - (FREE) Live Meetup 20 min. Talk  - [**Inside Punkbase - SQLite (SQL.js) In Action @ Stahlstadt.js (Linz, Austria) »**](https://old.reddit.com/r/DIYPunkArt/comments/x9z3tg/upcoming_free_live_meetup_20_mintalk_wed/)
 
 Thank you. Welcoming atmosphere, great oktoberfest (augustiner) beer and questions, & more at the Stahlstadt.js meetup.  
-See [**Stahlstadt.js Talk Notes - Inside Punkbase - SQLite (SQL.js) In Action**](https://github.com/cryptopunksnotdead/punkbase/tree/master/insidepunkbase) to learn more about Punkbase.
+See the [**Inside Punkbase - SQLite (SQL.js) In Action**](https://github.com/cryptopunksnotdead/punkbase/tree/master/insidepunkbase)
+talk notes to learn more about Punkbase.
 
 
 **blockchain research / corruption**
