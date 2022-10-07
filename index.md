@@ -31,20 +31,20 @@ See the [**Inside the Billion Dollar $$$ (Crypto) Punk Pixel Heads**](https://gi
 
 **smileys**
 
-I started putting together [**smileys - a new image generation gem / library that lets you generate smileys**](https://github.com/pixelartexchange/pixelart/tree/master/smileys) 
+I started putting together [**smileys - a new image generation gem / library that lets you generate smileys**](https://github.com/profilepic/text-to-image/tree/master/smileys) 
 in four size variants (with circle diameters of 15px, 16px, 17px & 20px) all placed in a 24x24px canvas.
 See the smileys/spritesheet_dia16-24x24px.png for the first attributes (incl. base smileys in green, greener, orange, red, white & yellow 
 with or without black outlines).
 
-![](https://github.com/pixelartexchange/pixelart/raw/master/smileys/config/spritesheet_dia16-24x24.png)
+![](https://github.com/profilepic/text-to-image/raw/master/smileys/config/spritesheet_dia16-24x24.png)
 
 For example, `Smiley::Image.generate( 'Yellow', 'Open', 'Smile')` results in 
-![](https://github.com/pixelartexchange/pixelart/raw/master/smileys/i/smiley1.png)
-![](https://github.com/pixelartexchange/pixelart/raw/master/smileys/i/smiley1b.png)
+![](https://github.com/profilepic/text-to-image/raw/master/smileys/i/smiley1.png)
+![](https://github.com/profilepic/text-to-image/raw/master/smileys/i/smiley1b.png)
 and `Smiley::Image.generate( 'Greener', 'Shades', 'Grin (Right)' )`
 results in
-![](https://github.com/pixelartexchange/pixelart/raw/master/smileys/i/smiley2.png)
-![](https://github.com/pixelartexchange/pixelart/raw/master/smileys/i/smiley2b.png).
+![](https://github.com/profilepic/text-to-image/raw/master/smileys/i/smiley2.png)
+![](https://github.com/profilepic/text-to-image/raw/master/smileys/i/smiley2b.png).
 
 
 
