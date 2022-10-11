@@ -64,9 +64,26 @@ to "off-blockchain" images for easy (re)use.
 
 
 
+
+##  Week 41 - Monday, October 10th to Sunday, October 16th, 2022
+
+
+**readymades (punk 1/1s)**
+
+I updated [**readymades - a image generation gem / library that lets your generate (readymade) punk 1/1s**](https://github.com/profilepic/text-to-image/tree/master/readymades).
+Some samples include:   
+![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/will.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/will2.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/will3.png)   
+![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/mao.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/mao2.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/mao3.png) 
+![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/bart.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/bart2.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/bart3.png) 
+![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/snoop.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/snoop2.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/snoop3.png)
+
+
 **Questions? Comments?**
 
 Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
+
+
+
 
 
 ##  Week 39 - Monday, September 26th to Sunday, October 2nd, 2022
