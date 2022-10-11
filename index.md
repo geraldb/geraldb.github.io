@@ -26,7 +26,7 @@ No more talks upcoming / scheduled in October / November / December 2022.   Note
 
 **readymades (punk 1/1s)**
 
-I updated [**readymades - a image generation gem / library that lets your generate (readymade) punk 1/1s**](https://github.com/profilepic/text-to-image/tree/master/readymades).
+I updated [**readymades - an image generation gem / library that lets you generate (readymade) punk 1/1s**](https://github.com/profilepic/text-to-image/tree/master/readymades).
 Some samples include:   
 ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/will.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/will2.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/will3.png)
 ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/mao.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/mao2.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/mao3.png)
