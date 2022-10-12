@@ -28,11 +28,11 @@ No more talks upcoming / scheduled in October / November / December 2022.   Note
 For the upcoming "punk me" image generation gem / library I am putting together
 [**free skin tone color palettes**](https://github.com/profilepic/skintone). The first batch include:
 
-ye olde punks  (4 skin tones)  - see [ye_olde_ounks.csv](https://github.com/profilepic/skintone/blob/master/ye_olde_punks.csv) 
+ye olde punks  (4 skin tones)  - see [skintone/ye_olde_punks.csv](https://github.com/profilepic/skintone/blob/master/ye_olde_punks.csv) <br> 
 ![](https://github.com/profilepic/skintone/raw/master/i/ye_olde_punks.png) <br>
-dr ellis monk  (10 skin tones)  - see [dr_ellis_monk.csv](https://github.com/profilepic/skintone/blob/master/dr_ellis_monk.csv) 
+dr ellis monk  (10 skin tones)  - see [skintone/dr_ellis_monk.csv](https://github.com/profilepic/skintone/blob/master/dr_ellis_monk.csv) <br>
 ![](https://github.com/profilepic/skintone/raw/master/i/dr_ellis_monk.png) <br>
-punk's not dead  (30 skin tones)  - see [punks_not_dead.csv](https://github.com/profilepic/skintone/blob/master/punks_not_dead.csv) 
+punk's not dead  (30 skin tones)  - see [skintone/punks_not_dead.csv](https://github.com/profilepic/skintone/blob/master/punks_not_dead.csv) <br>
 ![](https://github.com/profilepic/skintone/raw/master/i/punks_not_dead.png)
 
 
