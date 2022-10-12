@@ -23,6 +23,18 @@ No more talks upcoming / scheduled in October / November / December 2022.   Note
 
 ##  Week 41 - Monday, October 10th to Sunday, October 16th, 2022
 
+**punk me - skin tones**
+
+For the upcoming "punk me" image generation gem / library I am putting together
+[**free skin tone color palettes**](https://github.com/profilepic/skintone). The first batch include:
+
+ye olde punks  (4 skin tones)  - see [ye_olde_ounks.csv](https://github.com/profilepic/skintone/blob/master/ye_olde_punks.csv) 
+![](https://github.com/profilepic/skintone/raw/master/i/ye_olde_punks.png) <br>
+dr ellis monk  (10 skin tones)  - see [dr_ellis_monk.csv](https://github.com/profilepic/skintone/blob/master/dr_ellis_monk.csv) 
+![](https://github.com/profilepic/skintone/raw/master/i/dr_ellis_monk.png) <br>
+punk's not dead  (30 skin tones)  - see [punks_not_dead.csv](https://github.com/profilepic/skintone/blob/master/punks_not_dead.csv) 
+![](https://github.com/profilepic/skintone/raw/master/i/punks_not_dead.png)
+
 
 **readymades (punk 1/1s)**
 
