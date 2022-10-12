@@ -26,7 +26,8 @@ No more talks upcoming / scheduled in October / November / December 2022.   Note
 **punk me - skin tones**
 
 For the upcoming "punk me" image generation gem / library I am putting together
-[**free skin tone color palettes**](https://github.com/profilepic/skintone). The first batch include:
+[**free skin tone color palettes**](https://github.com/profilepic/skintone) for easy (re)use in the comma-separated values (.csv) format. 
+The first batch include:
 
 ye olde punks  (4 skin tones)  - see [skintone/ye_olde_punks.csv](https://github.com/profilepic/skintone/blob/master/ye_olde_punks.csv) <br> 
 ![](https://github.com/profilepic/skintone/raw/master/i/ye_olde_punks.png) <br>
