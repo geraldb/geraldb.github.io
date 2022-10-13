@@ -37,9 +37,9 @@ incl. mario, black cat, nyan cat, owl (sitting on a branch), and more.
 ![](https://github.com/pixelartexchange/pixelart/raw/master/programming-pixelart/i/nyan_cat.png)
 
 
-**factory of modern orginals (FoMA)**
+**factory of modern orginals (FoMO)**
 
-I added a bunch of text-to-image generators to the [**Factory of Modern Originals (FoMa)**](https://github.com/profilepic/originals)
+I added a bunch of text-to-image generators to the [**Factory of Modern Originals (FoMO)**](https://github.com/profilepic/originals)
 incl. Cyberpunks, Readymades (Punk 1/1s), Goblins, Smileys, & more.  Yes, you can!
 Fab(ricate) your own pixel art originals via text prompts. Example:
 
