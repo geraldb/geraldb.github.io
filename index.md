@@ -23,9 +23,43 @@ No more talks upcoming / scheduled in October / November / December 2022.   Note
 
 ##  Week 41 - Monday, October 10th to Sunday, October 16th, 2022
 
-**punk me - skin tones**
+**programming pixelart**
 
-For the upcoming "punk me" image generation gem / library I am putting together
+Using the Creating Pixel Art by Gray Wolf @ Khan Academy course I added to the new [**/programming pixelart**](https://github.com/pixelartexchange/pixelart/tree/master/programming-pixelart) 
+section a bunch of pixel art samples
+incl. mario, black cat, nyan cat, owl (sitting on a branch), and more.
+
+![](https://github.com/pixelartexchange/pixelart/raw/master/programming-pixelart/i/mario.png)
+![](https://github.com/pixelartexchange/pixelart/raw/master/programming-pixelart/i/cat.png)
+![](https://github.com/pixelartexchange/pixelart/raw/master/programming-pixelart/i/among_us.png)
+![](https://github.com/pixelartexchange/pixelart/raw/master/programming-pixelart/i/black_cat.png)
+![](https://github.com/pixelartexchange/pixelart/raw/master/programming-pixelart/i/owl.png)
+![](https://github.com/pixelartexchange/pixelart/raw/master/programming-pixelart/i/nyan_cat.png)
+
+
+**factory of modern orginals (FoMA)**
+
+I added a bunch of text-to-image generators to the [**Factory of Modern Originals (FoMa)**](https://github.com/profilepic/originals)
+incl. Cyberpunks, Readymades (Punk 1/1s), Goblins, Smileys, & more.  Yes, you can!
+Fab(ricate) your own pixel art originals via text prompts. Example:
+
+     $ fab smiley            # -or-
+     $ fab will 3d_glasses   # -or-
+     $ fab snoopdogg  vr     # -or-
+     $ fab goblin             
+     # ...
+
+Tip:  Use the (undocumented) ls/list command to list all registered (built-in) text-to-image generators. Try:
+
+     $ fab ls   # -or-
+     $ fab list
+
+Resulting in twenty-one (21) text-to-image generator as of Oct 13th.
+
+
+**punk me! - skin tones**
+
+For the upcoming "punk me!" image generation gem / library I am putting together
 [**free skin tone color palettes**](https://github.com/profilepic/skintone) for easy (re)use in the comma-separated values (.csv) format. 
 The first batch include:
 
