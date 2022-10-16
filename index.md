@@ -49,7 +49,7 @@ for making your own "fully body" pixel avatars?
 
 Anyways,  I started  restoring and preserving dollz mania (pixel) art.
 See the new [**Dollz Mania**](https://github.com/dollzmania) org at github.
-The first [**/dollz.sandbox**]() repo collects dollz "props" from various collections / sets  (thanks 
+The first [**/dollz.sandbox**](https://github.com/dollzmania/dollz.sandbox) repo collects dollz "props" from various collections / sets  (thanks 
 to the Internet / Web Archive and the Wayback Machine).
 See
 [**Dollz №1**](https://github.com/dollzmania/dollz.sandbox/tree/master/no1), 
