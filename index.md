@@ -35,9 +35,9 @@ No more talks upcoming / scheduled in October / November / December 2022.   Note
 
 Anyone remember dollz mania in the 2000s?   I don't ;-). I guess it was mostly a teenage girl craze - 
 but now in 2022 with 24x24 pixel art 
-turning into million dollar "fine art"   -  
+turning into million dollar "fine art"   -
 the do-it-yourself (D.I.Y.)  - yes, you can - make your 
-own free (pixel) "full body" avatars  ([said to have started in 1997 by The Place](https://dollzmania.neocities.org/history/history-overview.html))? 
+own free (pixel) "full body" avatars  ([said to have started in 1997 by The Place](https://dollzmania.neocities.org/history/history-overview.html))
 via dragging & dropping  the "props" ontop of each other  -
 are putting the (crypto bro) punk pixel "artwork" and movement in a different light. 
 Where are the hundred of free d.i.y. punk makers (compared to the dollz makers)? 
@@ -50,8 +50,8 @@ for making your own "fully body" pixel avatars?
 Anyways,  I started  restoring and preserving dollz mania (pixel) art.
 See the new [**Dollz Mania**](https://github.com/dollzmania) org at github.
 The first [**/dollz.sandbox**]() repo collects dollz "props" from various collections / sets  (thanks 
-to the Internet / Web Archive and the Wayback Machine).   
-See 
+to the Internet / Web Archive and the Wayback Machine).
+See
 [**Dollz №1**](https://github.com/dollzmania/dollz.sandbox/tree/master/no1), 
 [**Dollz №2**](https://github.com/dollzmania/dollz.sandbox/tree/master/no2), 
 [**Dollz №3**](https://github.com/dollzmania/dollz.sandbox/tree/master/no3), and so on 
