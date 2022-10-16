@@ -18,6 +18,50 @@ No more talks upcoming / scheduled in October / November / December 2022.   Note
 
 
 
+##  Week 42 - Monday, October 17th to Sunday, October 23rd, 2022
+
+**dollz mania (pixel) art restoration / preservation**
+
+![](https://github.com/dollzmania/dollz.sandbox/raw/master/no1/prepprops/blond135.png)
+![](https://github.com/dollzmania/dollz.sandbox/raw/master/no1/prepprops/blond167.png)
+![](https://github.com/dollzmania/dollz.sandbox/raw/master/no1/prepprops/blond181.png)
+![](https://github.com/dollzmania/dollz.sandbox/raw/master/no1/prepprops/blond2.png)
+![](https://github.com/dollzmania/dollz.sandbox/raw/master/no1/prepprops/blonde3.png)
+![](https://github.com/dollzmania/dollz.sandbox/raw/master/no1/prepprops/blonde4.png)
+![](https://github.com/dollzmania/dollz.sandbox/raw/master/no1/prepprops/blondeglasses.png)
+![](https://github.com/dollzmania/dollz.sandbox/raw/master/no1/prepprops/blondehoeriesloeriehoofd.png)
+![](https://github.com/dollzmania/dollz.sandbox/raw/master/no1/prepprops/blondjerules.png)
+
+
+Anyone remember dollz mania in the 2000s?   I don't ;-). I guess it was mostly a teenage girl craze - 
+but now in 2022 with 24x24 pixel art 
+turning into million dollar "fine art"   -  
+the do-it-yourself (D.I.Y.)  - yes, you can - make your 
+own free (pixel) "full body" avatars  ([said to have started in 1997 by The Place](https://dollzmania.neocities.org/history/history-overview.html))? 
+via dragging & dropping  the "props" ontop of each other  -
+are putting the (crypto bro) punk pixel "artwork" and movement in a different light. 
+Where are the hundred of free d.i.y. punk makers (compared to the dollz makers)? 
+Or where are the hundred (or even thousands) of free "props", that is, head props, hair props, 
+ tops & capes, dresses, bottoms, shoes & socks, wings, specials, accessories, and on and on
+for making your own "fully body" pixel avatars?
+
+
+
+Anyways,  I started  restoring and preserving dollz mania (pixel) art.
+See the new [**Dollz Mania**](https://github.com/dollzmania) org at github.
+The first [**/dollz.sandbox**]() repo collects dollz "props" from various collections / sets  (thanks 
+to the Internet / Web Archive and the Wayback Machine).   
+See 
+[**Dollz №1**](https://github.com/dollzmania/dollz.sandbox/tree/master/no1), 
+[**Dollz №2**](https://github.com/dollzmania/dollz.sandbox/tree/master/no2), 
+[**Dollz №3**](https://github.com/dollzmania/dollz.sandbox/tree/master/no3), and so on 
+for some pixel art "props" samples (what almost has been lost). 
+   
+
+
+**Questions? Comments?**
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
 
 
 
@@ -79,12 +123,6 @@ Some samples include:
 ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/mao.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/mao2.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/mao3.png)
 ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/bart.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/bart2.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/bart3.png)
 ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/snoop.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/snoop2.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/snoop3.png)
-
-
-**Questions? Comments?**
-
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
-
 
 
 
