@@ -5,17 +5,6 @@
 
 No more talks upcoming / scheduled in October / November / December 2022.   Note: I am always happy to speak at your meetup / camp / conference - send requests / invites to gerald.bauer @ gmail.com.
 
-[**Vienna (Austria) Calling - Yes, You Can! Do-It-Yourself (DIY) Punk Meetup Upcoming in Vienna, Austria If Two People Sign-Up**](https://old.reddit.com/r/DIYPunkArt/comments/x9z7j7/vienna_austria_calling_yes_you_can_doityourself/)
-
-> If there's any interest I am happy to meet up in a Viennesse Cafe / Coffee House in Vienna, Austria (Central Europe) 
-> this October.   
->
->  If anyone has a prefered date or location (coffee house, beer pub, etc.), please tell.
->
-> If we can get two sign-ups, it's a go.   
->
-> Yes, you can. Post your questions and comments here.
-
 
 
 ##  Week 42 - Monday, October 17th to Sunday, October 23rd, 2022
