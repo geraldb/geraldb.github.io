@@ -6,6 +6,36 @@
 No more talks upcoming / scheduled in October / November / December 2022.   Note: I am always happy to speak at your meetup / camp / conference - send requests / invites to gerald.bauer @ gmail.com.
 
 
+## Week 43 - Monday, October 24th to Sunday, October 30th, 2022
+
+**learn pixel art (re)org**
+
+It's time (again) for a (github) reorg. 
+I moved (almost) all pixel art libraries - in javascript, ruby, go (upcoming via artbase.server), etc. - 
+and all pixel art how-tos and quick starter templates 
+to the new [**Learn Pixel Art org @ github**](https://github.com/learnpixelart), that is, /learnpixelart.
+
+
+**quiz mania**
+
+Image generation via text prompts is the latest A.I. craze (e.g. DALL·E 2, Midjourney, et al). 
+For fun I started to put together a punk (text prompt-to-image) quiz to "train your memory" 
+or to show-off your punk (image) I.Q.  
+Can you find the matching punk (image art work) for "Male 1 • Normal Beard • Earring • Mohawk Dark"?   A/B/C/D?   
+Try the [**Matt & John's® Ye Olde' Punks Quiz**](https://cryptopunksnotdead.github.io/punks.js/quiz/punks) 
+or try the [**1000 More Punks Quiz**](https://cryptopunksnotdead.github.io/punks.js/quiz/morepunks).
+
+Bonus:  Try the [**24px Cool Cats Quiz**](https://learnpixelart.github.io/pixelart.js/quiz/coolcats) 
+or the [**28px Bored Apes Quiz**](https://learnpixelart.github.io/pixelart.js/quiz/boredapes) or - yes, you can! - 
+put together [**your own quiz**](https://github.com/learnpixelart/pixelart.js).
+
+
+**Questions? Comments?**
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
+
+
+
 
 ##  Week 42 - Monday, October 17th to Sunday, October 23rd, 2022
 
@@ -46,12 +76,6 @@ See
 [**Dollz №3**](https://github.com/dollzmania/dollz.sandbox/tree/master/no3), and so on 
 for some pixel art "props" samples (what almost has been lost). 
    
-
-
-**Questions? Comments?**
-
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
-
 
 
 ##  Week 41 - Monday, October 10th to Sunday, October 16th, 2022
