@@ -6,6 +6,30 @@
 No more talks upcoming / scheduled in October / November / December 2022.   Note: I am always happy to speak at your meetup / camp / conference - send requests / invites to gerald.bauer @ gmail.com.
 
 
+
+## Week 44 - Monday, October 31st to Sunday, November 6th, 2022
+
+**right-click & save this**
+
+Collect'em all!  I added more
+[**right-click & save this**](https://old.reddit.com/r/RightClickSaveThis/)
+all-in-one (pixel art) image composite downloads.
+
+2048 Robo(ter) Punks ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/robopunks-strip.png)
+1300 Phunks In Black ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/phunksinblack-strip.png)
+1000 Divine Punks  ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/divinepunks-strip.png)
+2077 Dysto(pian) Punks  ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/dystopunks-strip.png)
+
+For the making-of sources / scripts, see the [**artbase sandbox vol. 2**](https://github.com/pixelartexchange/artbase.sandbox.vol2).
+
+
+**Questions? Comments?**
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
+
+
+
+
 ## Week 43 - Monday, October 24th to Sunday, October 30th, 2022
 
 **learn pixel art (re)org**
@@ -28,12 +52,6 @@ or try the [**1000 More Punks Quiz**](https://cryptopunksnotdead.github.io/punks
 Bonus:  Try the [**24px Cool Cats Quiz**](https://learnpixelart.github.io/pixelart.js/quiz/coolcats) 
 or the [**28px Bored Apes Quiz**](https://learnpixelart.github.io/pixelart.js/quiz/boredapes) or - yes, you can! - 
 put together [**your own quiz**](https://github.com/learnpixelart/pixelart.js).
-
-
-**Questions? Comments?**
-
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
-
 
 
 
