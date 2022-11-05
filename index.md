@@ -15,10 +15,10 @@ Collect'em all!  I added more
 [**right-click & save this**](https://old.reddit.com/r/RightClickSaveThis/)
 all-in-one (pixel art) image composite downloads.
 
-2048 Robo(ter) Punks ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/robopunks-strip.png)
-1300 Phunks In Black ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/phunksinblack-strip.png)
-1000 Divine Punks  ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/divinepunks-strip.png)
-2077 Dysto(pian) Punks  ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/dystopunks-strip.png)
+- 2048 Robo(ter) Punks ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/robopunks-strip.png)
+- 1300 Phunks In Black ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/phunksinblack-strip.png)
+- 1000 Divine Punks  ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/divinepunks-strip.png)
+- 2077 Dysto(pian) Punks  ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/dystopunks-strip.png)
 
 For the making-of sources / scripts, see the [**artbase sandbox vol. 2**](https://github.com/pixelartexchange/artbase.sandbox.vol2).
 
