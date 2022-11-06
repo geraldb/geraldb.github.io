@@ -24,7 +24,7 @@ all-in-one (pixel art) image composite downloads.
 - 1000 Berliners ![](https://github.com/pixelartexchange/artbase.sandbox/raw/master/i/citizens-berlin-strip.png)
 - 1000 Londoners ![](https://github.com/pixelartexchange/artbase.sandbox/raw/master/i/citizens-london-strip.png)
 
-For the making-of sources / scripts, see the [**artbase sandbox vol. 2**](https://github.com/pixelartexchange/artbase.sandbox.vol2).
+For the making-of sources / scripts, see and the [**artbase sandbox**](https://github.com/pixelartexchange/artbase.sandbox) the [**artbase sandbox vol. 2**](https://github.com/pixelartexchange/artbase.sandbox.vol2).
 
 
 **Questions? Comments?**
