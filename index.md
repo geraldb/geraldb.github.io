@@ -3,7 +3,7 @@
 
 ## Upcoming (In-Person Live) Talks - Join Us
 
-No more talks upcoming / scheduled in October / November / December 2022.   Note: I am always happy to speak at your meetup / camp / conference - send requests / invites to gerald.bauer @ gmail.com.
+No more talks upcoming / scheduled in  November / December 2022.   Note: I am always happy to speak at your meetup / camp / conference - send requests / invites to gerald.bauer @ gmail.com.
 
 
 
