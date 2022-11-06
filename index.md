@@ -19,6 +19,10 @@ all-in-one (pixel art) image composite downloads.
 - 1300 Phunks In Black ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/phunksinblack-strip.png)
 - 1000 Divine Punks  ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/divinepunks-strip.png)
 - 2077 Dysto(pian) Punks  ![](https://github.com/pixelartexchange/artbase.sandbox.vol2/raw/master/i/dystopunks-strip.png)
+- 1000 Venetians ![](https://github.com/pixelartexchange/artbase.sandbox/raw/master/i/citizens-venice_beach-strip.png)
+- 1000 New Yorkers ![](https://github.com/pixelartexchange/artbase.sandbox/raw/master/i/citizens-new_york-strip.png)
+- 1000 Berliners ![](https://github.com/pixelartexchange/artbase.sandbox/raw/master/i/citizens-berlin-strip.png)
+- 1000 Londoners ![](https://github.com/pixelartexchange/artbase.sandbox/raw/master/i/citizens-london-strip.png)
 
 For the making-of sources / scripts, see the [**artbase sandbox vol. 2**](https://github.com/pixelartexchange/artbase.sandbox.vol2).
 
