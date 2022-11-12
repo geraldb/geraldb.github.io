@@ -15,10 +15,26 @@ No more talks upcoming / scheduled in  November / December 2022.   Note: I am al
 ~Collect'em all!~  Generate'em all!
 I started to download "on-blockchain" artwork layers
 from about a dozen pixel art collections e.g. 
-[**Chi Chis (in 32×32px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/chichis)**,  
-[**Edge Punks (in 24×24px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/edgepunks), 
-[**Inverse Punks (in 24×24px**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/inversepunks), 
-[**Mad Camels (in 32×32px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/madcamels), 
+[**Chi Chis (in 32×32px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/chichis)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/chichis0.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/chichis1.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/chichis2.png),
+
+[**Edge Punks (in 24×24px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/edgepunks)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/edgepunks0.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/edgepunks1.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/edgepunks2.png),
+
+[**Inverse Punks (in 24×24px**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/inversepunks)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/inversepunks0.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/inversepunks1.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/inversepunks2.png),
+
+[**Mad Camels (in 32×32px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/madcamels)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/madcamels0.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/madcamels1.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/madcamels2.png),
+
 [**Marcs (in 24×24px**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/marcs), 
 [**NFL (in 23×23px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/nfl),
 [**Phunk Ape Origins (in 24×24px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/phunkapeorigins),
