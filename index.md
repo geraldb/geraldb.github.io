@@ -10,7 +10,7 @@ No more talks upcoming / scheduled in  November / December 2022.   Note: I am al
 
 ## Week 45 - Monday, November 7th to Sunday, November 13rd, 2022
 
-**right-click & save this (spritesheet)**
+**right-click & save this ~"magic formula"~ spritesheet**
 
 ~Collect'em all!~  Generate'em all!
 I started to download "on-blockchain" artwork layers
@@ -19,27 +19,38 @@ from about a dozen pixel art collections e.g.
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/chichis0.png)
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/chichis1.png)
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/chichis2.png),
-
 [**Edge Punks (in 24×24px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/edgepunks)
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/edgepunks0.png)
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/edgepunks1.png)
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/edgepunks2.png),
-
 [**Inverse Punks (in 24×24px**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/inversepunks)
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/inversepunks0.png)
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/inversepunks1.png)
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/inversepunks2.png),
-
 [**Mad Camels (in 32×32px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/madcamels)
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/madcamels0.png)
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/madcamels1.png)
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/madcamels2.png),
-
-[**Marcs (in 24×24px**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/marcs), 
-[**NFL (in 23×23px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/nfl),
-[**Phunk Ape Origins (in 24×24px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/phunkapeorigins),
+[**Marcs (in 24×24px**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/marcs)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/marcs0.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/marcs1.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/marcs2.png),
+[**NFL (in 23×23px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/nfl)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/nfl0.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/nfl1.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/nfl2.png),
+[**Phunk Ape Origins (in 24×24px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/phunkapeorigins)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/phunkapeorigins0.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/phunkapeorigins1.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/phunkapeorigins2.png),
 [**Punk Apes Yacht Club (in 24×24px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/punkapesyachtclub),
-[**Punkin Spicies (in 24×24px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/punkinspicies),
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/punkapesyachtclub0.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/punkapesyachtclub1.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/punkapesyachtclub2.png),
+[**Punkin Spicies (in 24×24px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/punkinspicies)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/punkinspicies0.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/punkinspicies1.png)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/punkinspicies2.png),
 etc.
 and repackaged all attributes in all-in-one spritesheet images.
 Yes, you can! (Re)use the "off-blockchain" (pixel) artwork spritesheets 
