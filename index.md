@@ -7,6 +7,36 @@ No more talks upcoming / scheduled in  November / December 2022.   Note: I am al
 
 
 
+
+## Week 45 - Monday, November 7th to Sunday, November 13rd, 2022
+
+**right-click & save this (spritesheet)**
+
+~Collect'em all!~  Generate'em all!
+I started to download "on-blockchain" artwork layers
+from about a dozen pixel art collections e.g. 
+[**Chi Chis (in 32×32px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/chichis)**,  
+[**Edge Punks (in 24×24px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/edgepunks), 
+[**Inverse Punks (in 24×24px**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/inversepunks), 
+[**Mad Camels (in 32×32px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/madcamels), 
+[**Marcs (in 24×24px**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/marcs), 
+[**NFL (in 23×23px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/nfl),
+[**Phunk Ape Origins (in 24×24px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/phunkapeorigins),
+[**Punk Apes Yacht Club (in 24×24px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/punkapesyachtclub),
+[**Punkin Spicies (in 24×24px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/punkinspicies),
+etc.
+and repackaged all attributes in all-in-one spritesheet images.
+Yes, you can! (Re)use the "off-blockchain" (pixel) artwork spritesheets 
+to generate any combination using text-to-image prompts.
+
+
+
+**Questions? Comments?**
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
+
+
+
 ## Week 44 - Monday, October 31st to Sunday, November 6th, 2022
 
 **right-click & save this**
@@ -25,11 +55,6 @@ all-in-one (pixel art) image composite downloads.
 - 1000 Londoners ![](https://github.com/pixelartexchange/artbase.sandbox/raw/master/i/citizens-london-strip.png)
 
 For the making-of sources / scripts, see the [**artbase sandbox**](https://github.com/pixelartexchange/artbase.sandbox) & [**artbase sandbox vol. 2**](https://github.com/pixelartexchange/artbase.sandbox.vol2).
-
-
-**Questions? Comments?**
-
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
 
 
 
