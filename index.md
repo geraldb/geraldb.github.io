@@ -4,7 +4,7 @@
 ## Upcoming (In-Person Live) Talks - Join Us
 
 
-Tuesday, November 29th 2022 - [**Punkbase - SQL.js in Action  @ Vienna.js**](https://viennajs.org/en/meetup/viennajs-november-2022) (in Vienna, Austria) - FREE 
+Tuesday, November 29th 2022 - [**Inside Punkbase - SQLite (SQL.js) in Action  @ Vienna.js**](https://viennajs.org/en/meetup/viennajs-november-2022) (in Vienna, Austria) - FREE 
 
 
 <!-- 
@@ -12,6 +12,16 @@ No more talks upcoming / scheduled in  November / December 2022.
 -->  
 
 Note: I am always happy to speak at your meetup / camp / conference - send requests / invites to gerald.bauer @ gmail.com.
+For a listing (incl. outlines) of past talks, see [**Talks, Talks, Talks »**](https://github.com/geraldb/talks) 
+
+
+## Trivia Quiz of the Month
+
+Let's generate 8 000 000 000, that is, 8 billion unique punks for everyone on planet earth.
+
+Q: How many ("sprite") attributes do we need? Mission impossible? 
+Let's do the math. Anyone? [**Post your calculations / estimates. Yes, you can.**](https://old.reddit.com/r/CryptoPunksDev/comments/ywtdrt/triva_quiz_8_000_000_000_8bn_humans_on_planet/) 
+
 
 
 
