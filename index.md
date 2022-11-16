@@ -3,7 +3,15 @@
 
 ## Upcoming (In-Person Live) Talks - Join Us
 
-No more talks upcoming / scheduled in  November / December 2022.   Note: I am always happy to speak at your meetup / camp / conference - send requests / invites to gerald.bauer @ gmail.com.
+
+Tuesday, November 29th 2022 - [**Punkbase - SQL.js in Action  @ Vienna.js**](https://viennajs.org/en/meetup/viennajs-november-2022) (in Vienna, Austria) - FREE 
+
+
+<!-- 
+No more talks upcoming / scheduled in  November / December 2022. 
+-->  
+
+Note: I am always happy to speak at your meetup / camp / conference - send requests / invites to gerald.bauer @ gmail.com.
 
 
 
