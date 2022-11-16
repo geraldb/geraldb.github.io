@@ -20,7 +20,7 @@ For a listing (incl. outlines) of past talks, see [**Talks, Talks, Talks »**](h
 Let's generate 8 000 000 000, that is, 8 billion unique punks for everyone on planet earth.
 
 Q: How many ("sprite") attributes do we need? Mission impossible? 
-Let's do the math. Anyone? [**Post your calculations / estimates. Yes, you can.**](https://old.reddit.com/r/CryptoPunksDev/comments/ywtdrt/triva_quiz_8_000_000_000_8bn_humans_on_planet/) 
+Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes, you can.**](https://old.reddit.com/r/CryptoPunksDev/comments/ywtdrt/triva_quiz_8_000_000_000_8bn_humans_on_planet/) 
 
 
 
