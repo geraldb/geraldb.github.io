@@ -12,7 +12,7 @@ No more talks upcoming / scheduled in  November / December 2022.
 -->  
 
 Note: I am always happy to speak at your meetup / camp / conference - send requests / invites to gerald.bauer @ gmail.com.
-For a listing (incl. outlines) of past talks, see [**Talks, Talks, Talks »**](https://github.com/geraldb/talks) 
+For a collection of past talks (incl. outlines), see [**Talks, Talks, Talks »**](https://github.com/geraldb/talks) 
 
 
 ## Trivia Quiz of the Month
