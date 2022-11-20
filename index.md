@@ -28,15 +28,15 @@ Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes,
 
 **New Datasets for the World Cup 2022 in Qatar in Football.TXT**
 
-The World Cup 2022 kicked off on Sunday, Nov 20th (in Qatar).  I started adding new datasets for the World Cup 2022 in the (structured) Football.TXT format (e.g. [**/2022--qatar/cup.txt**](https://github.com/openfootball/worldcup/blob/master/2022--qatar/cup.txt), etc.) that you can read into any SQLite (or any other SQL database) with [**the sportdb gem(s) / machinery**](http://sportdb.github.io/)
+The World Cup 2022 kicked off on Sunday, Nov 20th (in Qatar).  I started adding new datasets for the World Cup 2022 in the (structured) Football.TXT format (e.g. [**/2022--qatar/cup.txt**](https://github.com/openfootball/worldcup/blob/master/2022--qatar/cup.txt), etc.) that you can read into SQLite (or any other SQL database) with [**the sportdb gem(s) / machinery**](http://sportdb.github.io/)
 (and than [**export to JSON**](https://github.com/openfootball/worldcup.json), for example).  
 
 
 **New Ethereum Gems - ethlite & rlp-lite**
 
 Since the "official" ethereum gem in rubyland, that is, the eth gem has no support for tuples (also known as structs) for eth calls  
-I started  building a light-weight alternative that handles eth calls (via json rpc) for now only 
-BUT supports tuples (initially based on the web3-eth gem).  
+I started  building a light-weight alternative that for now handles only eth calls (via json rpc) 
+BUT supports tuples (initially based on the web3-eth gem).
 The web3-eth gem depends on the rlp gem (for recursive-length prefix encoding) 
 and since the rlp gem is out-of-support / unmaintained I started putting together a more light-weight alternative
 based on the rlp machinery inside of the eth gem (that itself is a lighter version based on web3-eth).
