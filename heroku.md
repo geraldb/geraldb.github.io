@@ -3,6 +3,51 @@ layout: default
 title: Heroku Notes
 ---
 
+Note:  Personal Heroku Account Closed Down On Nov 21th, 2022  (Plus All Apps Running On Freebie Dynos) 
+
+> Starting November 28th, 2022, free Heroku Dynos, free Heroku Postgres, 
+> and free Heroku Data for Redis will no longer be available.
+>
+> You have apps using these resources.
+> You must upgrade to our new low-cost or other paid plans by this date 
+> to ensure your apps continue to run and retain your data.
+
+Heroku will close down on Nov 28th, 2022 - list of shutdown apps  include:
+
+- at365  (beerdb)
+- be365  (beerdb)
+- brazil2014  (sportbook)
+- countrycodes
+- diypunkart    (profile as a service)
+- footballdb
+- note
+- pint
+- pixelartexchange  (artbase server)
+- planetbeer
+- planetjekyll
+- planetopendata
+- planetruby
+- planetweb
+- plutolive
+- plutopluto
+- prost
+- sportbook
+- superbowl
+- tipp
+- tipp13
+- trykramdown
+- tryslideshow
+- viennarb
+- wm2014
+- worldcities
+- worlddb
+
+
+
+
+
+
+
 ## Database Tips
 
 Drop and recreate DB (using postgres.heroku.com dev plan)
