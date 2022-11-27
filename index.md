@@ -44,7 +44,7 @@ that is,
 [**artbase-cocos (code commons)**](https://github.com/pixelartexchange/artbase/tree/master/artbase-cocos), 
 [**artbase-importers**](https://github.com/pixelartexchange/artbase/tree/master/artbase-importers),
 [**artbase-linters (& exporters)**](https://github.com/pixelartexchange/artbase/tree/master/artbase-linters).
-and [**artbase**](https://github.com/pixelartexchange/artbase/tree/master/artbase) for the "high-level" command-line tool that now includes 
+and [**artbase**](https://github.com/pixelartexchange/artbase/tree/master/artbase) for the "high-level" command-line tool(s) that now includes 
 [**artq**](https://github.com/pixelartexchange/artbase/tree/master/artq) and 
 [**artserve**](https://github.com/pixelartexchange/artbase/tree/master/artserve).
 
