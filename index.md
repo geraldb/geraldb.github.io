@@ -33,7 +33,7 @@ a new command-line tool**](https://github.com/pixelartexchange/artbase/tree/mast
 download (pixel) art layers
 for "on-blockchain" collections for easy "off-blockchain" (re)use.
 For the Mad Camels, for example, try `$ artq 0xad8474ba5a7f6abc52708f171f57fefc5cdc8c1c layers` and so on.
-For more than 20+ examples (incl. DOS Phunks, 1337 Skulls, Teddies, etc.) see the [**Art Factory Sandbox »**](https://github.com/pixelartexchange/artfactory.sandbox) 
+For 20+ more examples (incl. DOS Phunks, 1337 Skulls, Teddies, etc.) see the [**Art Factory Sandbox »**](https://github.com/pixelartexchange/artfactory.sandbox) 
 
 
 **Artbase Module Mania**
@@ -44,7 +44,7 @@ that is,
 [**artbase-cocos (code commons)**](https://github.com/pixelartexchange/artbase/tree/master/artbase-cocos), 
 [**artbase-importers**](https://github.com/pixelartexchange/artbase/tree/master/artbase-importers),
 [**artbase-linters (& exporters)**](https://github.com/pixelartexchange/artbase/tree/master/artbase-linters).
-and [**artbase**](https://github.com/pixelartexchange/artbase/tree/master/artbase) for the "high-level" command-line tool that now auto-includes 
+and [**artbase**](https://github.com/pixelartexchange/artbase/tree/master/artbase) for the "high-level" command-line tool that now includes 
 [**artq**](https://github.com/pixelartexchange/artbase/tree/master/artq) and 
 [**artserve**](https://github.com/pixelartexchange/artbase/tree/master/artserve).
 
