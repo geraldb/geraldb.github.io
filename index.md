@@ -29,7 +29,7 @@ Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes,
 **New ArtQ Command-Line Tool - Download "On-Blockchain" (Pixel) Art Layers for Easy "Off-Blockchain" Re(Use)**
 
 Building on the new ethlite & rlp lite gems I put together [**ArtQ -
-a new command-line tool**]() - that lets you
+a new command-line tool**](https://github.com/pixelartexchange/artbase/tree/master/artq) - that lets you
 download (pixel) art layers
 for "on-blockchain" collections for easy "off-blockchain" (re)use.
 For the mad camels try `$ artq 0xad8474ba5a7f6abc52708f171f57fefc5cdc8c1c layers` and so on.
