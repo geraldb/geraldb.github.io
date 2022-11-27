@@ -24,6 +24,38 @@ Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes,
 
 
 
+## Week 47 - Monday, November 21st to Sunday, November 27th, 2022
+
+**New ArtQ Command-Line Tool - Download "On-Blockchain" (Pixel) Art Layers for Easy "Off-Blockchain" Re(Use)**
+
+Building on the new ethlite & rlp lite gems I put together [**ArtQ -
+a new command-line tool**]() - that lets you
+download (pixel) art layers
+for "on-blockchain" collections for easy "off-blockchain" (re)use.
+For the mad camels try `$ artq 0xad8474ba5a7f6abc52708f171f57fefc5cdc8c1c layers` and so on.
+For the first 20+ examples see the [**Art Factory Sandbox**](https://github.com/pixelartexchange/artfactory.sandbox) 
+
+
+**Artbase Module Mania**
+
+To make it easier to build on and (re)use the artbase machinery
+I started to break-up the artbase "monolith" into modules,
+that is,  
+[**artbase-cocos (code commons)**](https://github.com/pixelartexchange/artbase/tree/master/artbase-cocos), 
+[**artbase-importers**](https://github.com/pixelartexchange/artbase/tree/master/artbase-importers),
+[**artbase-linters (& exporters)**](https://github.com/pixelartexchange/artbase/tree/master/artbase-linters).
+and [**artbase**](https://github.com/pixelartexchange/artbase/tree/master/artbase) for the "high-level" command-line tool that now auto-includes 
+[**artq**](https://github.com/pixelartexchange/artbase/tree/master/artq) and 
+[**artserve**](https://github.com/pixelartexchange/artbase/tree/master/artserve).
+
+
+
+**Questions? Comments?**
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
+
+
+
 ## Week 46 - Monday, November 14th to Sunday, November 20th, 2022
 
 **New Datasets for the World Cup 2022 in Qatar in Football.TXT**
@@ -41,12 +73,6 @@ The web3-eth gem depends on the rlp gem (for recursive-length prefix encoding)
 and since the rlp gem is out-of-support / unmaintained I started putting together a more light-weight alternative
 based on the rlp machinery inside of the eth gem (that itself is a lighter version based on web3-eth).
 See the new [**ethlite gem**](https://github.com/pixelartexchange/artbase/tree/master/ethlite) and [**rlp-lite gem**](https://github.com/pixelartexchange/artbase/tree/master/rlp-lite) pages for details.
-
-
-
-**Questions? Comments?**
-
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
 
 
 
