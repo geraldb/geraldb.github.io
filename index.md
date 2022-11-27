@@ -32,7 +32,7 @@ Building on the new ethlite & rlp lite gems I put together [**ArtQ -
 a new command-line tool**](https://github.com/pixelartexchange/artbase/tree/master/artq) - that lets you
 download (pixel) art layers
 for "on-blockchain" collections for easy "off-blockchain" (re)use.
-For the mad camels try `$ artq 0xad8474ba5a7f6abc52708f171f57fefc5cdc8c1c layers` and so on.
+For the Mad Camels, for example, try `$ artq 0xad8474ba5a7f6abc52708f171f57fefc5cdc8c1c layers` and so on.
 For the first 20+ examples see the [**Art Factory Sandbox**](https://github.com/pixelartexchange/artfactory.sandbox) 
 
 
