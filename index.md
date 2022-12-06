@@ -28,7 +28,12 @@ Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes,
 
 **Synth(etic) Punks - (Free Unlimited) 24×24 Pixel Punks For Everyone**
 
-Inspired by the "on-chain" Synthetic Punks V1 by Stephan Cilliers I put together an [**"off-chain" synthpunks gem / library**](https://github.com/cryptopunksnotdead/cryptopunks/tree/master/synthpunks) that lets you generate (free unlimited) pixel punks using the same pseudo-random formula and spritesheet for any (ethereum) address (or any 40-digit / 20-byte hexstring really.)  Bonus: Add your own backgrounds or derive your own set of default profile pics and more. 
+Inspired by the "on-chain" Synthetic Punks V1 by Stephan Cilliers I put together an [**"off-chain" synthpunks gem / library**](https://github.com/cryptopunksnotdead/cryptopunks/tree/master/synthpunks) that lets you generate (free unlimited) pixel punks using the same pseudo-random formula and spritesheet for any (ethereum) address (or any 40-digit / 20-byte hexstring really.)  Bonus: Add your own backgrounds or derive your own set of default profile pics and more. Example:
+
+- 0x054f3b6eadc9631ccd60246054fdb0fcfe99b322 => ![](https://github.com/cryptopunksnotdead/cryptopunks/raw/master/synthpunks/i/punk1.png) - Alien, Clown Nose, Frown, Vape, Eyebrows 
+- 0x7a80ee32044f496a7bfef65af738fdda3a02cf02 => ![](https://github.com/cryptopunksnotdead/cryptopunks/raw/master/synthpunks/i/punk2.png) - Human 1, Rosy Cheeks, Shadow Beard, Wild Hair, VR
+
+
 
 **Questions? Comments?**
 
@@ -68,6 +73,22 @@ and updates to a new "top-level" repo, that is,  [**punks.black »**](https://gi
 ![](https://github.com/cryptopunksnotdead/punks.black/raw/master/1of1s.vol1/punk90.png)
 ![](https://github.com/cryptopunksnotdead/punks.black/raw/master/1of1s.vol2/punk151.png)
 ![](https://github.com/cryptopunksnotdead/punks.black/raw/master/1of1s.vol2/punk152.png)
+
+
+**New Punk Link Blog @ Punk's Not Dead**
+
+To keep track of punk projects from around the world 
+I've started a new link blog @ Punk's Not Dead.
+See [**(Pixel) Punk (Programming) Links From Around The World, Universe & Metaverse »**](https://cryptopunksnotdead.github.io/universe/)
+
+Latest updates / highlights include:
+
+- Punk Blocks by 0xTycoon - A (On-Blockchain) Registry of 24×24 Images (in the PNG Format) For Building Punks From Scratch
+- Blockchain Analytics Script by 0xmunger - How Many Matt & John's® Punks Are Lost Forever?
+- lep.directory - New Low-Effort Punks (LEP) Directory Website - Browse by Punk Type Incl. Original 1/1s And More
+- Matt & John's® Punk History Corner - Androidify — [Matt & John's] Larva Labs & The First [Blockchain] Profile Picture (PFP) Use Case by Nick.bit
+- Matt & John's® Punks V2 Sales Data Script & Charts
+- Subgraph for the Matt & John's® Punks V2 by Jerry Okolo
 
 
 
