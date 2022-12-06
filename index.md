@@ -37,6 +37,37 @@ Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPu
 
 ## Week 48 - Monday, November 28th to Sunday, December 4th, 2022
 
+**Default Profile Pic(tures) - The Punk Edition**
+
+A little experiment in the ongoing punk pixel art programming series. 
+The idea - let's turn pixel punk heads into default profile pic(ture)s 
+via Image#silhouette (from the pixelart gem). 
+Bonus: Use Image#circle (from the pixelart gem) to "round out" 
+the square (profile picture) image. 
+See [**Yes, You Can - Generate Your Own Default Profile Pics (PFPs) @ Punk's Not Dead**](https://github.com/cryptopunksnotdead/punks.sandbox/tree/master/default-profilepics) 
+for do-it-yourself (d.i.y.) examples and scripts.
+
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default1-punk0.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default1-punk1.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default1-punk2.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default1-punk3.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default1-punk4.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default1-punk5.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default1-punk6.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default1-punk7.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default1-punk8.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default1-punk9.png)
+
+
+**New Black & White (1-Bit) Punk Building Blocks**
+
+Punk's Not Dead Reorg. I moved all black & white (1-bit) punk building blocks for easier (re)use
+and updates to a new "top-level" repo, that is,  [**punks.black »**](https://github.com/cryptopunksnotdead/punks.black)
+
+![](https://github.com/cryptopunksnotdead/punks.black/raw/master/1of1s.vol1/punk89.png)
+![](https://github.com/cryptopunksnotdead/punks.black/raw/master/1of1s.vol1/punk90.png)
+![](https://github.com/cryptopunksnotdead/punks.black/raw/master/1of1s.vol2/punk151.png)
+![](https://github.com/cryptopunksnotdead/punks.black/raw/master/1of1s.vol2/punk152.png)
 
 
 
