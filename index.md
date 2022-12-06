@@ -3,9 +3,9 @@
 
 ## Upcoming (In-Person Live) Talks - Join Us
 
-
+<!--
 Tuesday, November 29th 2022 - [**Inside Punkbase - SQLite (SQL.js) in Action  @ Vienna.js**](https://viennajs.org/en/meetup/viennajs-november-2022) (in Vienna, Austria) - FREE 
-
+-->
 
 <!-- 
 No more talks upcoming / scheduled in  November / December 2022. 
@@ -21,6 +21,22 @@ Let's generate 8 000 000 000, that is, 8 billion unique punks for everyone on pl
 
 Q: How many ("sprite") attributes do we need? Mission impossible? 
 Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes, you can.**](https://old.reddit.com/r/CryptoPunksDev/comments/ywtdrt/triva_quiz_8_000_000_000_8bn_humans_on_planet/) 
+
+
+
+## Week 49 - Monday, December 5th to Sunday, December 11th, 2022
+
+**Synth(etic) Punks - (Free Unlimited) 24×24 Pixel Punks For Everyone**
+
+Inspired by the "on-chain" Synthetic Punks V1 by Stephan Cilliers I put together an [**"off-chain" synthpunks gem / library**](https://github.com/cryptopunksnotdead/cryptopunks/tree/master/synthpunks) that lets you generate (free unlimited) pixel punks using the same pseudo-random formula and spritesheet for any (ethereum) address (or any 40-digit / 20-byte hexstring really.)  Bonus: Add your own backgrounds or derive your own set of default profile pics and more. 
+
+**Questions? Comments?**
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
+
+
+## Week 48 - Monday, November 28th to Sunday, December 4th, 2022
+
 
 
 
@@ -49,10 +65,6 @@ and [**artbase**](https://github.com/pixelartexchange/artbase/tree/master/artbas
 [**artserve**](https://github.com/pixelartexchange/artbase/tree/master/artserve).
 
 
-
-**Questions? Comments?**
-
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
 
 
 
