@@ -62,6 +62,18 @@ for do-it-yourself (d.i.y.) examples and scripts.
 ![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default1-punk7.png)
 ![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default1-punk8.png)
 ![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default1-punk9.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default2-punk0.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default2-punk1.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default2-punk2.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default2-punk3.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default2-punk4.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default2-punk5.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default2-punk6.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default2-punk7.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default2-punk8.png)
+![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default2-punk9.png)
+
+
 
 
 **New Black & White (1-Bit) Punk Building Blocks**
