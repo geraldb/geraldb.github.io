@@ -190,7 +190,7 @@ BUT supports tuples (initially based on the web3-eth gem).
 The web3-eth gem depends on the rlp gem (for recursive-length prefix encoding) 
 and since the rlp gem is out-of-support / unmaintained I started putting together a more light-weight alternative
 based on the rlp machinery inside of the eth gem (that itself is a lighter version based on web3-eth).
-See the new [**ethlite gem**](https://github.com/pixelartexchange/artbase/tree/master/ethlite) and [**rlp-lite gem**](https://github.com/pixelartexchange/artbase/tree/master/rlp-lite) pages for details.
+See the new [**ethlite gem**](https://github.com/rubycocos/blockchain/tree/master/ethlite) and [**rlp-lite gem**](https://github.com/rubycocos/blockchain/tree/master/rlp-lite) pages for details.
 
 
 
