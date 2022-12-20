@@ -33,8 +33,8 @@ Yes, you can!  Add more names / contracts via git (hub) ;-).
 
 **Light-Weight Machinery / Helper for the Etherscan JSON HTTP API**
 
-I put together a little gem, that is, [**etherscan-.lite, a light-weight machinery / helper for the Etherscan JSON HTTP API**](https://github.com/rubycocos/blockchain/tree/master/etherscan-lite).  
-To get your started I tried the official etherscan recipe examples. 
+I put together a little gem, that is, [**etherscan-lite - a light-weight machinery / helper for the Etherscan JSON HTTP API**](https://github.com/rubycocos/blockchain/tree/master/etherscan-lite).  
+To get you started I tried the official etherscan recipe examples. 
 1) Get All USDT Transfers from Binance  
 2) Get the Latest Moonbird Non-Fungible Token (NFT) Transfers 
 3) List ETH deposits to Arbitrum Bridge. 
