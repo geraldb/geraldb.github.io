@@ -23,6 +23,43 @@ Q: How many ("sprite") attributes do we need? Mission impossible?
 Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes, you can.**](https://old.reddit.com/r/CryptoPunksDev/comments/ywtdrt/triva_quiz_8_000_000_000_8bn_humans_on_planet/) 
 
 
+## Week 50 - Monday, December 12th to Sunday, December 18th, 2022
+
+**Free Crowd-Sourced "Off-Chain" Eth(erum) Name Service / Helper**
+
+I put together another little gem, that is, [**ethname - a light-weight crowd-sourced "off-chain" ethereum name to (contract) address service / helper**](https://github.com/rubycocos/blockchain/tree/master/ethname) 
+(incl. punks v1,v2,v3,v4; phunks v1,v2, synth punks, punk blocks, etc.).  
+Yes, you can!  Add more names / contracts via git (hub) ;-).
+
+**Light-Weight Machinery / Helper for the Etherscan JSON HTTP API**
+
+I put together a little gem, that is, [**etherscan-.lite, a light-weight machinery / helper for the Etherscan JSON HTTP API**](https://github.com/rubycocos/blockchain/tree/master/etherscan-lite).  
+To get your started I tried the official etherscan recipe examples. 
+1) Get All USDT Transfers from Binance  2) Get the Latest Moonbird Non-Fungible Token (NFT) Transfers 
+3) List ETH deposits to Arbitrum Bridge. 
+
+**To (Use) Bytes or Not? - Discuss**
+
+Does a Bytes (ByteArray) class make any sense in rubyland - why? why not? Discuss.
+
+While hashing "to-the-metal" byte arrays in ruby 
+I am revisiting / reworking [**the  bytes gem that  offers a new Bytes (ByteArray) class**](https://github.com/rubycocos/core/tree/master/bytes) 
+as a "type-safe" alternative to the String class with ASCII_8BIT / BINARY encoding. 
+ Did you know? A ruby string might be a frozen string, a string buffer, a character, a bytearray,  or you name it ;-).  
+Anyways, if anyone has any comments or tips & tricks on how to work with bytearrays (bytes) in ruby, please tell / share.    
+
+
+**Digest Lite - More Crypto(graphic) Hash Functions / Classes in Ruby (Without C-Extensions)**
+
+For easy (re)use I put together a new stand-alone gem, that is, [**digest-lite that includes more crypto(graphic) hash functions / classes e.g. Digest::KeccakLite (512bit, 256bit, etc), Digest::SHA3Lite (512bit, 256bit, etc)**](https://github.com/rubycocos/blockchain/tree/master/digest-lite) 
+in "100% pure" ruby "lite" scripts, that is, without any c-extensions and with zero-dependency. 
+
+
+**Questions? Comments?**
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
+
+
 
 ## Week 49 - Monday, December 5th to Sunday, December 11th, 2022
 
@@ -33,11 +70,6 @@ Inspired by the "on-chain" Synthetic Punks V1 by Stephan Cilliers I put together
 - 0x054f3b6eadc9631ccd60246054fdb0fcfe99b322 => ![](https://github.com/cryptopunksnotdead/cryptopunks/raw/master/synthpunks/i/punk1.png) - Alien, Clown Nose, Frown, Vape, Eyebrows 
 - 0x7a80ee32044f496a7bfef65af738fdda3a02cf02 => ![](https://github.com/cryptopunksnotdead/cryptopunks/raw/master/synthpunks/i/punk2.png) - Human 1, Rosy Cheeks, Shadow Beard, Wild Hair, VR
 
-
-
-**Questions? Comments?**
-
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
 
 
 ## Week 48 - Monday, November 28th to Sunday, December 4th, 2022
