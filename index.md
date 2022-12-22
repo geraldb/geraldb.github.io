@@ -33,13 +33,12 @@ I downloaded and added 10+ more collection layers for easy (re)use
 to the [**artfactory sandbox**](https://github.com/pixelartexchange/artfactory.sandbox)
 using the [**ArtQ machinery**](https://github.com/pixelartexchange/artbase/tree/master/artq).
 The new samples include:
-
-- [3D Skulls](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/3dskulls/cache#readme)
-- [Chimps](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/chimps/cache#readme)
-- [Mad Masks](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/madmasks/cache#readme)
-- [Smiley](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/smiley/cache#readme)
-- [Teddies](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/teddies/cache#readme)
-- and many more
+[3D Skulls](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/3dskulls/cache#readme),
+[Chimps](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/chimps/cache#readme),
+[Mad Masks](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/madmasks/cache#readme),
+[Smiley](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/smiley/cache#readme),
+[Teddies](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/teddies/cache#readme),
+and many more.
 
 
 **Questions? Comments?**
