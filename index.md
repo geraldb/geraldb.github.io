@@ -30,7 +30,7 @@ Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes,
 **ArtQ In Action - Let's Download (On-Chain) Pixel Art (Character) Layers**
 
 I downloaded and added 10+ more collection layers for easy (re)use 
-to the [**artfactory sandbox**](https://github.com/pixelartexchange/artfactory.sandbox)
+to the [**Art Factory Sandbox**](https://github.com/pixelartexchange/artfactory.sandbox)
 using the [**ArtQ machinery**](https://github.com/pixelartexchange/artbase/tree/master/artq).
 The new samples include:
 [3D Skulls](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/3dskulls/cache#readme),
