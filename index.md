@@ -23,6 +23,30 @@ Q: How many ("sprite") attributes do we need? Mission impossible?
 Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes, you can.**](https://old.reddit.com/r/CryptoPunksDev/comments/ywtdrt/triva_quiz_8_000_000_000_8bn_humans_on_planet/) 
 
 
+
+## Week 51 - Monday, December 19th to Sunday, December 25th, 2022
+
+
+**ArtQ In Action - Let's Download (On-Chain) Pixel Art (Character) Layers**
+
+I downloaded and added 10+ more collection layers for easy (re)use 
+to the [**artfactory sandbox*](https://github.com/pixelartexchange/artfactory.sandbox)
+using the [**ArtQ machinery**](https://github.com/pixelartexchange/artbase/tree/master/artq).
+The new samples include:
+- [3D Skulls](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/3dskulls/cache#readme)
+- [Chimps](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/chimps/cache#readme)
+- [Mad Masks](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/madmasks/cache#readme)
+- [Smiley](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/smiley/cache#readme)
+- [Teddies](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/teddies/cache#readme)
+- and many more
+
+
+**Questions? Comments?**
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
+
+
+
 ## Week 50 - Monday, December 12th to Sunday, December 18th, 2022
 
 **Free Crowd-Sourced "Off-Chain" Eth(erum) Name Service / Helper**
@@ -55,10 +79,6 @@ Anyways, if anyone has any comments or tips & tricks on how to work with bytearr
 For easy (re)use I put together a new stand-alone gem, that is, [**digest-lite that includes more crypto(graphic) hash functions / classes e.g. Digest::KeccakLite (512bit, 256bit, etc), Digest::SHA3Lite (512bit, 256bit, etc)**](https://github.com/rubycocos/blockchain/tree/master/digest-lite) 
 in "100% pure" ruby "lite" scripts, that is, without any c-extensions and with zero-dependency. 
 
-
-**Questions? Comments?**
-
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
 
 
 
