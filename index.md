@@ -45,11 +45,10 @@ and many more.
 
 I am trying to exercise the [**("right-clicker" download) artbase machinery**](https://github.com/pixelartexchange/artbase)
 and opened up a [**new sandbox, that is, vol. iii**](https://github.com/pixelartexchange/artbase.sandbox.vol3), 
-that includes the Kawaii Kittens (max. 1700) 48×48 pixel art collection
-![](https://github.com/pixelartexchange/artbase.sandbox.vol3/raw/master/i/kawaii-kittens-strip.png),
-the Blklavas (max. 5090) 26×26
-![](https://github.com/pixelartexchange/artbase.sandbox.vol3/raw/master/i/blklavas-strip.png), 
-and more upcoming SOON!.
+that includes:
+- the Kawaii Kittens (max. 1700) 48×48 pixel art collection <br> ![](https://github.com/pixelartexchange/artbase.sandbox.vol3/raw/master/i/kawaii-kittens-strip.png),
+- the Blklavas (max. 5090) 26×26 <br> ![](https://github.com/pixelartexchange/artbase.sandbox.vol3/raw/master/i/blklavas-strip.png), 
+and more upcoming SOON!
 
 
 **Questions? Comments?**
