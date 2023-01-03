@@ -32,10 +32,10 @@ Or if not punk (pixel) art related [open a new issue / ticket](https://github.co
 
 **If I Were ~~King~~ Matz (aka Yukihiro Matsumoto) - Ideas For Ruby 4.0 - What's Broken & Missing in Ruby 3.x and How To Fix It**
 
-To kick off the new year with looking ahead 
-I open a new page titled [**If I Were ~~King~~ Matz (aka Yukihiro Matsumoto) - Ideas For Ruby 4.0 - What's Broken & Missing in Ruby 3.x and How To Fix It**](https://github.com/rubycocos/core#if-i-were-king-matz-aka-yukihiro-matsumoto---ideas-for-ruby-40-----whats-broken--missing-in-ruby-3x-and-how-to-fix-it) 
+To kick off the new year looking ahead 
+I opened a new page titled [**If I Were ~~King~~ Matz (aka Yukihiro Matsumoto) - Ideas For Ruby 4.0 - What's Broken & Missing in Ruby 3.x and How To Fix It**](https://github.com/rubycocos/core#if-i-were-king-matz-aka-yukihiro-matsumoto---ideas-for-ruby-40-----whats-broken--missing-in-ruby-3x-and-how-to-fix-it) 
 that is a (living) quick draft of ideas 
-(backed-up with code & monkey-patches that you can use / try out today).  
+(backed-up with code & monkey-patches that you can use / try out today).
 Your questions and comments welcome.  Happy new year. Prosit 2023!
 
 
