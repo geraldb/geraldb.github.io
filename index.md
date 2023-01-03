@@ -34,7 +34,7 @@ Or if not punk (pixel) art related [open a new issue / ticket](https://github.co
 
 To kick off the new year looking ahead 
 I opened a new page titled [**If I Were ~~King~~ Matz (aka Yukihiro Matsumoto) - Ideas For Ruby 4.0 - What's Broken & Missing in Ruby 3.x and How To Fix It**](https://github.com/rubycocos/core#if-i-were-king-matz-aka-yukihiro-matsumoto---ideas-for-ruby-40-----whats-broken--missing-in-ruby-3x-and-how-to-fix-it) 
-that is a (living) quick draft of ideas 
+that's a (living) quick draft of ideas 
 (backed-up with code & monkey-patches that you can use / try out today).
 Your questions and comments welcome.  Happy new year. Prosit 2023!
 
@@ -44,9 +44,9 @@ Your questions and comments welcome.  Happy new year. Prosit 2023!
 
 **abicoder gem - New Application Binary Inteface (ABI) Coder For Ethereum & Co.**
 
-To help out all ethereum & co gems in rubyland  
+To help out all ethereum & co gems in rubyland
 I have started [**a new abicoder gem that includes application binary interface (abi) encoder & decoder for easy (re)use**](https://github.com/rubycocos/blockchain/tree/master/abicoder) 
-with zero-dependencies on any 3rd party gems incl. any of my own ;-).  
+with zero-dependencies on any 3rd party gems incl. any of my own ;-).
 The idea is to work together in 2023 on any missing functionality - 
 I have already pinged / [**invited the eth.rb lead**](https://github.com/q9f/eth.rb/issues/102).   
 Happy blockchaining with ruby. Happy New Year. Prosit 2023!   
@@ -54,8 +54,8 @@ Happy blockchaining with ruby. Happy New Year. Prosit 2023!
 **abiparser gem - New Application Binary Inteface (ABI) Parser For Ethereum & Co.**
 
 I have started on a new [**abiparser gem that includes application binary interface (abi) parser machinery / helper for Ethereum & Co. (blockchain) contracts**](https://github.com/rubycocos/blockchain/tree/master/abiparser) 
-and started to document function signature hashes ("sighashes") / selectors 
-and interface (type) ids and more - all using coding examples in ye good olde plain ruby.   
+and started to document function signature hashes ("sighashes") / selectors
+and interface (type) ids and more - all using coding examples in ye good olde plain ruby.
 Are abis (application binary interfaces) the new apis (application programming interfaces)? Discuss. 
 
 PS:  A first "real-world" usage-case is the 
