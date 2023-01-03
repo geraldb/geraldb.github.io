@@ -12,19 +12,20 @@ Note: I am always happy to speak at your meetup / camp / conference - send reque
 For a collection of past talks (incl. outlines), see [**Talks, Talks, Talks »**](https://github.com/geraldb/talks) 
 
 
+## Questions? Comments?
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). 
+
+Or if not punk (pixel) art related [open a new issue / ticket](https://github.com/geraldb/geraldb.github.io/issues). Thanks.
+
+
+
 ## Trivia Quiz of the Month
 
 Let's generate 8 000 000 000, that is, 8 billion unique punks for everyone on planet earth.
 
 Q: How many ("sprite") attributes do we need? Mission impossible? 
 Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes, you can.**](https://old.reddit.com/r/CryptoPunksDev/comments/ywtdrt/triva_quiz_8_000_000_000_8bn_humans_on_planet/) 
-
-
-## Questions? Comments?
-
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). 
-
-Or if not punk (pixel) art related [open a new issue / ticket](https://github.com/geraldb/geraldb.github.io/issues). Thanks.
 
 
 
