@@ -48,7 +48,7 @@ To help out all ethereum & co gems in rubyland
 I have started [**a new abicoder gem that includes application binary interface (abi) encoder & decoder for easy (re)use**](https://github.com/rubycocos/blockchain/tree/master/abicoder) 
 with zero-dependencies on any 3rd party gems incl. any of my own ;-).
 The idea is to work together in 2023 on any missing functionality - 
-I have already pinged / [**invited the eth.rb lead**](https://github.com/q9f/eth.rb/issues/102).   
+I have already pinged / [**invited the eth.rb lead**](https://github.com/q9f/eth.rb/issues/102).
 Happy blockchaining with ruby. Happy New Year. Prosit 2023!   
 
 **abiparser gem - New Application Binary Inteface (ABI) Parser For Ethereum & Co.**
