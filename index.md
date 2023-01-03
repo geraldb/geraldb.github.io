@@ -7,9 +7,6 @@
 Tuesday, November 29th 2022 - [**Inside Punkbase - SQLite (SQL.js) in Action  @ Vienna.js**](https://viennajs.org/en/meetup/viennajs-november-2022) (in Vienna, Austria) - FREE 
 -->
 
-<!-- 
-No more talks upcoming / scheduled in  November / December 2022. 
--->  
 
 Note: I am always happy to speak at your meetup / camp / conference - send requests / invites to gerald.bauer @ gmail.com.
 For a collection of past talks (incl. outlines), see [**Talks, Talks, Talks »**](https://github.com/geraldb/talks) 
@@ -21,6 +18,49 @@ Let's generate 8 000 000 000, that is, 8 billion unique punks for everyone on pl
 
 Q: How many ("sprite") attributes do we need? Mission impossible? 
 Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes, you can.**](https://old.reddit.com/r/CryptoPunksDev/comments/ywtdrt/triva_quiz_8_000_000_000_8bn_humans_on_planet/) 
+
+
+## Questions? Comments?
+
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). 
+
+Or if not punk (pixel) art related [open a new issue / ticket](https://github.com/geraldb/geraldb.github.io/issues). Thanks.
+
+
+
+## Week 1 - Monday, January 2nd to Sunday, January 8th, 2023
+
+**If I Were ~~King~~ Matz (aka Yukihiro Matsumoto) - Ideas For Ruby 4.0 - What's Broken & Missing in Ruby 3.x and How To Fix It**
+
+To kick off the new year with looking ahead 
+I open a new page titled [**If I Were ~~King~~ Matz (aka Yukihiro Matsumoto) - Ideas For Ruby 4.0 - What's Broken & Missing in Ruby 3.x and How To Fix It**](https://github.com/rubycocos/core#if-i-were-king-matz-aka-yukihiro-matsumoto---ideas-for-ruby-40-----whats-broken--missing-in-ruby-3x-and-how-to-fix-it) 
+that is a (living) quick draft of ideas 
+(backed-up with code & monkey-patches that you can use / try out today).  
+Your questions and comments welcome.  Happy new year. Prosit 2023!
+
+
+
+## Week 52 - Monday, December 26th 2022 to Sunday, January 1st 2023
+
+**abicoder gem - New Application Binary Inteface (ABI) Coder For Ethereum & Co.**
+
+To help out all ethereum & co gems in rubyland  
+I have started [**a new abicoder gem that includes application binary interface (abi) encoder & decoder for easy (re)use**](https://github.com/rubycocos/blockchain/tree/master/abicoder) 
+with zero-dependencies on any 3rd party gems incl. any of my own ;-).  
+The idea is to work together in 2023 on any missing functionality - 
+I have already pinged / [**invited the eth.rb lead**](https://github.com/q9f/eth.rb/issues/102).   
+Happy blockchaining with ruby. Happy New Year. Prosit 2023!   
+
+**abiparser gem - New Application Binary Inteface (ABI) Parser For Ethereum & Co.**
+
+I have started on a new [**abiparser gem that includes application binary interface (abi) parser machinery / helper for Ethereum & Co. (blockchain) contracts**](https://github.com/rubycocos/blockchain/tree/master/abiparser) 
+and started to document function signature hashes ("sighashes") / selectors 
+and interface (type) ids and more - all using coding examples in ye good olde plain ruby.   
+Are abis (application binary interfaces) the new apis (application programming interfaces)? Discuss. 
+
+PS:  A first "real-world" usage-case is the 
+new [**abidoc gem that - surprise, surprise - generates abi documentation pages**](https://github.com/rubycocos/blockchain/tree/master/abidoc) 
+from public abi (contract) specs (in json) parsed with the abiparser gem.
 
 
 
@@ -51,10 +91,6 @@ that includes:
  
 and more upcoming SOON!
 
-
-**Questions? Comments?**
-
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
 
 
 
