@@ -28,6 +28,36 @@ Q: How many ("sprite") attributes do we need? Mission impossible?
 Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes, you can.**](https://old.reddit.com/r/CryptoPunksDev/comments/ywtdrt/triva_quiz_8_000_000_000_8bn_humans_on_planet/) 
 
 
+## Week 2 - Monday, January 9th to Sunday, January 15th, 2023
+
+**ethers gem -  "High-Level" All-In-One Umbrella Quick Starter Package For Easy Installation & Usage For Ethereum & Co.**
+
+To make it easier to get started with blockchain (contract) programming in ruby - and inspired by the rails gem  - 
+I put together [**the ethers gem - a "high-level" all-in-one umbrella quick starter gem for easy installation & usage for ethereum & co.**](https://rubygems.org/gems/ethers) 
+(blockchain) contract services that for now bundles 
+crypto-lite, etherlite, etherlite-contracts, ethname, etherscan-lite, abidoc, abigen,  & some more gems.   
+The ethers name is inspired by ethers.js (or ethers.rs) and let's you use `require 'ethers'` 
+in rubyland or `$ gem install ethers` to get started.  
+
+**abigen gem - Application Binary Interface (ABI) Contract Generator for Ruby**
+
+In the ongoing crypto winter ethereum & co. programming series I put together
+the new [**abigen gem lets you  generate ready-to-use (blockchain) contract services / function calls for ethereum & co.**](https://github.com/rubycocos/blockchain/tree/master/abigen) 
+via application binary inferfaces (abis). 
+Bonus: Via the new natspec gem you can even "auto-include" nat(ural language) spec(ification) comments / documentation 
+in the generated ruby code.  
+See the  pre-packaged auto-generated ruby classes in the [**ethlite-contracts gem**](https://www.rubydoc.info/gems/ethlite-contracts/0.1.1/PunkBlocks), 
+for some first real-world samples. 
+  
+**hexutils gem - Hex Encode / Decode Helpers; From Hex String to Bin(ary) String & Back**
+
+A new addition in the ongoing [**If I Were ~~King~~ Matz (aka Yukihiro Matsumoto) - Ideas For Ruby 4.0   - What's Broken & Missing in Ruby 3.x and How To Fix It**](https://github.com/rubycocos/core#if-i-were-king-matz-aka-yukihiro-matsumoto---ideas-for-ruby-40-----whats-broken--missing-in-ruby-3x-and-how-to-fix-it)
+series I published a [**first version of the hexutils gem**](https://github.com/rubycocos/core/tree/master/hexutils)
+that adds the missing hex(adecimal) encode / decode helpers to String, NilClass, Kernel & Co. 
+that get you  from hex(adecimal) string to bin(ary) string and back.  
+Happy wrangling with bits & bytes in ruby.
+
+
 
 ## Week 1 - Monday, January 2nd to Sunday, January 8th, 2023
 
@@ -38,6 +68,31 @@ I opened a new page titled [**If I Were ~~King~~ Matz (aka Yukihiro Matsumoto) -
 that's a (living) quick draft of ideas 
 (backed-up with code & monkey-patches that you can use / try out today).
 Your questions and comments welcome.  Happy new year. Prosit 2023!
+
+
+**All Ruby Books @ Planet Ruby Opened Up /2023 Directory & More**
+
+The [**All Ruby Books**](http://planetruby.github.io/books/) collection 
+was started by Florent Guilleux in 2016 and before shutting it down 
+I volunteered to rescue the collection and moved it over to Planet Ruby 
+and converted the code to an [**all static website**](https://github.com/planetruby/books) 
+built with ruby (via jekyll and github pages) from collections in markdown 
+(one per book organized by directories per year).  
+Anyways, to kick off the new year I added a new [**/2023 directory**](https://github.com/planetruby/books/tree/master/_books/2023) 
+and added two upcoming ruby books in beta. Anything missing?  Your contributions welcome.    
+
+
+**Ruby Conferences & Camps in 2023 @ Planet Ruby - What’s Upcoming?**
+
+Over at the Planet Ruby I opened-up a new page listing 
+all [**Ruby Conferences & Camps in 2023 - What’s Upcoming?**](https://planetruby.github.io/conferences/2023). 
+It's all built with ruby (via jekyll and github pages) 
+and a (open) [datafile in yaml](https://github.com/planetruby/conferences/blob/master/_data/conferences2023.yml).  
+There's even an old school [web feed in xml](https://planetruby.github.io/conferences/feed.xml) 
+(and [modern flavor in json](https://planetruby.github.io/conferences/feed.json)).   
+What ruby (or rails) conference or camp are you planning to attend in 2023 
+(or [are you cancel-cultured like DHH](https://old.reddit.com/r/planetruby/comments/1029y2y/woke_conspiracy_lead_by_schneems_et_al_trying_to/)  
+and have to re-start your own foundation and conference that invites you back as a keynote speaker ;-)?     
 
 
 
