@@ -4,17 +4,17 @@
 ## Upcoming (In-Person Live) Talks - Join Us
 
 <!--
-Tuesday, November 29th 2022 - [**Inside Punkbase - SQLite (SQL.js) in Action  @ Vienna.js**](https://viennajs.org/en/meetup/viennajs-november-2022) (in Vienna, Austria) - FREE 
+Tuesday, November 29th 2022 - [**Inside Punkbase - SQLite (SQL.js) in Action  @ Vienna.js**](https://viennajs.org/en/meetup/viennajs-november-2022) (in Vienna, Austria) - FREE
 -->
 
 
 Note: I am always happy to speak at your meetup / camp / conference - send requests / invites to gerald.bauer @ gmail.com.
-For a collection of past talks (incl. outlines), see [**Talks, Talks, Talks »**](https://github.com/geraldb/talks) 
+For a collection of past talks (incl. outlines), see [**Talks, Talks, Talks »**](https://github.com/geraldb/talks)
 
 
 ## Questions? Comments?
 
-Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). 
+Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt).
 
 Or if not punk (pixel) art related [open a new issue / ticket](https://github.com/geraldb/geraldb.github.io/issues). Thanks.
 
@@ -24,37 +24,66 @@ Or if not punk (pixel) art related [open a new issue / ticket](https://github.co
 
 Let's generate 8 000 000 000, that is, 8 billion unique punks for everyone on planet earth.
 
-Q: How many ("sprite") attributes do we need? Mission impossible? 
-Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes, you can.**](https://old.reddit.com/r/CryptoPunksDev/comments/ywtdrt/triva_quiz_8_000_000_000_8bn_humans_on_planet/) 
+Q: How many ("sprite") attributes do we need? Mission impossible?
+Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes, you can.**](https://old.reddit.com/r/CryptoPunksDev/comments/ywtdrt/triva_quiz_8_000_000_000_8bn_humans_on_planet/)
+
+
+
+## Week 3 - Monday, January 16th to Sunday, January 21st, 2023
+
+**A Call for Good Governance @ Vienna.rb Results In Fuck You by Org / Owner (Aaron Cruz)**
+
+For reference I've written-up a (public) summary, see Ruby (January, 2023) - [**A Call for Good Governance @ Vienna.rb Results In Fuck You by Org / Owner (Aaron Cruz)**](https://github.com/planetruby/gems/blob/master/cancelculture/02-meetup.md).
+Your comments or corrections are more than welcome.
+
+
+**Vienna.rb Website Update & (Drop-In) Meetups Upcoming in 2023**
+
+As a follow-up to the ongoing Vienna.rb drama
+I updated the [https://viennarb.github.io/](Vienna.rb / Wien.rb - Ruby Meetup / Stammtisch ) website. What's news?
+
+- Leaderboard of Rubyists in and around Vienna, Austria / Wien, Österreich
+  - For the formula used let's quote "I only believe in statistics that I doctored myself" " ;-).
+- Q&A Series w/ Thomas Leitner, Stefan Haslinger et al merged into main source / site
+- (In-Person) Meetups & Learn Togethers) Upcoming in 2023!
+
+
+**gemverse gem - gem universe incl. rubygems API V1 wrapper lite; gem (version) cache, gem timeline reports, & more**
+
+Interested in what you have been up to in the latest 10+ years in rubyland / gemverse?
+To (auto-)generate timelines for personal profiles or for "curated" collections I have started to put together a new gem, that is, gemverse, for easy (re)use. The [**gemverse incl. rubygems API V1 wrapper lite; gem (version) cache, gem timeline reports, & more**](https://github.com/rubycocos/git/tree/master/gemverse). For some first real-world sample pages see the gem timeline (by week) of [**Gerald Bauer - 244 Gems, 1652 Updates**](https://geraldb.github.io/gems/) or (by month) the [**Ruby Code Commons (COCOS) Collection - 117 Gems, 638 Updates**](https://rubycocos.github.io/).  It's still the early days. Questions, comments & suggestions more than welcome.
+
+
+
 
 
 ## Week 2 - Monday, January 9th to Sunday, January 15th, 2023
 
 **ethers gem -  "High-Level" All-In-One Umbrella Quick Starter Package For Easy Installation & Usage For Ethereum & Co.**
 
-To make it easier to get started with blockchain (contract) programming in ruby - and inspired by the rails gem  - 
-I put together [**the ethers gem - a "high-level" all-in-one umbrella quick starter gem for easy installation & usage for ethereum & co.**](https://rubygems.org/gems/ethers) 
-(blockchain) contract services that for now bundles 
+To make it easier to get started with blockchain (contract) programming in ruby - and inspired by the rails gem  -
+I put together [**the ethers gem - a "high-level" all-in-one umbrella quick starter gem for easy installation & usage for ethereum & co.**](https://rubygems.org/gems/ethers)
+(blockchain) contract services that for now bundles
 crypto-lite, etherlite, etherlite-contracts, ethname, etherscan-lite, abidoc, abigen,  & some more gems.
-The ethers name is inspired by ethers.js (or ethers.rs) and let's you use `require 'ethers'` 
-in rubyland or `$ gem install ethers` to get started.  
+The ethers name is inspired by ethers.js (or ethers.rs) and let's you use `require 'ethers'`
+in rubyland or `$ gem install ethers` to get started.
 
 **abigen gem - Application Binary Interface (ABI) Contract Generator for Ruby**
 
 In the ongoing crypto winter ethereum & co. programming series I put together
-the new [**abigen gem that lets you  generate ready-to-use (blockchain) contract services / function calls for ethereum & co.**](https://github.com/rubycocos/blockchain/tree/master/abigen) 
+the new [**abigen gem that lets you  generate ready-to-use (blockchain) contract services / function calls for ethereum & co.**](https://github.com/rubycocos/blockchain/tree/master/abigen)
 via application binary inferfaces (abis).
-Bonus: Via the new natspec gem you can even "auto-include" nat(ural language) spec(ification) comments / documentation 
+Bonus: Via the new natspec gem you can even "auto-include" nat(ural language) spec(ification) comments / documentation
 in the generated ruby code.
-See the  pre-packaged auto-generated ruby classes in the [**ethlite-contracts gem**](https://www.rubydoc.info/gems/ethlite-contracts/0.1.1/PunkBlocks), 
-for some first real-world samples. 
-  
+See the  pre-packaged auto-generated ruby classes in the [**ethlite-contracts gem**](https://www.rubydoc.info/gems/ethlite-contracts/0.1.1/PunkBlocks),
+for some first real-world samples.
+
 **hexutils gem - Hex Encode / Decode Helpers; From Hex String to Bin(ary) String & Back**
 
 A new addition in the ongoing [**If I Were ~~King~~ Matz (aka Yukihiro Matsumoto) - Ideas For Ruby 4.0   - What's Broken & Missing in Ruby 3.x and How To Fix It**](https://github.com/rubycocos/core#if-i-were-king-matz-aka-yukihiro-matsumoto---ideas-for-ruby-40-----whats-broken--missing-in-ruby-3x-and-how-to-fix-it)
 series I published a [**first version of the hexutils gem**](https://github.com/rubycocos/core/tree/master/hexutils)
-that adds the missing hex(adecimal) encode / decode helpers to String, NilClass, Kernel & Co. 
-that get you  from hex(adecimal) string to bin(ary) string and back.  
+that adds the missing hex(adecimal) encode / decode helpers to String, NilClass, Kernel & Co.
+that get you  from hex(adecimal) string to bin(ary) string and back.
 Happy wrangling with bits & bytes in ruby.
 
 
@@ -63,36 +92,36 @@ Happy wrangling with bits & bytes in ruby.
 
 **If I Were ~~King~~ Matz (aka Yukihiro Matsumoto) - Ideas For Ruby 4.0 - What's Broken & Missing in Ruby 3.x and How To Fix It**
 
-To kick off the new year looking ahead 
-I opened a new page titled [**If I Were ~~King~~ Matz (aka Yukihiro Matsumoto) - Ideas For Ruby 4.0 - What's Broken & Missing in Ruby 3.x and How To Fix It**](https://github.com/rubycocos/core#if-i-were-king-matz-aka-yukihiro-matsumoto---ideas-for-ruby-40-----whats-broken--missing-in-ruby-3x-and-how-to-fix-it) 
-that's a (living) quick draft of ideas 
+To kick off the new year looking ahead
+I opened a new page titled [**If I Were ~~King~~ Matz (aka Yukihiro Matsumoto) - Ideas For Ruby 4.0 - What's Broken & Missing in Ruby 3.x and How To Fix It**](https://github.com/rubycocos/core#if-i-were-king-matz-aka-yukihiro-matsumoto---ideas-for-ruby-40-----whats-broken--missing-in-ruby-3x-and-how-to-fix-it)
+that's a (living) quick draft of ideas
 (backed-up with code & monkey-patches that you can use / try out today).
 Your questions and comments welcome.  Happy new year. Prosit 2023!
 
 
 **All Ruby Books @ Planet Ruby Opened Up /2023 Directory & More**
 
-The [**All Ruby Books**](http://planetruby.github.io/books/) collection 
-was started by Florent Guilleux in 2016 and before shutting it down 
-I volunteered to rescue the collection and moved it over to Planet Ruby 
-and converted the code to an [**all static website**](https://github.com/planetruby/books) 
-built with ruby (via jekyll and github pages) from collections in markdown 
+The [**All Ruby Books**](http://planetruby.github.io/books/) collection
+was started by Florent Guilleux in 2016 and before shutting it down
+I volunteered to rescue the collection and moved it over to Planet Ruby
+and converted the code to an [**all static website**](https://github.com/planetruby/books)
+built with ruby (via jekyll and github pages) from collections in markdown
 (one per book organized by directories per year).
-Anyways, to kick off the new year I added a new [**/2023 directory**](https://github.com/planetruby/books/tree/master/_books/2023) 
-and added two upcoming ruby books in beta. Anything missing?  Your contributions welcome.    
+Anyways, to kick off the new year I added a new [**/2023 directory**](https://github.com/planetruby/books/tree/master/_books/2023)
+and added two upcoming ruby books in beta. Anything missing?  Your contributions welcome.
 
 
 **Ruby Conferences & Camps in 2023 @ Planet Ruby - What’s Upcoming?**
 
-Over at the Planet Ruby I opened-up a new page listing 
-all [**Ruby Conferences & Camps in 2023 - What’s Upcoming?**](https://planetruby.github.io/conferences/2023). 
+Over at the Planet Ruby I opened-up a new page listing
+all [**Ruby Conferences & Camps in 2023 - What’s Upcoming?**](https://planetruby.github.io/conferences/2023).
 It's all built with ruby (via jekyll and github pages)
 and a (open) [**datafile in yaml**](https://github.com/planetruby/conferences/blob/master/_data/conferences2023.yml).
 There's even an old school [**web feed in xml**](https://planetruby.github.io/conferences/feed.xml)
 (and [**modern flavor in json**](https://planetruby.github.io/conferences/feed.json)).
 What ruby (or rails) conference or camp are you planning to attend in 2023
-(or [**are you cancel-cultured like DHH**](https://old.reddit.com/r/planetruby/comments/1029y2y/woke_conspiracy_lead_by_schneems_et_al_trying_to/)  
-and have to re-start your own foundation and conference that invites you back as a keynote speaker ;-)?     
+(or [**are you cancel-cultured like DHH**](https://old.reddit.com/r/planetruby/comments/1029y2y/woke_conspiracy_lead_by_schneems_et_al_trying_to/)
+and have to re-start your own foundation and conference that invites you back as a keynote speaker ;-)?
 
 
 
@@ -101,21 +130,21 @@ and have to re-start your own foundation and conference that invites you back as
 **abicoder gem - New Application Binary Inteface (ABI) Coder For Ethereum & Co.**
 
 To help out all ethereum & co gems in rubyland
-I have started [**a new abicoder gem that includes application binary interface (abi) encoder & decoder for easy (re)use**](https://github.com/rubycocos/blockchain/tree/master/abicoder) 
+I have started [**a new abicoder gem that includes application binary interface (abi) encoder & decoder for easy (re)use**](https://github.com/rubycocos/blockchain/tree/master/abicoder)
 with zero-dependencies on any 3rd party gems incl. any of my own ;-).
-The idea is to work together in 2023 on any missing functionality - 
+The idea is to work together in 2023 on any missing functionality -
 I have already pinged / [**invited the eth.rb lead**](https://github.com/q9f/eth.rb/issues/102).
-Happy blockchaining with ruby. Happy New Year. Prosit 2023!   
+Happy blockchaining with ruby. Happy New Year. Prosit 2023!
 
 **abiparser gem - New Application Binary Inteface (ABI) Parser For Ethereum & Co.**
 
-I have started on a new [**abiparser gem that includes application binary interface (abi) parser machinery / helper for Ethereum & Co. (blockchain) contracts**](https://github.com/rubycocos/blockchain/tree/master/abiparser) 
+I have started on a new [**abiparser gem that includes application binary interface (abi) parser machinery / helper for Ethereum & Co. (blockchain) contracts**](https://github.com/rubycocos/blockchain/tree/master/abiparser)
 and started to document function signature hashes ("sighashes") / selectors
 and interface (type) ids and more - all using coding examples in ye good olde plain ruby.
-Are abis (application binary interfaces) the new apis (application programming interfaces)? Discuss. 
+Are abis (application binary interfaces) the new apis (application programming interfaces)? Discuss.
 
-PS:  A first "real-world" usage-case is the 
-new [**abidoc gem that - surprise, surprise - generates abi documentation pages**](https://github.com/rubycocos/blockchain/tree/master/abidoc) 
+PS:  A first "real-world" usage-case is the
+new [**abidoc gem that - surprise, surprise - generates abi documentation pages**](https://github.com/rubycocos/blockchain/tree/master/abidoc)
 from public abi (contract) specs (in json) parsed with the abiparser gem.
 
 
@@ -125,7 +154,7 @@ from public abi (contract) specs (in json) parsed with the abiparser gem.
 
 **ArtQ In Action - Let's Download (On-Chain) Pixel Art (Character) Layers**
 
-I downloaded and added 10+ more collection layers for easy (re)use 
+I downloaded and added 10+ more collection layers for easy (re)use
 to the [**Art Factory Sandbox**](https://github.com/pixelartexchange/artfactory.sandbox)
 using the [**ArtQ machinery**](https://github.com/pixelartexchange/artbase/tree/master/artq).
 The new samples include:
@@ -140,11 +169,11 @@ and many more.
 **Artbase Sandbox (& Cache) Vol. 3**
 
 I am trying to exercise the [**("right-clicker" download) artbase machinery**](https://github.com/pixelartexchange/artbase)
-and opened up a [**new sandbox, that is, vol. iii**](https://github.com/pixelartexchange/artbase.sandbox.vol3), 
+and opened up a [**new sandbox, that is, vol. iii**](https://github.com/pixelartexchange/artbase.sandbox.vol3),
 that includes:
 - the Kawaii Kittens (max. 1700) 48×48 pixel art collection <br> ![](https://github.com/pixelartexchange/artbase.sandbox.vol3/raw/master/i/kawaii-kittens-strip.png),
 - the Blklavas (max. 5090) 26×26 <br> ![](https://github.com/pixelartexchange/artbase.sandbox.vol3/raw/master/i/blklavas-strip.png),
- 
+
 and more upcoming SOON!
 
 
@@ -154,33 +183,33 @@ and more upcoming SOON!
 
 **Free Crowd-Sourced "Off-Chain" Eth(erum) Name Service / Helper**
 
-I put together another little gem, that is, [**ethname - a light-weight crowd-sourced "off-chain" ethereum name to (contract) address service / helper**](https://github.com/rubycocos/blockchain/tree/master/ethname) 
-(incl. punks v1,v2,v3,v4; phunks v1,v2, synth punks, punk blocks, etc.).  
+I put together another little gem, that is, [**ethname - a light-weight crowd-sourced "off-chain" ethereum name to (contract) address service / helper**](https://github.com/rubycocos/blockchain/tree/master/ethname)
+(incl. punks v1,v2,v3,v4; phunks v1,v2, synth punks, punk blocks, etc.).
 Yes, you can!  Add more names / contracts via git (hub) ;-).
 
 **Light-Weight Machinery / Helper for the Etherscan JSON HTTP API**
 
-I put together a little gem, that is, [**etherscan-lite - a light-weight machinery / helper for the Etherscan JSON HTTP API**](https://github.com/rubycocos/blockchain/tree/master/etherscan-lite).  
-To get you started I tried the official etherscan recipe examples. 
-1) Get All USDT Transfers from Binance  
-2) Get the Latest Moonbird Non-Fungible Token (NFT) Transfers 
-3) List ETH deposits to Arbitrum Bridge. 
+I put together a little gem, that is, [**etherscan-lite - a light-weight machinery / helper for the Etherscan JSON HTTP API**](https://github.com/rubycocos/blockchain/tree/master/etherscan-lite).
+To get you started I tried the official etherscan recipe examples.
+1) Get All USDT Transfers from Binance
+2) Get the Latest Moonbird Non-Fungible Token (NFT) Transfers
+3) List ETH deposits to Arbitrum Bridge.
 
 **To (Use) Bytes or Not? - Discuss**
 
 Does a Bytes (ByteArray) class make any sense in rubyland - why? why not? Discuss.
 
-While hashing "to-the-metal" byte arrays in ruby 
-I am revisiting / reworking [**the  bytes gem that  offers a new Bytes (ByteArray) class**](https://github.com/rubycocos/core/tree/master/bytes) 
-as a "type-safe" alternative to the String class with ASCII_8BIT / BINARY encoding. 
- Did you know? A ruby string might be a frozen string, a string buffer, a character, a bytearray,  or you name it ;-).  
-Anyways, if anyone has any comments or tips & tricks on how to work with bytearrays (bytes) in ruby, please tell / share.    
+While hashing "to-the-metal" byte arrays in ruby
+I am revisiting / reworking [**the  bytes gem that  offers a new Bytes (ByteArray) class**](https://github.com/rubycocos/core/tree/master/bytes)
+as a "type-safe" alternative to the String class with ASCII_8BIT / BINARY encoding.
+ Did you know? A ruby string might be a frozen string, a string buffer, a character, a bytearray,  or you name it ;-).
+Anyways, if anyone has any comments or tips & tricks on how to work with bytearrays (bytes) in ruby, please tell / share.
 
 
 **Digest Lite - More Crypto(graphic) Hash Functions / Classes in Ruby (Without C-Extensions)**
 
-For easy (re)use I put together a new stand-alone gem, that is, [**digest-lite that includes more crypto(graphic) hash functions / classes e.g. Digest::KeccakLite (512bit, 256bit, etc), Digest::SHA3Lite (512bit, 256bit, etc)**](https://github.com/rubycocos/blockchain/tree/master/digest-lite) 
-in "100% pure" ruby "lite" scripts, that is, without any c-extensions and with zero-dependency. 
+For easy (re)use I put together a new stand-alone gem, that is, [**digest-lite that includes more crypto(graphic) hash functions / classes e.g. Digest::KeccakLite (512bit, 256bit, etc), Digest::SHA3Lite (512bit, 256bit, etc)**](https://github.com/rubycocos/blockchain/tree/master/digest-lite)
+in "100% pure" ruby "lite" scripts, that is, without any c-extensions and with zero-dependency.
 
 
 
@@ -191,7 +220,7 @@ in "100% pure" ruby "lite" scripts, that is, without any c-extensions and with z
 
 Inspired by the "on-chain" Synthetic Punks V1 by Stephan Cilliers I put together an [**"off-chain" synthpunks gem / library**](https://github.com/cryptopunksnotdead/cryptopunks/tree/master/synthpunks) that lets you generate (free unlimited) pixel punks using the same pseudo-random formula and spritesheet for any (ethereum) address (or any 40-digit / 20-byte hexstring really.)  Bonus: Add your own backgrounds or derive your own set of default profile pics and more. Example:
 
-- 0x054f3b6eadc9631ccd60246054fdb0fcfe99b322 => ![](https://github.com/cryptopunksnotdead/cryptopunks/raw/master/synthpunks/i/punk1.png) - Alien, Clown Nose, Frown, Vape, Eyebrows 
+- 0x054f3b6eadc9631ccd60246054fdb0fcfe99b322 => ![](https://github.com/cryptopunksnotdead/cryptopunks/raw/master/synthpunks/i/punk1.png) - Alien, Clown Nose, Frown, Vape, Eyebrows
 - 0x7a80ee32044f496a7bfef65af738fdda3a02cf02 => ![](https://github.com/cryptopunksnotdead/cryptopunks/raw/master/synthpunks/i/punk2.png) - Human 1, Rosy Cheeks, Shadow Beard, Wild Hair, VR
 
 
@@ -200,12 +229,12 @@ Inspired by the "on-chain" Synthetic Punks V1 by Stephan Cilliers I put together
 
 **Default Profile Pic(tures) - The Punk Edition**
 
-A little experiment in the ongoing punk pixel art programming series. 
-The idea - let's turn pixel punk heads into default profile pic(ture)s 
-via Image#silhouette (from the pixelart gem). 
-Bonus: Use Image#circle (from the pixelart gem) to "round out" 
-the square (profile picture) image. 
-See [**Yes, You Can - Generate Your Own Default Profile Pics (PFPs) @ Punk's Not Dead**](https://github.com/cryptopunksnotdead/punks.sandbox/tree/master/default-profilepics) 
+A little experiment in the ongoing punk pixel art programming series.
+The idea - let's turn pixel punk heads into default profile pic(ture)s
+via Image#silhouette (from the pixelart gem).
+Bonus: Use Image#circle (from the pixelart gem) to "round out"
+the square (profile picture) image.
+See [**Yes, You Can - Generate Your Own Default Profile Pics (PFPs) @ Punk's Not Dead**](https://github.com/cryptopunksnotdead/punks.sandbox/tree/master/default-profilepics)
 for do-it-yourself (d.i.y.) examples and scripts.
 
 ![](https://github.com/cryptopunksnotdead/punks.sandbox/raw/master/default-profilepics/i/default1-punk0.png)
@@ -254,7 +283,7 @@ and updates to a new "top-level" repo, that is,  [**punks.black »**](https://gi
 
 **New Punk Link Blog @ Punk's Not Dead**
 
-To keep track of punk projects from around the world 
+To keep track of punk projects from around the world
 I've started a new link blog @ Punk's Not Dead.
 See [**(Pixel) Punk (Programming) Links From Around The World, Universe & Metaverse »**](https://cryptopunksnotdead.github.io/universe/)
 
@@ -278,19 +307,19 @@ a new command-line tool**](https://github.com/pixelartexchange/artbase/tree/mast
 download (pixel) art layers
 for "on-blockchain" collections for easy "off-blockchain" (re)use.
 For Mad Camels, for example, try `$ artq 0xad8474ba5a7f6abc52708f171f57fefc5cdc8c1c layers` and so on.
-For 20+ more examples (incl. DOS Phunks, 1337 Skulls, Teddies, etc.) see the [**Art Factory Sandbox »**](https://github.com/pixelartexchange/artfactory.sandbox) 
+For 20+ more examples (incl. DOS Phunks, 1337 Skulls, Teddies, etc.) see the [**Art Factory Sandbox »**](https://github.com/pixelartexchange/artfactory.sandbox)
 
 
 **Artbase Module Mania**
 
 To make it easier to build on and (re)use the artbase machinery
 I started to break-up the artbase "monolith" into modules,
-that is,  
-[**artbase-cocos (code commons)**](https://github.com/pixelartexchange/artbase/tree/master/artbase-cocos), 
+that is,
+[**artbase-cocos (code commons)**](https://github.com/pixelartexchange/artbase/tree/master/artbase-cocos),
 [**artbase-importers**](https://github.com/pixelartexchange/artbase/tree/master/artbase-importers),
 [**artbase-linters (& exporters)**](https://github.com/pixelartexchange/artbase/tree/master/artbase-linters).
-and [**artbase**](https://github.com/pixelartexchange/artbase/tree/master/artbase) for the "high-level" command-line tool(s) that now includes 
-[**artq**](https://github.com/pixelartexchange/artbase/tree/master/artq) and 
+and [**artbase**](https://github.com/pixelartexchange/artbase/tree/master/artbase) for the "high-level" command-line tool(s) that now includes
+[**artq**](https://github.com/pixelartexchange/artbase/tree/master/artq) and
 [**artserve**](https://github.com/pixelartexchange/artbase/tree/master/artserve).
 
 
@@ -302,15 +331,15 @@ and [**artbase**](https://github.com/pixelartexchange/artbase/tree/master/artbas
 **New Datasets for the World Cup 2022 in Qatar in Football.TXT**
 
 The World Cup 2022 kicked off on Sunday, Nov 20th (in Qatar).  I started adding new datasets for the World Cup 2022 in the (structured) Football.TXT format (e.g. [**/2022--qatar/cup.txt**](https://github.com/openfootball/worldcup/blob/master/2022--qatar/cup.txt), etc.) that you can read into SQLite (or any other SQL database) with [**the sportdb gem(s) / machinery**](http://sportdb.github.io/)
-(and than [**export to JSON**](https://github.com/openfootball/worldcup.json), for example).  
+(and than [**export to JSON**](https://github.com/openfootball/worldcup.json), for example).
 
 
 **New Ethereum Gems - ethlite & rlp-lite**
 
-Since the "official" ethereum gem in rubyland, that is, the eth gem has no support for tuples (also known as structs) for eth calls  
-I started  building a light-weight alternative that for now handles only eth calls (via json rpc) 
+Since the "official" ethereum gem in rubyland, that is, the eth gem has no support for tuples (also known as structs) for eth calls
+I started  building a light-weight alternative that for now handles only eth calls (via json rpc)
 BUT supports tuples (initially based on the web3-eth gem).
-The web3-eth gem depends on the rlp gem (for recursive-length prefix encoding) 
+The web3-eth gem depends on the rlp gem (for recursive-length prefix encoding)
 and since the rlp gem is out-of-support / unmaintained I started putting together a more light-weight alternative
 based on the rlp machinery inside of the eth gem (that itself is a lighter version based on web3-eth).
 See the new [**ethlite gem**](https://github.com/rubycocos/blockchain/tree/master/ethlite) and [**rlp-lite gem**](https://github.com/rubycocos/blockchain/tree/master/rlp-lite) pages for details.
@@ -323,7 +352,7 @@ See the new [**ethlite gem**](https://github.com/rubycocos/blockchain/tree/maste
 
 ~Collect'em all!~  Generate'em all!
 I started to download "on-blockchain" artwork layers
-from about a dozen pixel art collections e.g. 
+from about a dozen pixel art collections e.g.
 [**Chi Chis (in 32×32px)**](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/chichis)
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/chichis0.png)
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/chichis1.png)
@@ -362,7 +391,7 @@ from about a dozen pixel art collections e.g.
 ![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/i/punkinspicies2.png),
 etc.
 and repackaged all attributes in all-in-one spritesheet images.
-Yes, you can! (Re)use the "off-blockchain" (pixel) artwork spritesheets 
+Yes, you can! (Re)use the "off-blockchain" (pixel) artwork spritesheets
 to generate any combination using text-to-image prompts.
 
 
@@ -395,23 +424,23 @@ For the making-of sources / scripts, see the [**artbase sandbox**](https://githu
 
 **learn pixel art (re)org**
 
-It's time (again) for a (github) reorg. 
-I moved (almost) all pixel art libraries - in javascript, ruby, go (upcoming via artbase.server), etc. - 
-and all pixel art how-tos and quick starter templates 
+It's time (again) for a (github) reorg.
+I moved (almost) all pixel art libraries - in javascript, ruby, go (upcoming via artbase.server), etc. -
+and all pixel art how-tos and quick starter templates
 to the new [**Learn Pixel Art org @ github**](https://github.com/learnpixelart), that is, /learnpixelart.
 
 
 **quiz mania**
 
-Image generation via text prompts is the latest A.I. craze (e.g. DALL·E 2, Midjourney, et al). 
-For fun I started to put together a punk (text prompt-to-image) quiz to "train your memory" 
-or to show-off your punk (image) I.Q.  
-Can you find the matching punk (image art work) for "Male 1 • Normal Beard • Earring • Mohawk Dark"?   A/B/C/D?   
-Try the [**Matt & John's® Ye Olde' Punks Quiz**](https://cryptopunksnotdead.github.io/punks.js/quiz/punks) 
+Image generation via text prompts is the latest A.I. craze (e.g. DALL·E 2, Midjourney, et al).
+For fun I started to put together a punk (text prompt-to-image) quiz to "train your memory"
+or to show-off your punk (image) I.Q.
+Can you find the matching punk (image art work) for "Male 1 • Normal Beard • Earring • Mohawk Dark"?   A/B/C/D?
+Try the [**Matt & John's® Ye Olde' Punks Quiz**](https://cryptopunksnotdead.github.io/punks.js/quiz/punks)
 or try the [**1000 More Punks Quiz**](https://cryptopunksnotdead.github.io/punks.js/quiz/morepunks).
 
-Bonus:  Try the [**24px Cool Cats Quiz**](https://learnpixelart.github.io/pixelart.js/quiz/coolcats) 
-or the [**28px Bored Apes Quiz**](https://learnpixelart.github.io/pixelart.js/quiz/boredapes) or - yes, you can! - 
+Bonus:  Try the [**24px Cool Cats Quiz**](https://learnpixelart.github.io/pixelart.js/quiz/coolcats)
+or the [**28px Bored Apes Quiz**](https://learnpixelart.github.io/pixelart.js/quiz/boredapes) or - yes, you can! -
 put together [**your own quiz**](https://github.com/learnpixelart/pixelart.js).
 
 
@@ -431,15 +460,15 @@ put together [**your own quiz**](https://github.com/learnpixelart/pixelart.js).
 ![](https://github.com/dollzmania/dollz.sandbox/raw/master/no1/prepprops/blondjerules.png)
 
 
-Anyone remember dollz mania in the 2000s?   I don't ;-). I guess it was mostly a teenage girl craze - 
-but now in 2022 with 24x24 pixel art 
+Anyone remember dollz mania in the 2000s?   I don't ;-). I guess it was mostly a teenage girl craze -
+but now in 2022 with 24x24 pixel art
 turning into million dollar "fine art"   -
-the do-it-yourself (D.I.Y.)  - yes, you can - make your 
+the do-it-yourself (D.I.Y.)  - yes, you can - make your
 own free (pixel) "full body" avatars  ([said to have started in 1997 by The Place](https://dollzmania.neocities.org/history/history-overview.html))
 via dragging & dropping  the "props" ontop of each other  -
-are putting the (crypto bro) punk pixel "artwork" and movement in a different light. 
-Where are the hundred of free d.i.y. punk makers (compared to the dollz makers)? 
-Or where are the hundred (or even thousands) of free "props", that is, head props, hair props, 
+are putting the (crypto bro) punk pixel "artwork" and movement in a different light.
+Where are the hundred of free d.i.y. punk makers (compared to the dollz makers)?
+Or where are the hundred (or even thousands) of free "props", that is, head props, hair props,
  tops & capes, dresses, bottoms, shoes & socks, wings, specials, accessories, and on and on
 for making your own "fully body" pixel avatars?
 
@@ -447,21 +476,21 @@ for making your own "fully body" pixel avatars?
 
 Anyways,  I started  restoring and preserving dollz mania (pixel) art.
 See the new [**Dollz Mania**](https://github.com/dollzmania) org at github.
-The first [**/dollz.sandbox**](https://github.com/dollzmania/dollz.sandbox) repo collects dollz "props" from various collections / sets  (thanks 
+The first [**/dollz.sandbox**](https://github.com/dollzmania/dollz.sandbox) repo collects dollz "props" from various collections / sets  (thanks
 to the Internet / Web Archive and the Wayback Machine).
 See
-[**Dollz №1**](https://github.com/dollzmania/dollz.sandbox/tree/master/no1), 
-[**Dollz №2**](https://github.com/dollzmania/dollz.sandbox/tree/master/no2), 
-[**Dollz №3**](https://github.com/dollzmania/dollz.sandbox/tree/master/no3), and so on 
-for some pixel art "props" samples (what almost has been lost). 
-   
+[**Dollz №1**](https://github.com/dollzmania/dollz.sandbox/tree/master/no1),
+[**Dollz №2**](https://github.com/dollzmania/dollz.sandbox/tree/master/no2),
+[**Dollz №3**](https://github.com/dollzmania/dollz.sandbox/tree/master/no3), and so on
+for some pixel art "props" samples (what almost has been lost).
+
 
 
 ##  Week 41 - Monday, October 10th to Sunday, October 16th, 2022
 
 **programming pixelart**
 
-Using the Creating Pixel Art by Gray Wolf @ Khan Academy course I added to the new [**/programming pixelart**](https://github.com/pixelartexchange/pixelart/tree/master/programming-pixelart) 
+Using the Creating Pixel Art by Gray Wolf @ Khan Academy course I added to the new [**/programming pixelart**](https://github.com/pixelartexchange/pixelart/tree/master/programming-pixelart)
 section a bunch of pixel art samples
 incl. mario, black cat, nyan cat, owl (sitting on a branch), and more.
 
@@ -482,7 +511,7 @@ Fab(ricate) your own pixel art originals via text prompts. Example:
      $ fab smiley            # -or-
      $ fab will 3d_glasses   # -or-
      $ fab snoopdogg  vr     # -or-
-     $ fab goblin             
+     $ fab goblin
      # ...
 
 Tip:  Use the (undocumented) ls/list command to list all registered (built-in) text-to-image generators. Try:
@@ -496,10 +525,10 @@ Resulting in twenty-one (21) text-to-image generator as of Oct 13th.
 **punk me! - skin tones**
 
 For the upcoming "punk me!" image generation gem / library I am putting together
-[**free skin tone color palettes**](https://github.com/profilepic/skintone) for easy (re)use in the comma-separated values (.csv) format. 
+[**free skin tone color palettes**](https://github.com/profilepic/skintone) for easy (re)use in the comma-separated values (.csv) format.
 The first batch include:
 
-ye olde punks  (4 skin tones)  - see [skintone/ye_olde_punks.csv](https://github.com/profilepic/skintone/blob/master/ye_olde_punks.csv) <br> 
+ye olde punks  (4 skin tones)  - see [skintone/ye_olde_punks.csv](https://github.com/profilepic/skintone/blob/master/ye_olde_punks.csv) <br>
 ![](https://github.com/profilepic/skintone/raw/master/i/ye_olde_punks.png) <br>
 dr ellis monk  (10 skin tones)  - see [skintone/dr_ellis_monk.csv](https://github.com/profilepic/skintone/blob/master/dr_ellis_monk.csv) <br>
 ![](https://github.com/profilepic/skintone/raw/master/i/dr_ellis_monk.png) <br>
@@ -510,7 +539,7 @@ punk's not dead  (30 skin tones)  - see [skintone/punks_not_dead.csv](https://gi
 **readymades (punk 1/1s)**
 
 I updated [**readymades - an image generation gem / library that lets you generate (readymade) punk 1/1s**](https://github.com/profilepic/text-to-image/tree/master/readymades).
-Some samples include:   
+Some samples include:
 ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/will.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/will2.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/will3.png)
 ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/mao.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/mao2.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/mao3.png)
 ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/bart.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/bart2.png) ![](https://github.com/profilepic/text-to-image/raw/master/readymades/i/bart3.png)
@@ -525,21 +554,21 @@ Some samples include:
 
 Wed., October 5th, 2022 - (FREE) Live Meetup 20 min. Talk  - Inside the Billion Dollar $$$ (Crypto) Punk Pixel Heads @ [**Technologieplauscherl LXXVII (Linz, Austria) »**](https://technologieplauscherl.at/77/)
 
-Thank you. Welcoming atmosphere, great D.I.Y. (draft-it-yourself) linzer beer & more at the Technologieplauscherl meetup.  
+Thank you. Welcoming atmosphere, great D.I.Y. (draft-it-yourself) linzer beer & more at the Technologieplauscherl meetup.
 See the [**Inside the Billion Dollar $$$ (Crypto) Punk Pixel Heads**](https://github.com/cryptopunksnotdead/cryptopunks/tree/master/insidepunks) talk notes to learn more about the pixel punks.
 
 
 
 **smileys**
 
-I started putting together [**smileys - a new image generation gem / library that lets you generate smileys**](https://github.com/profilepic/text-to-image/tree/master/smileys) 
+I started putting together [**smileys - a new image generation gem / library that lets you generate smileys**](https://github.com/profilepic/text-to-image/tree/master/smileys)
 in four size variants (with circle diameters of 15px, 16px, 17px & 20px) all placed in a 24x24px canvas.
-See the smileys/spritesheet_dia16-24x24px.png for the first attributes (incl. base smileys in green, greener, orange, red, white & yellow 
+See the smileys/spritesheet_dia16-24x24px.png for the first attributes (incl. base smileys in green, greener, orange, red, white & yellow
 with or without black outlines).
 
 ![](https://github.com/profilepic/text-to-image/raw/master/smileys/config/spritesheet_dia16-24x24.png)
 
-For example, `Smiley::Image.generate( 'Yellow', 'Open', 'Smile')` results in 
+For example, `Smiley::Image.generate( 'Yellow', 'Open', 'Smile')` results in
 ![](https://github.com/profilepic/text-to-image/raw/master/smileys/i/smiley1.png)
 ![](https://github.com/profilepic/text-to-image/raw/master/smileys/i/smiley1b.png)
 and `Smiley::Image.generate( 'Greener', 'Shades', 'Grin (Right)' )`
@@ -558,10 +587,10 @@ Yes, you can. Post a comment to the punk (pixel) art channel.
 
 **punk sandbox / experiments / how-tos**
 
-How to decode "on-blockchain" (pixel art) attributes?  For an example, see the 24px punk ape (yacht club) collection. 
+How to decode "on-blockchain" (pixel art) attributes?  For an example, see the 24px punk ape (yacht club) collection.
 I started to add a [**punkapes/decode**](https://github.com/cryptopunksnotdead/punks.sandbox/blob/master/punkapes/decode.rb) script that saves cut-n-paste bytes / blobs (in the .png format)
-queried and returned via the traits_data "on-blockchain" contract function "by-hand" 
-to "off-blockchain" images for easy (re)use.  
+queried and returned via the traits_data "on-blockchain" contract function "by-hand"
+to "off-blockchain" images for easy (re)use.
 
 
 
@@ -569,8 +598,8 @@ to "off-blockchain" images for easy (re)use.
 
 **artbase**
 
-I started to add a new (global) artbase collection index / registry, that is, 
-[**collections.csv**](https://github.com/pixelartexchange/artbase/blob/master/collections.csv).  The idea is to share 
+I started to add a new (global) artbase collection index / registry, that is,
+[**collections.csv**](https://github.com/pixelartexchange/artbase/blob/master/collections.csv).  The idea is to share
 known ("built-in") ready-to-use artbase collection configurations / setups  incl. Goblin Town,  Pudgy Penguins, Galactic Aliens, Unfudables, Bears, & many more.
 
 **opensea (market data)**
@@ -583,7 +612,7 @@ and [**Top (OpenSea OpenStore) Pixel Art Collections By Sales**](https://github.
 
 **ruby lang**
 
-I started an open public [**"great" debate / discussion on ruby enums**](https://github.com/joeldrapper/literal_enums/discussions/3).  Join us. 
+I started an open public [**"great" debate / discussion on ruby enums**](https://github.com/joeldrapper/literal_enums/discussions/3).  Join us.
 
 
 ##  Week 38 - Monday, September 19th to Sunday, September 25th, 2022
@@ -592,7 +621,7 @@ I started an open public [**"great" debate / discussion on ruby enums**](https:/
 
 Wed., September 21st, 2022 - (FREE) Live Meetup 20 min. Talk  - Inside Punkbase - SQLite (SQL.js) In Action @ [**Stahlstadt.js (Linz, Austria) »**](https://www.meetup.com/stahlstadt-js/events/288247775/)
 
-Thank you. Welcoming atmosphere, great oktoberfest (augustiner) beer and questions, & more at the Stahlstadt.js meetup.  
+Thank you. Welcoming atmosphere, great oktoberfest (augustiner) beer and questions, & more at the Stahlstadt.js meetup.
 See the [**Inside Punkbase - SQLite (SQL.js) In Action**](https://github.com/cryptopunksnotdead/punkbase/tree/master/insidepunkbase)
 talk notes to learn more about Punkbase.
 
@@ -604,7 +633,7 @@ the researchers (or is it fraudsters?)  are always looking for "Blockchain Resea
 and even posting:
 
 > If you haven't found the right job offer here,
-> but you are convinced that your skills are a perfect match for ABC Research, 
+> but you are convinced that your skills are a perfect match for ABC Research,
 > then you are welcome to apply for a job at ABC.
 
 Believe it or not - I applied already twice - the first time back in May I got back a (standard) response
@@ -614,20 +643,20 @@ after no response all August I got an invitation in September for an in-person i
 
 While the two all-female secretaries were friendly and welcoming
 the interview with the two all-male "researchers" - Klaus Pirklbauer, the blockchain fraudster-in-chief,
-and  - Stefan Craß, the no-code blockchain researcher - 
+and  - Stefan Craß, the no-code blockchain researcher -
 soon went downhill  - I guess talking about open data & open finance and how open source is all about working together (and, yes, researching for the public good) and such didn't really connect and I got practically thrown out after about half an hour (the official time slot was an hour and half)
 and two weeks later the email confirmed that we don't want to ever see you again!
 
-For the record - here's my little public blockchain research corner online - [**Blockchain! Blockchain! Blockchain!**](https://github.com/openblockchains) - among many others - 
-and here's the million dollar research center - [**Austrian Blockchain Center (ABC)**](https://www.abc-research.at) - with no public code or anything - the best to find is some public discussion / debate 
+For the record - here's my little public blockchain research corner online - [**Blockchain! Blockchain! Blockchain!**](https://github.com/openblockchains) - among many others -
+and here's the million dollar research center - [**Austrian Blockchain Center (ABC)**](https://www.abc-research.at) - with no public code or anything - the best to find is some public discussion / debate
 panel recordings. No warning that blockchain is (mostly) a narrative to scam and fill your own pocket or anything.
 Guess what - the Austrian blockchain researcher are top quality (scammers) - and, yes, they pocket the "research" money from the state and
 from private companies. Bingo!
 
 Note:  For fairness (I am always happy to be proven wrong) I sent an email to  Klaus Pirklbauer, the blockchain fraudster-in-chief,
 and  - Stefan Craß, the no-code blockchain researcher - and the ABC office asking "Where's the (Blockchain) Code?" and to help
-with setting the record straight.  Response?  I keep you posted - stay tuned. (Update: Tue Sept/20th) The official response and confirmation is in  and - surprise, surprise - there's no public (blockchain) code online anywhere at best only top-secret private (in-house) code 
-and no research on public blockchains only on private permissioned "blockchains" with proof-of-authority better known as "old-school" databases requiring login credentials for updates.   A simulacrum selling itself as Austria's one-stop top state-of-the-art blockchain research center that is in reality without any expertise on public blockchains whatsoever or any public warnings on the ongoing  private permissioned proof-of-authority blockchain scams (still working in 2022!). You have been warned.     
+with setting the record straight.  Response?  I keep you posted - stay tuned. (Update: Tue Sept/20th) The official response and confirmation is in  and - surprise, surprise - there's no public (blockchain) code online anywhere at best only top-secret private (in-house) code
+and no research on public blockchains only on private permissioned "blockchains" with proof-of-authority better known as "old-school" databases requiring login credentials for updates.   A simulacrum selling itself as Austria's one-stop top state-of-the-art blockchain research center that is in reality without any expertise on public blockchains whatsoever or any public warnings on the ongoing  private permissioned proof-of-authority blockchain scams (still working in 2022!). You have been warned.
 
 **artbase**
 
@@ -636,15 +665,15 @@ that lets you query art collections in all-in-one single-file SQLite databases (
 
 ```
 $ artserve pudgies          # defaults / auto-completes to pudgies/artbase.db    -or-
-$ artserve unemployable     # defautts / auto-completes to unemployable/artbase.db 
+$ artserve unemployable     # defautts / auto-completes to unemployable/artbase.db
 $ artserve goblintown       # " "
-$ artserve moonbirds        # " " 
+$ artserve moonbirds        # " "
 $ artserve                  # defaults to ./artbase.db
 # ...
 ```
 
 Note: For now the (artbase) serve command is packaged up in its own "stand-alone" command line tool called `artserve`.
-For more see the [**artserve page  »**](https://github.com/pixelartexchange/artbase/tree/master/artserve)  
+For more see the [**artserve page  »**](https://github.com/pixelartexchange/artbase/tree/master/artserve)
 
 
 
@@ -656,12 +685,12 @@ I put together an all-in-one spritesheet, that is, spritesheet_v1-42x42.png:
 
 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds-official/i/spritesheet_v1-42x42.png)
 
-See the spritesheet in action! I added a new Moonbird V1 image generator to the 
+See the spritesheet in action! I added a new Moonbird V1 image generator to the
 [**moonbirds (image generator) library / gem**](https://github.com/pixelartexchange/pixelart/tree/master/moonbirds).
 
 Moonbirds V1 Trivia (Did You Know?) Aside -  Easter eggs - The official
 attributes include about a dozen super-rare never-before-seen (& used)
-legendary attributes (eyes, eyewear, headwear) for cosmic, enlightened, & jade moonbirds (incl. a unicorn horn!). 
+legendary attributes (eyes, eyewear, headwear) for cosmic, enlightened, & jade moonbirds (incl. a unicorn horn!).
 
 
 
@@ -670,13 +699,13 @@ legendary attributes (eyes, eyewear, headwear) for cosmic, enlightened, & jade m
 **moonbirds**
 
 About a month ago I reported the breaking news story [**Proof's Moonbirds Token Images Officialy Declared Public Domain (No Rights Reserved) under Creative Commons Zero (CC0) Dedication by Kevin Rose (Chief of Proof) - Thank You!**](https://old.reddit.com/r/DIYPunkArt/comments/who4wm/breaking_news_proofs_moonbirds_token_images/) and
-this Monday the Proof Collective published all official 42x42px attributes for the moonbirds 
+this Monday the Proof Collective published all official 42x42px attributes for the moonbirds
 (incl. all legendaries) on github.  To celebrate  I added a copy of the official 200+ attributes in the new /moonbirds-official directory
 in the [**moonbirds.sandbox**](https://github.com/pixelartexchange/moonbirds.sandbox).
-As a bonus I added a new [**generate_legendary script**](https://github.com/pixelartexchange/moonbirds.sandbox/blob/master/moonbirds-official/generate_legendary.rb) to generate a first small sample batch of  legendary moonbirds (e.g. 
-no. 6949 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds-official/i/moonbird6949.png), 
-no. 7473 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds-official/i/moonbird7473.png), 
-no. 2941 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds-official/i/moonbird2941.png)) from scratch (using the official attributes)  plus I added a new [**generate_10000 script**](https://github.com/pixelartexchange/moonbirds.sandbox/blob/master/moonbirds-official/generate_10000.rb) to (re)generate all 10 000 moonbirds from scratch (using the official attributes and official "unofficial" metadata records that incl. beak color, eyes color, and more NOT present in the official "on-blockchain" token metadata via the official moonbird HTTP API). 
+As a bonus I added a new [**generate_legendary script**](https://github.com/pixelartexchange/moonbirds.sandbox/blob/master/moonbirds-official/generate_legendary.rb) to generate a first small sample batch of  legendary moonbirds (e.g.
+no. 6949 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds-official/i/moonbird6949.png),
+no. 7473 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds-official/i/moonbird7473.png),
+no. 2941 ![](https://github.com/pixelartexchange/moonbirds.sandbox/raw/master/moonbirds-official/i/moonbird2941.png)) from scratch (using the official attributes)  plus I added a new [**generate_10000 script**](https://github.com/pixelartexchange/moonbirds.sandbox/blob/master/moonbirds-official/generate_10000.rb) to (re)generate all 10 000 moonbirds from scratch (using the official attributes and official "unofficial" metadata records that incl. beak color, eyes color, and more NOT present in the official "on-blockchain" token metadata via the official moonbird HTTP API).
 
 
 **artbase**
@@ -686,7 +715,7 @@ that lets you build all-in-one single-file SQLite databases (e.g. artbase.db). E
 
 ```
 $ artbase pudgies build          # or
-$ artbase unemployable build   
+$ artbase unemployable build
 $ artbase goblintown build
 $ artbase moonbirds build
 # ...
@@ -709,6 +738,6 @@ New artbase.js samples include:
 
 and more
 
-Note: Yes, the readymade artbase.db for easy download samples are built with the new artbase build machinery (see above). 
+Note: Yes, the readymade artbase.db for easy download samples are built with the new artbase build machinery (see above).
 
 
