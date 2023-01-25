@@ -33,19 +33,20 @@ Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes,
 
 **A Call for Good Governance @ Vienna.rb Results In Fuck You by Org / Owner (Aaron Cruz)**
 
-For reference I've written-up a (public) summary, see Ruby (January, 2023) - [**A Call for Good Governance @ Vienna.rb Results In Fuck You by Org / Owner (Aaron Cruz)**](https://github.com/planetruby/gems/blob/master/cancelculture/02-meetup.md).
+For reference I've written-up a (public) summary, see [**A Call for Good Governance @ Vienna.rb Results In Fuck You by Org / Owner (Aaron Cruz)**](https://github.com/planetruby/gems/blob/master/cancelculture/02-meetup.md).
 Your comments or corrections are more than welcome.
+
 
 
 **Vienna.rb Website Update & (Drop-In) Meetups Upcoming in 2023**
 
 As a follow-up to the ongoing Vienna.rb drama
-I updated the [https://viennarb.github.io/](Vienna.rb / Wien.rb - Ruby Meetup / Stammtisch ) website. What's news?
+I updated the [**Vienna.rb / Wien.rb - Ruby Meetup / Stammtisch**](https://viennarb.github.io/) website. What's news?
 
 - Leaderboard of Rubyists in and around Vienna, Austria / Wien, Österreich
-  - For the formula used let's quote "I only believe in statistics that I doctored myself" " ;-).
-- Q&A Series w/ Thomas Leitner, Stefan Haslinger et al merged into main source / site
-- (In-Person) Meetups & Learn Togethers) Upcoming in 2023!
+  - For the formula used let's quote "I only believe in statistics that I doctored myself" ;-).
+- Q&A Series w/ Thomas Leitner, Stefan Haslinger et al merged into main source / website
+- (In-Person) Meetups & Learn Togethers Upcoming in 2023!
 
 
 **gemverse gem - gem universe incl. rubygems API V1 wrapper lite; gem (version) cache, gem timeline reports, & more**
