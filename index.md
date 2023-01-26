@@ -216,11 +216,27 @@ I downloaded and added 10+ more collection layers for easy (re)use
 to the [**Art Factory Sandbox**](https://github.com/pixelartexchange/artfactory.sandbox)
 using the [**ArtQ machinery**](https://github.com/pixelartexchange/artbase/tree/master/artq).
 The new samples include:
-[3D Skulls](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/3dskulls/cache#readme),
-[Chimps](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/chimps/cache#readme),
-[Mad Masks](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/madmasks/cache#readme),
-[Smiley](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/smiley/cache#readme),
-[Teddies](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/teddies/cache#readme),
+[3D Skulls (24x24)](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/3dskulls/cache#readme)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/3dskulls/cache/0_0.png "3D Skulls - Brain Blast")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/3dskulls/cache/0_1.png "3D Skulls - Plaid Balaclava")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/3dskulls/cache/0_2.png "3D Skulls - Smol Nerdy")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/3dskulls/cache/0_3.png "3D Skulls - SM Mask")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/3dskulls/cache/0_4.png "3D Skulls - Undead Adams")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/3dskulls/cache/0_5.png "3D Skulls - Vitalik In 200 Years"),
+[Chimps (58x58)](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/chimps/cache#readme),
+[Mad Masks (32x32)](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/madmasks/cache#readme),
+[Smiley (24x24)](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/smiley/cache#readme),
+[Teddies (39x39)](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/teddies/cache#readme)
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/teddies/cache/5_0.png "Teddies - Alien")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/teddies/cache/5_1.png "Teddies - Ape")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/teddies/cache/5_2.png "Teddies - Zombie")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/teddies/cache/5_3.png "Teddies - Black")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/teddies/cache/5_4.png "Teddies - Gojo")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/teddies/cache/5_5.png "Teddies - Jaas")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/teddies/cache/5_6.png "Teddies - Nani")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/teddies/cache/5_7.png "Teddies - Polar")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/teddies/cache/5_8.png "Teddies - Qubo")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/teddies/cache/5_9.png "Teddies - Teddy"),
 and many more.
 
 
