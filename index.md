@@ -29,6 +29,65 @@ Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes,
 
 
 
+## Week 4 - Monday, January 22th to Sunday, January 29th, 2023
+
+**ArtQ In Action - Let's Download More (On-Chain) Pixel Art (Character) Layers**
+
+I downloaded and added nine more collection layers
+for easy (re)use to the [**Art Factory Sandbox**](https://github.com/pixelartexchange/artfactory.sandbox)
+using the [**ArtQ machinery**](https://github.com/pixelartexchange/artbase/tree/master/artq).
+The new samples include:
+
+[Shiba (24x24)](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/shiba/cache#readme),
+[GM Kevin (27x25)](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/gmkevin/cache#readme),
+[Frog Central (32x32)](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/frogcentral/cache#readme),
+[Pepe Blocks 1/1s (19x25)](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/pepeblocks/cache#readme),
+[Pepe Burb Punks (24x24)](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/pepeburbpunks/cache#readme),
+[Novo (24x24)](https://github.com/pixelartexchange/artfactory.sandbox/tree/master/more/novo/cache#readme),
+and many more.
+
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/frogcentral/cache/4_0.png "Frog Central - Gold")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/frogcentral/cache/4_1.png "Frog Central - Space")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/frogcentral/cache/4_2.png "Frog Central - Rainbow")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/frogcentral/cache/4_3.png "Frog Central - White")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/frogcentral/cache/4_4.png "Frog Central - Black")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/frogcentral/cache/4_5.png "Frog Central - Purple")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/frogcentral/cache/4_6.png "Frog Central - Pink")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/frogcentral/cache/4_7.png "Frog Central - Red")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/frogcentral/cache/4_8.png "Frog Central - Yellow")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/frogcentral/cache/4_9.png "Frog Central - Blue")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/frogcentral/cache/4_10.png "Frog Central - LightBlue")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/frogcentral/cache/4_11.png "Frog Central - Green")
+<br>
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/pepeburbpunks/cache/3_0.png "Pepe Burb Punk - Chad")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/pepeburbpunks/cache/3_1.png "Pepe Burb Punk - Odd Dog")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/pepeburbpunks/cache/3_2.png "Pepe Burb Punk - Top")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/pepeburbpunks/cache/3_3.png "Pepe Burb Punk - Frog")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/pepeburbpunks/cache/3_4.png "Pepe Burb Punk - Right")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/pepeburbpunks/cache/3_5.png "Pepe Burb Punk - Left")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/pepeburbpunks/cache/3_6.png "Pepe Burb Punk - Down")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/pepeburbpunks/cache/3_7.png "Pepe Burb Punk - Canvas")
+<br>
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_0.png "Shiba - Alien")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_1.png "Shiba - Digital")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_2.png "Shiba - Geometric")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_3.png "Shiba - Gold")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_4.png "Shiba - Zombie")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_5.png "Shiba - Albino")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_6.png "Shiba - Stray")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_7.png "Shiba - Toffee")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_8.png "Shiba - Cream")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_9.png "Shiba - Coffee")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_10.png "Shiba - Black")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_11.png "Shiba - Red")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_12.png "Shiba - Beige")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_13.png "Shiba - Brown")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_14.png "Shiba - Sesame")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_15.png "Shiba - Golden Brown")
+![](https://github.com/pixelartexchange/artfactory.sandbox/raw/master/more/shiba/cache/5_16.png "Shiba - Orange")
+
+
+
 ## Week 3 - Monday, January 16th to Sunday, January 21st, 2023
 
 **A Call for Good Governance @ Vienna.rb Results In Fuck You by Org / Owner (Aaron Cruz)**
