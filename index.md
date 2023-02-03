@@ -7,6 +7,12 @@
 Tuesday, November 29th 2022 - [**Inside Punkbase - SQLite (SQL.js) in Action  @ Vienna.js**](https://viennajs.org/en/meetup/viennajs-november-2022) (in Vienna, Austria) - FREE
 -->
 
+Wednesday, February 15th @ 18:00 - [**Programming (Generative) Pixel Art In Javascript - DIY 8-Bit Characters @ Free Code Camp Vienna**](https://www.meetup.com/fccvienna/events/290494591/) - FREE
+
+Wednesday, March 8th @ 18:00  - [**GoReleaser In Action - Deliver Go Binaries As Fast and Easily As Possible (For Windows, Mac, Linux & Co.) Via GitHub Actions (Workflow) @ Vienna Go**](https://www.meetup.com/viennago/events/290494553/
+) - FREE
+
+
 
 Note: I am always happy to speak at your meetup / camp / conference - send requests / invites to gerald.bauer @ gmail.com.
 For a collection of past talks (incl. outlines), see [**Talks, Talks, Talks »**](https://github.com/geraldb/talks)
