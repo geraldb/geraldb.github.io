@@ -35,7 +35,32 @@ Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes,
 
 
 
+## Week 5 - Monday, January 30th to Sunday, February 5th,2023
+
+**Awesome Solidity (Contract) Programming Language & Tools**
+
+I started a new [**Awesome Solidity @ Open Blockchains**](https://github.com/openblockchains/awesome-solidity) page that collects all things
+about the solidity (contract) programming language
+incl. alternate lanuagues (Huff, Cairo, ect.) and - bonus - sports
+a Weekly What's News? chronicle / log.
+
+
+**abi2sol gem - command-line tool for abi to sol(idity) contract source code generation**
+
+In the ongoing crypto winter programming series  I added yet another gem, that is, [**abi2sol that ships with a command-line tool that lets you generate solidity (contract) source code from application binary interface (abi) definitions (in json)**](https://github.com/rubycocos/blockchain/tree/master/abi2sol).
+
+
+
+
 ## Week 4 - Monday, January 22th to Sunday, January 29th, 2023
+
+**solidity gem - (fuzzy) lexer & parser for (crypto) contracts for ethereum & co.**
+
+In the ongoing crypto winter programming series
+I added yet another gem, that is, [**solidity that ships with a (fuzzy) lexer & parser for the solidity (contract) programming language**](https://github.com/rubycocos/blockchain/tree/master/solidity). What's the point? The first usage sample is to generate outlines from contract sources - see some real-world examples in the readme.
+
+
+
 
 **ArtQ In Action - Let's Download More (On-Chain) Pixel Art (Character) Layers**
 
