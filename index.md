@@ -36,7 +36,7 @@ Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes,
 
 
 
-## Week 8 - Monday, February 14th to Sunday, February 26th,2023
+## Week 8 - Monday, February 20th to Sunday, February 26th, 2023
 
 **Step-by-Step Guide / How-To Article - Back-Up Your GitHub Repos Via git clone --mirror & git remote update**
 
@@ -85,7 +85,7 @@ Try the (under construction) live (alpha) version - [**Design Your Own Ordinal P
 
 
 
-## Week 6 - Monday, February 6th to Sunday, February 12th,2023
+## Week 6 - Monday, February 6th to Sunday, February 12th, 2023
 
 **Step-By-Step Guide to Generate 100 Ordinal Punks In Your Own Terminal Via Text-Prompts ("Attributes")**
 
@@ -119,7 +119,7 @@ See the abi2ruby readme for some first real-world examples.
 
 
 
-## Week 5 - Monday, January 30th to Sunday, February 5th,2023
+## Week 5 - Monday, January 30th to Sunday, February 5th, 2023
 
 **Awesome Solidity (Contract) Programming Language & Tools**
 
