@@ -5,9 +5,10 @@
 
 <!--
 Tuesday, November 29th 2022 - [**Inside Punkbase - SQLite (SQL.js) in Action  @ Vienna.js**](https://viennajs.org/en/meetup/viennajs-november-2022) (in Vienna, Austria) - FREE
--->
 
 Wednesday, February 15th @ 18:00 - [**Programming (Generative) Pixel Art In Javascript - DIY 8-Bit Characters @ Free Code Camp Vienna**](https://www.meetup.com/fccvienna/events/290494591/) - FREE
+-->
+
 
 Wednesday, March 8th @ 18:00  - [**GoReleaser In Action - Deliver Go Binaries As Fast and Easily As Possible (For Windows, Mac, Linux & Co.) Via GitHub Actions (Workflow) @ Vienna Go**](https://www.meetup.com/viennago/events/290494553/
 ) - FREE
@@ -32,6 +33,89 @@ Let's generate 8 000 000 000, that is, 8 billion unique punks for everyone on pl
 
 Q: How many ("sprite") attributes do we need? Mission impossible?
 Let's do the math. Anyone? [**Post / discuss your calculations / estimates. Yes, you can.**](https://old.reddit.com/r/CryptoPunksDev/comments/ywtdrt/triva_quiz_8_000_000_000_8bn_humans_on_planet/)
+
+
+
+## Week 8 - Monday, February 14th to Sunday, February 26th,2023
+
+**Step-by-Step Guide / How-To Article - Back-Up Your GitHub Repos Via git clone --mirror & git remote update**
+
+What if your github repos are gone with a 24-hour (email) notice while you are offline? Prepare yourself and keep your own backups using the gitti-backup and hubba gems. See the [**How-To Back Up Your GitHub Repos - A Step-By-Step Guide**](https://github.com/rubycocos/git/blob/master/docs/backup-your-github-repos.md) for a write-up on my setup.
+What are your backup options? Do you use your own script(s) or other readymade tool(s) - please tell.
+
+
+
+
+## Week 7 - Monday, February 13th to Sunday, February 19th,2023
+
+**(Crypto) Punk's Not Dead Under Attack - Please, Help**
+
+If anyone cares about the [**(crypto) punk's not dead**](https://github.com/cryptopunksnotdead) education and open source, data, pixel art punk project (& repos), please see [**Full Scale Attack, Please Help »**](https://old.reddit.com/r/CryptoPunksDev/comments/113mw4b/full_scale_attack_10_punks_not_dead_taken_down/)
+
+Updates
+
+[**Please Help - Who Is The Crypto Bro (Or Who Are The Buy-Out Investor(s)) Behind the Anonymous (1000) More Punks Operation - Any Tips & (Inside) Info Welcome**](https://old.reddit.com/r/CryptoPunksDev/comments/114jvgw/please_help_who_is_the_crypto_bro_or_who_are_the/)
+
+Action Item 1: Once I got the damage assessed and a better backup for defense I will upload all cryptopunksnotdead repos as backups to gitlab (and you are invited to upload your own copies to other git services or upload archives to ipfs and so on).
+
+- [x]  gitlab (backup) mirror is up -  see [**gitlab.com/cryptopunksnotdead**](https://gitlab.com/cryptopunksnotdead)
+
+Action Item 2: If it is possible as a non-US citizen - I (Gerald Bauer) am Austrian - (and if possible with my limited / practically budget or zero) I will counter file on all taken down repos.  If anyone has advice or help, you are more than welcome to contact me. (You can email in private to gerald.bauer AT gmail.com).
+
+
+
+**Design Your Own Ordinal Punk (Anno 2023) Wizard - Right-Click & Save to Download**
+
+For the  Programming (Generative) Pixel Art In Javascript - DIY 8-Bit Characters @ Free Code Camp Vienna talk on
+Wednesday, February 15th
+I started  on putting together a pixel punk designer / wizard
+for the Ordinal Punks (inscribed on the bitcoin blockchain
+and attached to satoshis that you can buy & sell).
+The spritesheet - [**ordinalpunks-24x24.png**](https://github.com/cryptopunksnotdead/punks.js/raw/master/ordinalpunks/ordinalpunks-24x24.png) -
+is almost complete (a few female emotions e.g. smile, frown, etc. are  missing)
+
+![](https://github.com/cryptopunksnotdead/punks.js/raw/master/ordinalpunks/ordinalpunks-24x24.png)
+
+BUT yes, the wizard configuration needs an update to get many more attributes  (activated / included).
+Try the (under construction) live (alpha) version - [**Design Your Own Ordinal Punk (Anno 2023) Wizard**](https://cryptopunksnotdead.github.io/punks.js/ordinalpunks/).
+
+
+
+
+
+
+
+## Week 6 - Monday, February 6th to Sunday, February 12th,2023
+
+**Step-By-Step Guide to Generate 100 Ordinal Punks In Your Own Terminal Via Text-Prompts ("Attributes")**
+
+I have written-up [**a step-by-step guide to generate a "pixel-perfect"
+copy of the Top Selling 100 Ordinal Punks (in your own terminal) via text-prompts¹ ("attributes")**](https://gitlab.com/cryptopunksnotdead/cryptopunks/-/tree/master/ordinalpunks).
+
+Note ¹: Sorry - no artificial intelligence (a.i.) models in use :-( - just plain old "hard-coding" by-hand.
+
+**Take Down Update** While working on filing the counter notice - see the [**gitlab mirror backup**](https://gitlab.com/cryptopunksnotdead/cryptopunks/-/tree/master/ordinalpunks) for the step-by-step guide.
+
+
+**ordinals gem - "right-clicker" (off-chain) ordinals (pixel art) machinery & helpers for bitcoin inscriptions**
+
+In the ongoing crypto winter programming series  I added yet another gem, that is, [**ordinals that incl. the ordbase command-line tool that lets you download, downsample & compose all-in-one ordinal (pixel art) collections from the bitcon blockchain via ordinals.com**](https://github.com/pixelartexchange/ordinals.sandbox).
+
+
+See the ordinals readme for a ordinal punks step-by-step real-world example. New to ordinal punks? See [**Awesome 100 Ordinal Punks (Anno 2023) Notes**](https://gitlab.com/cryptopunksnotdead/cryptopunks/-/tree/master/awesome-ordinalpunks).  Is bitcon up for a come back with ordinal digital artefacts? Are 8-bit golden (pixel) punks or birds (in png) the new digital gold nuggets?
+
+
+![](https://github.com/pixelartexchange/ordinals.sandbox/raw/master/i/ordinalpunks.png)
+
+
+**Take Down Update** While working on filing the counter notice - see the [**gitlab mirror backup**](https://gitlab.com/cryptopunksnotdead/cryptopunks/-/tree/master/awesome-ordinalpunks) for the awesome page.
+
+
+**abi2ruby gem - generate ready-to-use contract services for Ethereum & Co.**
+
+In the ongoing crypto winter programming series I added yet another gem, that is, [**abi2ruby that lets you generate ready-to-use (blockchain) contract services / function calls for ethereum & co. via application binary inferfaces (abis)**](https://github.com/rubycocos/blockchain/tree/master/abi2ruby).
+See the abi2ruby readme for some first real-world examples.
+
 
 
 
