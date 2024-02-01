@@ -29,77 +29,77 @@ We build a web application using Facebook Markup Language (FBML). Check (X) Use 
 
 That's it. Hit submit to get your API key and secret created. Write down your API key and secret for the next step.
 
-{{{
+```
 API Key: 47013ae80a97cc151707961fc03bc9bf
 Secret: 7f296d598f9c79a5f439289e1240dc69
-}}}
+```
 
 Next let's install the rfacebook gem, create the Rails application and install the rfacebook Rails plugin. On the command line type:
 
-{{{
+```
 $ gem install rfacebook
-}}}
+```
 
 Create your Rails application:
 
-{{{
+```
 $ rails railsadvance
-}}}
+```
 
 And install the rfacebook Rails plugin
 
-{{{
+```
 $ cd railsadvance
 $ script/plugin install http://rfacebook.rubyforge.org/svn/trunk/rfacebook/plugins/rfacebook
-}}}
+```
 
 Next create the @facebook.yml@ configuration file using Rake and add your Facebook API key and secret. Type on the command line:
 
-{{{
+```
 $ rake facebook:setup
-}}}
+```
 
 Now open the @config/facebook.yml@ file and replace the placeholders with to your own API key and secret and change the @canvas_path@ and @callback_path@ to mach your settings.
 
-{{{
+```
 development:
   key: 47013ae80a97cc151707961fc03bc9bf
   secret: 7f296d598f9c79a5f439289e1240dc69
   canvas_path: /railsadvance/
   callback_path: /facebook/
-}}}
+```
 
 Note, that rfacebook requires relative paths (that is, strip your domain name from the URL e.g. @http://railsadvance.com@) and do not forget the trailing slash (@/@).
 
 Next let's create our database. Note, you will have to login to your web host. Start the mysql command shell and type on the command line:
 
-{{{
+```
 $ mysql -u <username> -p <password>
 
 mysql> create database railsadvance_development;
-}}}
+```
 
 That's it. Let's continue on your local machine. Configure your database settings and open the @config/database.yml@ file and replace the placeholders with your own mysql username and password.
 
-{{{
+```
 development:
   adapter: mysql
   database: railsadvance_development
   username: YOUR_MYSQL_USERNAME_HERE
   password: YOUR_MYSQL_PASSWORD_HERE
   host: localhost
-}}}
+```
 
 Next let's create our database schema and models. We will keep our application simple and just create a notes and comments model. Type on the command line:
 
-{{{
+```
 $ script/generate model Note
 $ script/generate model Comment
-}}}
+```
 
 Change the notes database table schema in @db/migrate/001_create_notes.rb@:
 
-{{{
+```
 class CreateNotes < ActiveRecord::Migration
   def self.up
     create_table :notes do |t|
@@ -114,11 +114,11 @@ class CreateNotes < ActiveRecord::Migration
     drop_table :notes
   end
 end
-}}}
+```
 
 And change the comments database schema in @db/migrate/002_create_comments.rb@:
 
-{{{
+```
 class CreateComments < ActiveRecord::Migration
   def self.up
     create_table :comments do |t|
@@ -133,39 +133,39 @@ class CreateComments < ActiveRecord::Migration
     drop_table :comments
   end
 end
-}}}
+```
 
 Next let's add the one-to-many relationship between notes and comments, that is, notes have many (zero or more) comments and comments belong to notes.
 
 Change the note model in @app/models/note.rb@:
 
-{{{
+```
 class Note < ActiveRecord::Base
    has_many :comments
 
    validates_presence_of :title, :body
 end
-}}}
+```
 
 And change the comment model in @app/models/comment.rb@:
 
-{{{
+```
 class Comment < ActiveRecord::Base
    belongs_to :note
 
    validates_presence_of :body, :note_id
 end
-}}}
+```
 
 Because we're developing a Facebook application let's keep track of the Facebooker who adds the note (such as "Learn Spanish in Mexico City") or comment. Let's create a new database migration. Type on the command line:
 
-{{{
+```
 $ script/generate migration add_fb_user_ids
-}}}
+```
 
 Now change the migration in @db/migrate/003_add_fb_user_ids.rb@:
 
-{{{
+```
 class AddFbUserIds < ActiveRecord::Migration
   def self.up
       add_column :notes, :fb_user_id, :integer
@@ -181,30 +181,30 @@ class AddFbUserIds < ActiveRecord::Migration
       remove_column :comments, :fb_user_id   
   end
 end
-}}}
+```
 
 Note, we must change the Facebook user ids to @bigint@ because Facebook has more users than fit into mysql's "standard" integer (more than 60,000,000 and counting).
 
 Next let's get our application controller ready for Facebook. Add the code snippet to  @app/controllers/application.rb@ to require your users to login to Facebook and than keep track of the user id.
 
-{{{
+```
   before_filter :require_facebook_login, :set_user
 
   def set_user
     @current_fb_user_id = fbsession.session_user_id
   end
-}}}
+```
 
 Next let's create our controllers and views. Type on the command line:
 
-{{{
+```
 $ script/generate controller notes index new edit show
 $ script/generate controller comments new
-}}}
+```
 
 Change your notes controller in @app/controllers/notes_controller.rb@:
 
-{{{
+```
 class NotesController < ApplicationController
 
   def index
@@ -247,13 +247,13 @@ class NotesController < ApplicationController
   end
 
 end
-}}}
+```
 
 Nothing Facebook-y about. It's just "classic" Rails controller code. Now let's change the views using a mixture of Facebook Markup Language (FBML) and Hypertext Markup Language (HTML).
 
 Change the index view in @app/views/notes/index.rhtml@:
 
-{{{
+```
 <fb:header decoration="add_border" icon="false">
   The world wants to...
 </fb:header>
@@ -268,7 +268,7 @@ Change the index view in @app/views/notes/index.rhtml@:
    by <b><fb:name uid="<%%= note.fb_user_id %> /></b>
  </p>
 <%% end %>
-}}}
+```
 
 Once we have added the application layout template that view will come up as:
 
@@ -278,7 +278,7 @@ Note, that we use the @fb:header@ tag to create - suprise, suprise - a header an
 
 Now let's create our forms. Let's use a partial for the edit and new form and save it at @app/views/notes/_form.rhtml@:
 
-{{{
+```
 <p>
   <label for='note_title'>I want to:</label>
   <%%= f.text_field :title, :size => 50 %>
@@ -290,11 +290,11 @@ Now let's create our forms. Let's use a partial for the edit and new form and sa
 </p>
 
 <%%= f.hidden_field :fb_user_id, :value => @current_fb_user_id %>
-}}}
+```
 
 Nothing really Facebook-y about it other than adding the hidden Facebook user id to keep track who adds the note. Next let's create the new note form and change @app/views/notes/new.rhtml@:
 
-{{{
+```
 <fb:header decoration="add_border" icon="false">
   Add New Goal
 </fb:header>
@@ -317,7 +317,7 @@ Nothing really Facebook-y about it other than adding the hidden Facebook user id
   <%% end %>
 
 </div>
-}}}
+```
 
 Again few surprises. New FBML tags in use include @fb:error@ and @fb:message@. Once we have added the application layout template the form will show up as:
 
@@ -325,7 +325,7 @@ Again few surprises. New FBML tags in use include @fb:error@ and @fb:message@. O
 
 Let's continue with the edit view and change @app/views/notes/edit.rhtml@:
 
-{{{
+```
 <fb:header decoration="add_border" icon="false">
   Edit Goal
 </fb:header>
@@ -351,11 +351,11 @@ Let's continue with the edit view and change @app/views/notes/edit.rhtml@:
   <%% end %>
 
 </div>
-}}}
+```
 
 And to wrap up the note view. Let's add the show template and change @app/views/notes/show.rhtml@:
 
-{{{
+```
 <fb:header decoration="add_border" icon="false">
    <%%=h @note.title %>
 </fb:header>
@@ -393,7 +393,7 @@ And to wrap up the note view. Let's add the show template and change @app/views/
 <%% end %>
 
 </div>
-}}}
+```
 
 Again once we have added the application layout template the show view will come up as:
 
@@ -401,15 +401,15 @@ Again once we have added the application layout template the show view will come
 
 To avoid that your friends change your notes we have added a check using the @is_my_note@ helper. Let's add the @is_my_note@ helper to the notes helpers in @app/helpers/notes_helper.rb@:
 
-{{{
+```
 def is_my_note?( note, &block )
   yield if note.fb_user_id.to_i == @current_fb_user_id.to_i
 end     
-}}}
+```
 
 And now let's finally tackle the application layout template and create @app/views/layout/application.rhtml@:
 
-{{{
+```
 <fb:dashboard>
   <fb:create-button href="<%%= url_for(
      :controller => 'notes', :action => "new",  :only_path => true) %>">
@@ -431,13 +431,13 @@ And now let's finally tackle the application layout template and create @app/vie
 <%% end %>
 
 <%%= yield  %>
-}}}
+```
 
 For now we will use just a single tab listing all the goals. In the next part of the tutorial we will add a "My Goal" tab and a "Friends' Goals" tab.
 
 Next let's change the comment controller in @app/controllers/comments_controller.rb@:
 
-{{{
+```
 class CommentsController > ApplicationController
 
   def new
@@ -456,11 +456,11 @@ class CommentsController > ApplicationController
   end
 
 end
-}}}
+```
 
 Again the controller is all "classic" Rails code so let's move on to the last view for the add comment form. Change @app/views/comments/new.rhtml@:
 
-{{{
+```
 <fb:header decoration="add_border" icon="false">
   Post comment for '<%%= @comment.note.title %>'
 </fb:header>
@@ -489,25 +489,25 @@ Again the controller is all "classic" Rails code so let's move on to the last vi
   <%% end %>
 
   </div>
-}}}
+```
 
 Almost done and ready to upload. To finish up let's configure the default route and remove @public/index.html@ page. Set up the default route using the notes controller. Open @config/routes.rb@ and add the new default route (telling Rails to map @http://apps.facebook.com/railsadvance/@ requests to @http://apps.facebook.com/railsadvance/notes/@):
 
-{{{
+```
 map.connect '', :controller => "notes" 
-}}}
+```
 
 And delete the @public/index.html@ page that otherwise gets displayed instead of your Ruby-generated page and finally let's open up @config/environment.rb@ and add at the end:
 
-{{{
+```
 ActionController::AbstractRequest.relative_url_root = "/facebook" 
-}}}
+```
 
 Done. Now you need to upload (deploy) your application to your web host and run the database migration to setup your tables using Rake. On your web host inside your Rails folder type:
 
-{{{
+```
 $ rake db:migrate
-}}}
+```
 
 That's it. Start and configure your web host server and point your browser to your Facebook Canvas Page URL (@http://apps.facebook.com/railsadvance@). Log into your application and enjoy.
 

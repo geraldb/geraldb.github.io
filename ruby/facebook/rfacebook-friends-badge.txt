@@ -11,7 +11,7 @@ You can create a friends badge in two easy steps. First, get your friends' ids (
 
 Create a @badge@ action in your controller:
 
-{{{
+```
 def badge
    
   # get your friends' ids
@@ -29,11 +29,11 @@ def badge
   end  
 
 end
-}}}
+```
 
 And add a matching view:
 
-{{{
+```
 <h3>rfacebook questions & answers Friends Badge Sample</h3>
 
 <style type="text/css">
@@ -49,7 +49,7 @@ img.badge  { border-bottom: thin solid black;
 <%% end %>
 
 </div>
-}}}
+```
 
 That's it. Voila!
 

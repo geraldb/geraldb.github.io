@@ -20,36 +20,36 @@ VanDev meetup on the Yahoo! Upcoming service using "mofo - a microformat parser 
 
 <%= more %>
 
-{{{
+```
 require 'mofo'
 require 'pp'
 
 event = hCalendar.find 'http://upcoming.yahoo.com/event/448518/'
-}}}
+```
 
 Using @hCalendar.find@ we tell the mofo microformat parser to look for all events marked up in the web page using the @hCalendar@ microformat standard.
 
 That's all. Now we're ready to play with the event data:
 
-{{{
+```
 puts event.summary
-}}}
+```
 
 Prints the events one-line summary:
 
 @=>@ VanDev: Microformats - Adding Semantics to Your Web Site - Web 3.0 in Action
 
-{{{
+```
 puts event.dtstart
-}}}
+```
 
 Prints the event start date:
 
 @=>@ Wed Apr 16 19:00:00 -0700 2008
 
-{{{
+```
 puts event.description
-}}}
+```
 
 Prints the event description:
 
@@ -57,13 +57,13 @@ Prints the event description:
 
 Using the pretty printer (@pp@) module we can print the @hCard@ microformat inside the @hCalendar@ microformat used to markup the event's venue name and address:
 
-{{{
+```
 pp event.location
-}}}
+```
 
 Pretty prints the @hCard@ microformat data:
 
-{{{
+```
 #<HCard:0x6804750
  @adr=
   #<Adr:0x681779c
@@ -75,29 +75,29 @@ Pretty prints the @hCard@ microformat data:
  @fn="UBC Robson Square",
  @org="UBC Robson Square",
  @properties=["fn", "adr", "org"]>
-}}}
+```
 
 We can, of course, print the items one at a time:
 
-{{{
+```
 puts event.location.fn
-}}}
+```
 
 Prints the event's venue name and fn stands for full name:
 
 @=>@ UBC Robson Square
 
-{{{
+```
 puts event.location.adr.locality
-}}}
+```
 
 Prints the event's venue locality, that is, the city, village, or hamlet:
 
 @=>@ Vancouver
 
-{{{
+```
 puts event.location.adr.street_address
-}}}
+```
 
 Prints the event's venue street address:
 
@@ -106,9 +106,9 @@ Prints the event's venue street address:
 
 And so on and so forth. To see the fully monty pretty print the @hCalendar@ microformat and stand back 1000 meters:
 
-{{{
+```
 pp event
-}}}
+```
 
 That's all to get started using Microformats in Ruby thanks to the mofo parser library. Note, you can grab the source for this article from the "Vancouver.rb repository":http://vanrb.rubyforge.org/svn/microformats.
 
