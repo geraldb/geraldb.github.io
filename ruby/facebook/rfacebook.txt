@@ -1,9 +1,6 @@
 ---
 title: 10-Minute Quick Start Guide for RFacebook - Create a Facebook App Using Rails in 10 Easy Steps
 tags:  rails rfacebook facebook
-filter:
-  - erb
-  - textileplus
 ---
 
 h2. <%= @page.title %>

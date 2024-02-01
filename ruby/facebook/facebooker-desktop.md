@@ -1,12 +1,9 @@
 ---
 title: 5-Minute Quick Start Guide for Facebooker - Create a Facebook Desktop Script Using Ruby in 3 Easy Steps
-tags:  facebooker facebook
-filter:
-  - erb
-  - textileplus
+# tags:  facebooker facebook
 ---
 
-h2. <%= @page.title %>
+## {{ page.title }}
 
 Welcome to the 5-Minute Quick Start Guide for Facebooker showing you how to use the Facebook API using the Facebooker Ruby library.
 
@@ -17,19 +14,20 @@ Welcome to the 5-Minute Quick Start Guide for Facebooker showing you how to use 
 
 That's it. Lets get started.
 
-<%= more %>
+<!-- more -->
 
-h3. Step 0: Install the Facebooker gem
+
+### Step 0: Install the Facebooker gem
 
 Install the Facebooker gem. Type on the command line:
 
-{{{
+```
 $ gem install facebooker
-}}}
+```
 
-h3. Step 1: Log on to Facebook and setup your new application
+### Step 1: Log on to Facebook and setup your new application
 
-Now that you have the Facebooker gem installed you need to log on to Facebook and set up your new application. Browse to the "Facebook Developers":http://facebook.com/developers page (@facebook.com/developers@) and click "Set Up New Application".
+Now that you have the Facebooker gem installed you need to log on to Facebook and set up your new application. Browse to the "Facebook Developers":http://facebook.com/developers page (`facebook.com/developers`) and click "Set Up New Application".
 
 Fill in the new application form:
 
@@ -39,16 +37,16 @@ Fill in the new application form:
 
 That's all. Hit submit to get your API key and secret created. Write down your API key and secret for the next step.
 
-{{{
+```
 API Key: 47013ae80a97cc151707961fc03bc9bf
 Secret: 7f296d598f9c79a5f439289e1240dc69
-}}}
+```
 
-h3. Step 2: Create your Ruby script (aka Facebook desktop app)
+### Step 2: Create your Ruby script (aka Facebook desktop app)
 
-Let's create a simple Ruby script (@status.rb@) that uses the Facebook API to display a Twitter-like "What are you doing?" status message.
+Let's create a simple Ruby script (`status.rb`) that uses the Facebook API to display a Twitter-like "What are you doing?" status message.
 
-{{{
+``` ruby
 require 'facebooker'
 
 session = Facebooker::Session::Desktop.create( 'YOUR_API_KEY_HERE', 'YOUR_SECRET_KEY_HERE' )
@@ -60,51 +58,53 @@ gets
 
 puts "What are you doing?"
 puts "#{session.user.name} #{session.user.status.message}"
-}}}
+```
+`
+`
+Note, you have to replace the placeholders (`YOUR_API_KEY_HERE`, `YOUR_SECRET_KEY_HERE`) with your own API key and secret. That's it.
 
-Note, you have to replace the placeholders (@YOUR_API_KEY_HERE@, @YOUR_SECRET_KEY_HERE@) with your own API key and secret. That's it.
 
-h3. Step 3: Run your Ruby script
+### Step 3: Run your Ruby script
 
-Start up your ruby script (@status.rb@) and follow the instructions:
+Start up your ruby script (`status.rb`) and follow the instructions:
 
-{{{
+```
 >> Paste the URL into your web browser and login:
 >> http://www.facebook.com/login.php?api_key=47013ae80a97cc11fc03bc9bf&v=1.0&auth_token=046eb3578c6994f4f82
 >> Hit return to continue...
-}}}
+```
 
 Once your logged into your Facebook application (in your browser) hit return (in your shell) to let the Ruby script continue:
 
-!/i/facebooker-desktop-access.png!
+![](i/facebooker-desktop-access.png)
 
-{{{
+```
 >> What are you doing? 
 >> Gerald Bauer is going Canadian, eh? geraldbauer.ca and rubybook.ca now live.
-}}}
+```
 
 That's it. Voila.
 
-h3. Bonus: What are your friends doing?
+### Bonus: What are your friends doing?
 
 Let's find out and ask Facebook.
 
-{{{
+``` ruby
 friends = session.user.friends!( :name, :status  )
-}}}
+```
 
-Get and cache your friends name and status in a single Facebook API request using @users.getInfo@ under the hood and lets print the updates.
+Get and cache your friends name and status in a single Facebook API request using `users.getInfo` under the hood and lets print the updates.
 
-{{{
+``` ruby
 puts "What are your friends doing?"
 friends.each do |friend|
   puts "#{friend.name} #{friend.status.message}"
 end
-}}}
+```
 
 Resulting in:
 
-{{{
+```
 >> Rob Bouton is enjoying the new MGMT album. retro stylins, yo.
 >> Shane Griffiths so much for fucking redundancy. RAID my ass.
 >> Jeff Birley Good night, Interwebs.  No, really, I am going to bed now...
@@ -115,6 +115,4 @@ Resulting in:
 >> Kris Karlsbjerg is happy Mrs K is home
 >> Dane Krug Headin' to photograph the people and streets during the opening ceremonies of the 2008 Olympics.
 >> ...
-}}}
-
-<%= facebook_comments %>
+```

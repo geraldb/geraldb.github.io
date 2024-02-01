@@ -1,9 +1,6 @@
 ---
 title: Tutorial - How to develop a Facebook application using Ruby on Rails
 tags:  rails rfacebook facebook
-filter:
-  - erb
-  - textileplus
 ---
 
 h2. <%= @page.title %>

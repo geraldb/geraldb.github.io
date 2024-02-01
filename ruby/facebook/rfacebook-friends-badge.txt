@@ -1,9 +1,6 @@
 ---
 title: How to create a Friends Badge using the Facebook API
 tags:  rails rfacebook facebook
-filter:
-  - erb
-  - textileplus
 ---
 
 h2. <%= @page.title %>

@@ -1,3 +1,0 @@
-task :default => :build
-
-# EOF
