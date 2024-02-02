@@ -1,11 +1,10 @@
----
-title: How to read web feeds (RSS, Atom) using the standard Ruby library
-# tags: atom rss
----
+## How to read web feeds (RSS, Atom) using the standard Ruby library
 
-##  {{page.title}}
+<!-- tags: atom rss -->
 
-Ruby ships with a standard library that lets you read web feeds in the "classic"
+
+Ruby ships with a standard library that lets you read web feeds
+in the "classic"
 Really Simple Syndication (RSS) flavors (0.9x/1.0/2.0)
 and in the "modern" Atom Publishing format.
 Let's try it all out pulling web feeds from the Vienna.rb site.
@@ -82,7 +81,7 @@ RSS::VERSION 0.1.6
 ```
 
 Ooops. We need to upgrade! Let's grab the latest version
-from the "Ruby Application Archive (RAA)":http://raa.ruby-lang.org/project/rss and try again.
+from the [Ruby Application Archive (RAA)](http://raa.ruby-lang.org/project/rss) and try again.
 
 ```
 RSS:VERSION 0.2.4

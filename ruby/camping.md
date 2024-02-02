@@ -1,9 +1,7 @@
----
-title: Let's Go Camping - Getting Started w/ Ruby's Model-View-Controller (MVC) Web Microframework
-# tags:  camping markaby microframework mongrel
----
+## Let's Go Camping - Getting Started w/ Ruby's Model-View-Controller (MVC) Web Microframework
 
-## {{page.title}}
+<!-- tags:  camping markaby microframework mongrel -->
+
 
 What's Camping? Camping is a microframework (in less than 4k of code) that lets you
 develop a web application using the Model-View-Controller (MVC) architecture with
